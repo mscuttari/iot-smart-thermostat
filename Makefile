@@ -1,24 +1,16 @@
 all: sensor
 
+# Contiki home path
 CONTIKI = /home/michele/contiki
+
+# Project configuration header
 CFLAGS += -DPROJECT_CONF_H=\"project-conf.h\"
 
-# Enable IPv6
+# Enable IPv6 and Ripple
 WITH_UIP6=1
 UIP_CONF_IPV6=1
 CFLAGS += -DUIP_CONF_IPV6=1
-
-ifneq ($(TARGET), minimal-net)
 CFLAGS += -DUIP_CONF_IPV6_RPL=1
-else
-${info INFO: compiling without RPL}
-CFLAGS += -DUIP_CONF_IPV6_RPL=0
-CFLAGS += -DHARD_CODED_ADDRESS=\"fdfd::10\"
-${info INFO: compiling with large buffers}
-CFLAGS += -DUIP_CONF_BUFFER_SIZE=2048
-CFLAGS += -DREST_MAX_CHUNK_SIZE=1024
-CFLAGS += -DCOAP_MAX_HEADER_SIZE=640
-endif
 
 # Linker optimizations
 SMALL=1

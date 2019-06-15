@@ -2,7 +2,7 @@
 #include <string.h>
 
 /** Enable or disable debug messages */
-#define DEBUG 1
+#define DEBUG 0
 
 /** Temperature random initialization range */
 #define TEMP_RANDOM_MIN		10
@@ -137,25 +137,24 @@ static bool ventilation;
 
 /** Resources available to the network */
 
-RESOURCE(info, METHOD_GET, "info", "title=\"Get sensor info\";rt=\"Text\"");
 
-void info_handler(void* request, void* response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset) {
-  const char *len = NULL;
-  char const * const message = "Hello World!";
-  int length = 12;
+PERIODIC_RESOURCE(temperature, METHOD_GET, "temperature", "title=\"Temperature\";obs", TEMP_SENSING_INTERVAL * CLOCK_SECOND);
 
-  if (REST.get_query_variable(request, "len", &len)) {
-    length = atoi(len);
-    if (length<0) length = 0;
-    if (length>REST_MAX_CHUNK_SIZE) length = REST_MAX_CHUNK_SIZE;
-    memcpy(buffer, message, length);
-  } else {
-    memcpy(buffer, message, length);
-  }
+void temperature_handler(void* request, void* response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset) {
+	REST.set_header_content_type(response, REST.type.TEXT_PLAIN);
+	const char *msg = "";
+	REST.set_response_payload(response, msg, strlen(msg));
+}
 
-  REST.set_header_content_type(response, REST.type.TEXT_PLAIN);
-  REST.set_header_etag(response, (uint8_t *) &length, 1);
-  REST.set_response_payload(response, buffer, length);
+void temperature_periodic_handler(resource_t *r) {
+ 	static char payload[11];
+
+  	coap_packet_t message[1];
+	coap_init_message(message, COAP_TYPE_NON, REST.status.OK, 0);
+	int length = snprintf(payload, sizeof(payload), "%d", temperature);
+	coap_set_payload(message, payload, length);
+
+	REST.notify_subscribers(r, obs_counter, message);
 }
 
 
@@ -190,8 +189,6 @@ PROCESS_THREAD(boot_process, ev, data) {
 	#if SIMULATION_ENABLED
 	process_start(&temperature_simulation, NULL);
 	#endif
-	
-	process_start(&cooling_process, NULL);
 	
 	PRINTF("[BOOT] Completed\n");
 	PROCESS_END();
@@ -388,10 +385,7 @@ PROCESS_THREAD(rest_server, ev, data) {
 	rest_init_engine();
 	
 	// Activate the resources
-	rest_activate_resource(&resource_info);
-	//rest_activate_resource(&res_cooling, "systems/cooling");
-	//rest_activate_resource(&res_heating, "systems/heating");
-	//rest_activate_resource(&res_ventilation, "systems/ventilation");
+	rest_activate_periodic_resource(&periodic_resource_temperature);
 
 	PRINTF("[REST] server started\n");
 	PROCESS_END();
