@@ -2,7 +2,7 @@
 #include <string.h>
 
 /** Enable or disable debug messages */
-#define DEBUG 0
+#define DEBUG 1
 
 /** Temperature random initialization range */
 #define TEMP_RANDOM_MIN		10
@@ -78,18 +78,6 @@ PROCESS(temperature_sensing, "Temperature sensing and notification");
 PROCESS(temperature_simulation, "Temperature change simulation");
 #endif
 
-#if COOLING_ENABLED
-PROCESS(cooling_process, "Cooling management");
-#endif
-
-#if HEATING_ENABLED
-PROCESS(heating_process, "Heating management");
-#endif
-
-#if VENTILATION_ENABLED
-PROCESS(ventilation_process, "Ventilation management");
-#endif
-
 #if REST_SERVER_ENABLED
 PROCESS(rest_server, "REST server");
 #endif
@@ -136,26 +124,13 @@ static bool ventilation;
 
 
 /** Resources available to the network */
-
-
-PERIODIC_RESOURCE(temperature, METHOD_GET, "temperature", "title=\"Temperature\";obs", TEMP_SENSING_INTERVAL * CLOCK_SECOND);
-
-void temperature_handler(void* request, void* response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset) {
-	REST.set_header_content_type(response, REST.type.TEXT_PLAIN);
-	const char *msg = "";
-	REST.set_response_payload(response, msg, strlen(msg));
-}
-
-void temperature_periodic_handler(resource_t *r) {
- 	static char payload[11];
-
-  	coap_packet_t message[1];
-	coap_init_message(message, COAP_TYPE_NON, REST.status.OK, 0);
-	int length = snprintf(payload, sizeof(payload), "%d", temperature);
-	coap_set_payload(message, payload, length);
-
-	REST.notify_subscribers(r, obs_counter, message);
-}
+#if REST_SERVER_ENABLED
+PERIODIC_RESOURCE(temperature, METHOD_GET, "temp", "title=\"Temperature\";rt=\"Text\";obs", TEMP_SENSING_INTERVAL * CLOCK_SECOND);
+RESOURCE(systems, METHOD_GET, "systems", "title=\"Systems\";rt=\"Text\"");
+RESOURCE(cooling, METHOD_POST, "systems/cooling", "title=\"Cooling\";rt=\"Text\"");
+RESOURCE(heating, METHOD_POST, "systems/heating", "title=\"Heating\";rt=\"Text\"");
+RESOURCE(ventilation, METHOD_POST, "systems/ventilation", "title=\"Ventilation\";rt=\"Text\"");
+#endif
 
 
 // Start the boot process
@@ -168,7 +143,6 @@ AUTOSTART_PROCESSES(&boot_process);
  */
 PROCESS_THREAD(boot_process, ev, data) {
 	PROCESS_BEGIN();
-	PRINTF("[BOOT] Starting...\n");
 	
 	#if SIMULATION_ENABLED
 	// Generate a random value in the range [TEMP_RANDOM_MIN, TEMP_RANDOM_MAX]
@@ -276,107 +250,9 @@ PROCESS_THREAD(temperature_simulation, ev, data) {
 
 
 /**
- * Manage the cooling system.
- */
-#if COOLING_ENABLED
-PROCESS_THREAD(cooling_process, ev, data) {
-	PROCESS_BEGIN();
-	
-	PRINTF("[COOLING] starting\n");
-	status = COOLING;
-	start_cooling_system();
-	
-	#if SIMULATION
-	process_post(&temperature_simulation, PROCESS_EVENT_MSG, NULL);
-	#endif
-	
-	PRINTF("[COOLING] started\n");
-	
-	while (1) {
-		PROCESS_WAIT_EVENT_UNTIL(ev == PROCESS_EVENT_EXIT);
-	
-		PRINTF("[COOLING] stopping\n");
-		stop_cooling_system();
-		status = NONE;
-		
-		#if SIMULATION
-		process_post(&temperature_simulation, PROCESS_EVENT_MSG, NULL);
-		#endif
-		
-		PRINTF("[COOLING] stopped\n");
-	}
-	
-	PROCESS_END();
-}
-#endif
-
-
-/**
- * Manage the heating system.
- */
-#if HEATING_ENABLED
-PROCESS_THREAD(heating_process, ev, data) {
-	PROCESS_BEGIN();
-	
-	PRINTF("[HEATING] starting\n");
-	status = HEATING;
-	start_heating_system();
-	
-	#if SIMULATION
-	process_post(&temperature_simulation, PROCESS_EVENT_MSG, NULL);
-	#endif
-	
-	PRINTF("[HEATING] started\n");
-	
-	while (1) {
-		PROCESS_WAIT_EVENT_UNTIL(ev == PROCESS_EVENT_EXIT);
-	
-		PRINTF("[HEATING] stopping\n");
-		stop_heating_system();
-		status = NONE;
-		
-		#if SIMULATION
-		process_post(&temperature_simulation, PROCESS_EVENT_MSG, NULL);
-		#endif
-		
-		PRINTF("[HEATING] stopped\n");
-	}
-	
-	PROCESS_END();
-}
-#endif
-
-
-/**
- * Manage the ventilation system.
- */
-#if VENTILATION_ENABLED
-PROCESS_THREAD(ventilation_process, ev, data) {
-	PROCESS_BEGIN();
-	
-	PRINTF("[VENTILATION] starting\n");
-	ventilation = true;
-	start_ventilation_system();
-	PRINTF("[VENTILATION] started\n");
-	
-	while (1) {
-		PROCESS_WAIT_EVENT_UNTIL(ev == PROCESS_EVENT_EXIT);
-	
-		PRINTF("[VENTILATION] stopping\n");
-		ventilation = false;
-		stop_ventilation_system();
-		PRINTF("[VENTILATION] stopped\n");
-	}
-	
-	PROCESS_END();
-}
-#endif
-
-
-/**
  * REST server
  */
- #if REST_SERVER_ENABLED
+#if REST_SERVER_ENABLED
 PROCESS_THREAD(rest_server, ev, data) {
 	PROCESS_BEGIN();
 	PRINTF("[REST] starting server\n");
@@ -386,10 +262,135 @@ PROCESS_THREAD(rest_server, ev, data) {
 	
 	// Activate the resources
 	rest_activate_periodic_resource(&periodic_resource_temperature);
+	rest_activate_resource(&resource_systems);
+	rest_activate_resource(&resource_cooling);
+	rest_activate_resource(&resource_heating);
+	rest_activate_resource(&resource_ventilation);
 
 	PRINTF("[REST] server started\n");
 	PROCESS_END();
 }
+
+
+/**
+ * Send the current temperature in JSON format
+ */
+void temperature_handler(void* request, void* response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset) {
+	REST.set_header_content_type(response, REST.type.TEXT_PLAIN);
+
+	static char payload[20];
+	snprintf(payload, sizeof(payload), "{\n\"temp\":%d\n}", temperature);
+	REST.set_response_payload(response, payload, strlen(payload));
+}
+
+/**
+ * Periodically send the temperature in JSON format to the subscribed devices
+ */
+void temperature_periodic_handler(resource_t *r) {
+	static uint16_t counter = 0;
+ 	static char payload[20];
+
+  	coap_packet_t message[1];
+	coap_init_message(message, COAP_TYPE_NON, REST.status.OK, 0);
+	int length = snprintf(payload, sizeof(payload), "{\n\"temperature\":%d\n}", temperature);
+	coap_set_payload(message, payload, length);
+
+	REST.notify_subscribers(r, ++counter, message);
+}
+
+
+/**
+ * Send a summary about the systems status
+ */
+void systems_handler(void* request, void* response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset) {
+	int length = snprintf(
+		(char*) buffer,
+		REST_MAX_CHUNK_SIZE,
+		"{\n\"heating\":\"%s\",\n\"cooling\":\"%s\",\n\"ventilation\":\"%s\"\n}",
+		status == HEATING ? "\"true\"" : "\"false\"",
+		status == COOLING ? "\"true\"" : "\"false\"",
+		ventilation ? "\"true\"" : "\"false\"");
+
+	REST.set_header_content_type(response, REST.type.APPLICATION_JSON);
+	REST.set_response_payload(response, buffer, length);
+}
+
+
+/**
+ * Start / stop the cooling system upon user request
+ */
+void cooling_handler(void* request, void* response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset) {
+	if (status != NONE && status != COOLING) {
+		REST.set_response_status(response, REST.status.BAD_REQUEST);
+	} else {
+		REST.set_response_status(response, REST.status.OK);
+
+		if (status == NONE) {
+			PRINTF("[COOLING] starting\n");
+			status = COOLING;
+			start_cooling_system();
+			PRINTF("[COOLING] started\n");
+		} else {
+			PRINTF("[COOLING] stopping\n");
+			stop_cooling_system();
+			status = NONE;
+			PRINTF("[COOLING] stopped\n");
+		}
+
+		#if SIMULATION
+		process_post(&temperature_simulation, PROCESS_EVENT_MSG, NULL);
+		#endif
+	}
+}
+
+
+/**
+ * Start / stop the heating system upon user request
+ */
+void heating_handler(void* request, void* response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset) {
+	if (status != NONE && status != HEATING) {
+		REST.set_response_status(response, REST.status.BAD_REQUEST);
+	} else {
+		REST.set_response_status(response, REST.status.OK);
+
+		if (status == NONE) {
+			PRINTF("[HEATING] starting\n");
+			status = HEATING;
+			start_heating_system();
+			PRINTF("[HEATING] started\n");
+		} else {
+			PRINTF("[HEATING] stopping\n");
+			stop_heating_system();
+			status = NONE;
+			PRINTF("[HEATING] stopped\n");
+		}
+
+		#if SIMULATION
+		process_post(&temperature_simulation, PROCESS_EVENT_MSG, NULL);
+		#endif
+	}
+}
+
+
+/**
+ * Start / stop the ventilation system upon user request
+ */
+void ventilation_handler(void* request, void* response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset) {
+	if (!ventilation) {
+		PRINTF("[HEATING] starting\n");
+		ventilation = true;
+		start_ventilation_system();
+		PRINTF("[HEATING] started\n");
+	} else {
+		PRINTF("[HEATING] stopping\n");
+		stop_ventilation_system();
+		ventilation = false;
+		PRINTF("[HEATING] stopped\n");
+	}
+
+	REST.set_response_status(response, REST.status.OK);
+}
+
 #endif
 
 
