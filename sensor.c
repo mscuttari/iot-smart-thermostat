@@ -287,7 +287,7 @@ void temperature_handler(void* request, void* response, uint8_t *buffer, uint16_
  */
 void temperature_periodic_handler(resource_t *r) {
 	static uint16_t counter = 0;
- 	static char payload[20];
+ 	static char payload[25];
 
   	coap_packet_t message[1];
 	coap_init_message(message, COAP_TYPE_NON, REST.status.OK, 0);
