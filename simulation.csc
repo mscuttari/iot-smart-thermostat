@@ -25,9 +25,9 @@
       se.sics.cooja.mspmote.SkyMoteType
       <identifier>sky1</identifier>
       <description>Sky Mote Type #sky1</description>
-      <source EXPORT="discard">[CONTIKI_DIR]/examples/ipv6/rpl-border-router/border-router.c</source>
+      <source EXPORT="discard">[CONFIG_DIR]/border-router/border-router.c</source>
       <commands EXPORT="discard">make border-router.sky TARGET=sky</commands>
-      <firmware EXPORT="copy">[CONTIKI_DIR]/examples/ipv6/rpl-border-router/border-router.sky</firmware>
+      <firmware EXPORT="copy">[CONFIG_DIR]/border-router/border-router.sky</firmware>
       <moteinterface>se.sics.cooja.interfaces.Position</moteinterface>
       <moteinterface>se.sics.cooja.interfaces.RimeAddress</moteinterface>
       <moteinterface>se.sics.cooja.interfaces.IPAddress</moteinterface>
@@ -48,55 +48,9 @@
       se.sics.cooja.mspmote.SkyMoteType
       <identifier>sky2</identifier>
       <description>Sky Mote Type #sky2</description>
-      <source EXPORT="discard">[CONFIG_DIR]/sensor.c</source>
+      <source EXPORT="discard">[CONFIG_DIR]/sensor/sensor.c</source>
       <commands EXPORT="discard">make sensor.sky TARGET=sky</commands>
-      <firmware EXPORT="copy">[CONFIG_DIR]/sensor.sky</firmware>
-      <moteinterface>se.sics.cooja.interfaces.Position</moteinterface>
-      <moteinterface>se.sics.cooja.interfaces.RimeAddress</moteinterface>
-      <moteinterface>se.sics.cooja.interfaces.IPAddress</moteinterface>
-      <moteinterface>se.sics.cooja.interfaces.Mote2MoteRelations</moteinterface>
-      <moteinterface>se.sics.cooja.interfaces.MoteAttributes</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.MspClock</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.MspMoteID</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.SkyButton</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.SkyFlash</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.SkyCoffeeFilesystem</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.Msp802154Radio</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.MspSerial</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.SkyLED</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.MspDebugOutput</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.SkyTemperature</moteinterface>
-    </motetype>
-    <motetype>
-      se.sics.cooja.mspmote.SkyMoteType
-      <identifier>sky3</identifier>
-      <description>Sky Mote Type #sky3</description>
-      <source EXPORT="discard">[CONFIG_DIR]/sensor.c</source>
-      <commands EXPORT="discard">make sensor.sky TARGET=sky</commands>
-      <firmware EXPORT="copy">[CONFIG_DIR]/sensor.sky</firmware>
-      <moteinterface>se.sics.cooja.interfaces.Position</moteinterface>
-      <moteinterface>se.sics.cooja.interfaces.RimeAddress</moteinterface>
-      <moteinterface>se.sics.cooja.interfaces.IPAddress</moteinterface>
-      <moteinterface>se.sics.cooja.interfaces.Mote2MoteRelations</moteinterface>
-      <moteinterface>se.sics.cooja.interfaces.MoteAttributes</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.MspClock</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.MspMoteID</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.SkyButton</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.SkyFlash</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.SkyCoffeeFilesystem</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.Msp802154Radio</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.MspSerial</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.SkyLED</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.MspDebugOutput</moteinterface>
-      <moteinterface>se.sics.cooja.mspmote.interfaces.SkyTemperature</moteinterface>
-    </motetype>
-    <motetype>
-      se.sics.cooja.mspmote.SkyMoteType
-      <identifier>sky4</identifier>
-      <description>Sky Mote Type #sky4</description>
-      <source EXPORT="discard">[CONFIG_DIR]/sensor.c</source>
-      <commands EXPORT="discard">make sensor.sky TARGET=sky</commands>
-      <firmware EXPORT="copy">[CONFIG_DIR]/sensor.sky</firmware>
+      <firmware EXPORT="copy">[CONFIG_DIR]/sensor/sensor.sky</firmware>
       <moteinterface>se.sics.cooja.interfaces.Position</moteinterface>
       <moteinterface>se.sics.cooja.interfaces.RimeAddress</moteinterface>
       <moteinterface>se.sics.cooja.interfaces.IPAddress</moteinterface>
@@ -117,8 +71,8 @@
       <breakpoints />
       <interface_config>
         se.sics.cooja.interfaces.Position
-        <x>70.67198058657064</x>
-        <y>34.20214653045897</y>
+        <x>60.42381437572424</x>
+        <y>46.06473132803232</y>
         <z>0.0</z>
       </interface_config>
       <interface_config>
@@ -131,8 +85,8 @@
       <breakpoints />
       <interface_config>
         se.sics.cooja.interfaces.Position
-        <x>98.82933239190892</x>
-        <y>52.671177206581774</y>
+        <x>87.86449077417272</x>
+        <y>81.50256646447292</y>
         <z>0.0</z>
       </interface_config>
       <interface_config>
@@ -145,43 +99,43 @@
       <breakpoints />
       <interface_config>
         se.sics.cooja.interfaces.Position
-        <x>70.60360514087478</x>
-        <y>71.864671737285</y>
+        <x>40.28457426550391</x>
+        <y>32.83786566829957</y>
         <z>0.0</z>
       </interface_config>
       <interface_config>
         se.sics.cooja.mspmote.interfaces.MspMoteID
         <id>3</id>
       </interface_config>
-      <motetype_identifier>sky3</motetype_identifier>
+      <motetype_identifier>sky2</motetype_identifier>
     </mote>
     <mote>
       <breakpoints />
       <interface_config>
         se.sics.cooja.interfaces.Position
-        <x>31.08758698942698</x>
-        <y>32.724996615850976</y>
+        <x>78.43838977010046</x>
+        <y>35.31871646438447</y>
         <z>0.0</z>
       </interface_config>
       <interface_config>
         se.sics.cooja.mspmote.interfaces.MspMoteID
         <id>4</id>
       </interface_config>
-      <motetype_identifier>sky4</motetype_identifier>
+      <motetype_identifier>sky2</motetype_identifier>
     </mote>
     <mote>
       <breakpoints />
       <interface_config>
         se.sics.cooja.interfaces.Position
-        <x>70.60360514087478</x>
-        <y>18.047618445313226</y>
+        <x>28.498410613695608</x>
+        <y>60.0112617139402</y>
         <z>0.0</z>
       </interface_config>
       <interface_config>
         se.sics.cooja.mspmote.interfaces.MspMoteID
         <id>5</id>
       </interface_config>
-      <motetype_identifier>sky4</motetype_identifier>
+      <motetype_identifier>sky2</motetype_identifier>
     </mote>
   </simulation>
   <plugin>
@@ -201,10 +155,10 @@
       <skin>se.sics.cooja.plugins.skins.TrafficVisualizerSkin</skin>
       <skin>se.sics.cooja.plugins.skins.UDGMVisualizerSkin</skin>
       <skin>se.sics.cooja.plugins.skins.LEDVisualizerSkin</skin>
-      <viewport>2.657150313009282 0.0 0.0 2.657150313009282 10.395608500340806 56.04476499896387</viewport>
+      <viewport>3.6043266945760197 0.0 0.0 3.6043266945760197 12.282417872068343 -31.30019257074253</viewport>
     </plugin_config>
     <width>400</width>
-    <z>0</z>
+    <z>1</z>
     <height>400</height>
     <location_x>1</location_x>
     <location_y>1</location_y>
@@ -256,11 +210,11 @@
   <plugin>
     SerialSocketServer
     <mote_arg>0</mote_arg>
-    <width>422</width>
-    <z>1</z>
-    <height>69</height>
-    <location_x>27</location_x>
-    <location_y>439</location_y>
+    <width>396</width>
+    <z>0</z>
+    <height>89</height>
+    <location_x>1</location_x>
+    <location_y>404</location_y>
   </plugin>
 </simconf>
 
