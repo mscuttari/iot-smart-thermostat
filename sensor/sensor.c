@@ -127,9 +127,18 @@ static bool ventilation;
 #if REST_SERVER_ENABLED
 PERIODIC_RESOURCE(temperature, METHOD_GET, "temperature", "title=\"Temperature\";rt=\"Text\";obs", TEMP_SENSING_INTERVAL * CLOCK_SECOND);
 RESOURCE(systems, METHOD_GET, "systems", "title=\"Systems\";rt=\"Text\"");
+
+#if COOLING_ENABLED
 RESOURCE(cooling, METHOD_POST, "systems/cooling", "title=\"Cooling\";rt=\"Text\"");
+#endif
+
+#if HEATING_ENABLED
 RESOURCE(heating, METHOD_POST, "systems/heating", "title=\"Heating\";rt=\"Text\"");
+#endif
+
+#if VENTILATION_ENABLED
 RESOURCE(ventilation, METHOD_POST, "systems/ventilation", "title=\"Ventilation\";rt=\"Text\"");
+#endif
 #endif
 
 
@@ -261,9 +270,18 @@ PROCESS_THREAD(rest_server, ev, data) {
 	// Activate the resources
 	rest_activate_periodic_resource(&periodic_resource_temperature);
 	rest_activate_resource(&resource_systems);
+
+	#if COOLING_ENABLED
 	rest_activate_resource(&resource_cooling);
+	#endif
+
+	#if HEATING_ENABLED
 	rest_activate_resource(&resource_heating);
+	#endif
+
+	#if VENTILATION_ENABLED
 	rest_activate_resource(&resource_ventilation);
+	#endif
 
 	PRINTF("[REST] server started\n");
 	PROCESS_END();
@@ -306,10 +324,32 @@ void systems_handler(void* request, void* response, uint8_t *buffer, uint16_t pr
 	int length = snprintf(
 		(char*) buffer,
 		REST_MAX_CHUNK_SIZE,
-		"{\n\"heating\":%s,\n\"cooling\":%s,\n\"ventilation\":%s\n}",
-		status == HEATING ? "true" : "false",
+		"{\n"
+			#if COOLING_ENABLED		
+			"\"cooling\":%s,\n"
+			#endif
+
+			#if HEATING_ENABLED
+			"\"heating\":%s,\n"
+			#endif
+			
+			#if VENTILATION_ENABLED
+			"\"ventilation\":%s\n"
+			#endif
+		"}",
+
+		#if COOLING_ENABLED
 		status == COOLING ? "true" : "false",
-		ventilation ? "true" : "false");
+		#endif
+
+		#if HEATING_ENABLED
+		status == HEATING ? "true" : "false",
+		#endif
+
+		#if VENTILATION_ENABLED
+		ventilation ? "true" : "false"
+		#endif
+		);
 
 	REST.set_header_content_type(response, REST.type.APPLICATION_JSON);
 	REST.set_response_payload(response, buffer, length);
@@ -319,6 +359,7 @@ void systems_handler(void* request, void* response, uint8_t *buffer, uint16_t pr
 /**
  * Start / stop the cooling system upon user request
  */
+#if COOLING_ENABLED
 void cooling_handler(void* request, void* response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset) {
 	if (status != NONE && status != COOLING) {
 		REST.set_response_status(response, REST.status.BAD_REQUEST);
@@ -344,11 +385,13 @@ void cooling_handler(void* request, void* response, uint8_t *buffer, uint16_t pr
 	int length = snprintf((char*) buffer, REST_MAX_CHUNK_SIZE, "{\n\"value\":%s}", status == COOLING ? "true" : "false");
 	REST.set_response_payload(response, buffer, length);
 }
+#endif
 
 
 /**
  * Start / stop the heating system upon user request
  */
+#if HEATING_ENABLED
 void heating_handler(void* request, void* response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset) {
 	if (status != NONE && status != HEATING) {
 		REST.set_response_status(response, REST.status.BAD_REQUEST);
@@ -374,11 +417,13 @@ void heating_handler(void* request, void* response, uint8_t *buffer, uint16_t pr
 	int length = snprintf((char*) buffer, REST_MAX_CHUNK_SIZE, "{\n\"value\":%s}", status == HEATING ? "true" : "false");
 	REST.set_response_payload(response, buffer, length);
 }
+#endif
 
 
 /**
  * Start / stop the ventilation system upon user request
  */
+#if VENTILATION_ENABLED
 void ventilation_handler(void* request, void* response, uint8_t *buffer, uint16_t preferred_size, int32_t *offset) {
 	if (!ventilation) {
 		ventilation = true;
@@ -394,6 +439,7 @@ void ventilation_handler(void* request, void* response, uint8_t *buffer, uint16_
 	int length = snprintf((char*) buffer, REST_MAX_CHUNK_SIZE, "{\n\"value\":%s}", ventilation ? "true" : "false");
 	REST.set_response_payload(response, buffer, length);
 }
+#endif
 
 #endif
 
