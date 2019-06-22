@@ -1,0 +1,4239 @@
+00:00.502	ID:2	Rime started with address 0.18.116.2.0.2.2.2
+00:00.510	ID:2	MAC 00:12:74:02:00:02:02:02 Contiki 2.7 started. Node id is set to 2.
+00:00.516	ID:2	CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.527	ID:2	Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7402:0002:0202
+00:00.528	ID:2	Starting 'Boot'
+00:00.530	ID:2	Temperature set to 24
+00:00.532	ID:2	[REST] server started
+00:00.533	ID:2	[BOOT] Completed
+00:00.614	ID:4	Rime started with address 0.18.116.4.0.4.4.4
+00:00.622	ID:4	MAC 00:12:74:04:00:04:04:04 Contiki 2.7 started. Node id is set to 4.
+00:00.629	ID:4	CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.639	ID:4	Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7404:0004:0404
+00:00.640	ID:4	Starting 'Boot'
+00:00.642	ID:4	Temperature set to 29
+00:00.644	ID:4	[REST] server started
+00:00.646	ID:4	[BOOT] Completed
+00:00.659	ID:1	Rime started with address 0.18.116.1.0.1.1.1
+00:00.667	ID:1	MAC 00:12:74:01:00:01:01:01 Contiki 2.7 started. Node id is set to 1.
+00:00.675	ID:1	CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+00:00.686	ID:1	Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7401:0001:0101
+00:00.690	ID:1	Starting 'Border router process' 'Web server'
+00:00.981	ID:5	Rime started with address 0.18.116.5.0.5.5.5
+00:00.989	ID:5	MAC 00:12:74:05:00:05:05:05 Contiki 2.7 started. Node id is set to 5.
+00:00.995	ID:5	CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.006	ID:5	Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7405:0005:0505
+00:01.007	ID:5	Starting 'Boot'
+00:01.009	ID:5	Temperature set to 29
+00:01.011	ID:5	[REST] server started
+00:01.012	ID:5	[BOOT] Completed
+00:01.165	ID:3	Rime started with address 0.18.116.3.0.3.3.3
+00:01.173	ID:3	MAC 00:12:74:03:00:03:03:03 Contiki 2.7 started. Node id is set to 3.
+00:01.180	ID:3	CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.190	ID:3	Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7403:0003:0303
+00:01.191	ID:3	Starting 'Boot'
+00:01.193	ID:3	Temperature set to 24
+00:01.195	ID:3	[REST] server started
+00:01.197	ID:3	[BOOT] Completed
+00:05.528	ID:2	[SENSING] Temperature: 24
+00:05.640	ID:4	[SENSING] Temperature: 29
+00:06.007	ID:5	[SENSING] Temperature: 29
+00:06.191	ID:3	[SENSING] Temperature: 24
+00:09.694	ID:1	?P?P?P?P?P?P?P?P?P?PGot configuration message of type P
+00:09.696	ID:1	Setting prefix aaaa::
+00:10.528	ID:2	[SENSING] Temperature: 24
+00:10.640	ID:4	[SENSING] Temperature: 29
+00:10.686	ID:1	Server IPv6 addresses:
+00:10.689	ID:1	 aaaa::212:7401:1:101
+00:10.692	ID:1	 fe80::212:7401:1:101
+00:11.007	ID:5	[SENSING] Temperature: 29
+00:11.191	ID:3	[SENSING] Temperature: 24
+00:15.466	ID:1	slip-bridge: Destination off-link but no route src=aaaa::1 dst=aaaa::212:7404:4:404
+00:15.528	ID:2	[SENSING] Temperature: 24
+00:15.640	ID:4	[SENSING] Temperature: 29
+00:16.007	ID:5	[SENSING] Temperature: 29
+00:16.138	ID:1	slip-bridge: Destination off-link but no route src=aaaa::1 dst=aaaa::212:7403:3:303
+00:16.191	ID:3	[SENSING] Temperature: 24
+00:19.060	ID:1	slip-bridge: Destination off-link but no route src=aaaa::1 dst=aaaa::212:7405:5:505
+00:20.123	ID:1	slip-bridge: Destination off-link but no route src=aaaa::1 dst=aaaa::212:7402:2:202
+00:20.528	ID:2	[SENSING] Temperature: 24
+00:20.530	ID:2	[SIM] Temperature set to 24
+00:20.623	ID:1	slip-bridge: Destination off-link but no route src=aaaa::1 dst=aaaa::212:7404:4:404
+00:20.640	ID:4	[SENSING] Temperature: 29
+00:20.642	ID:4	[SIM] Temperature set to 29
+00:21.007	ID:5	[SENSING] Temperature: 29
+00:21.009	ID:5	[SIM] Temperature set to 29
+00:21.191	ID:3	[SENSING] Temperature: 24
+00:21.194	ID:3	[SIM] Temperature set to 24
+00:22.420	ID:1	slip-bridge: Destination off-link but no route src=aaaa::1 dst=aaaa::212:7405:5:505
+00:23.232	ID:1	slip-bridge: Destination off-link but no route src=aaaa::1 dst=aaaa::212:7402:2:202
+00:24.279	ID:1	`@tPl%<`0T0slip-bridge: Destination off-link but no route src=aaaa::1 dst=aaaa::212:7403:3:303
+00:25.528	ID:2	[SENSING] Temperature: 24
+00:25.640	ID:4	[SENSING] Temperature: 29
+00:26.007	ID:5	[SENSING] Temperature: 29
+00:26.191	ID:3	[SENSING] Temperature: 24
+00:30.528	ID:2	[SENSING] Temperature: 24
+00:30.640	ID:4	[SENSING] Temperature: 29
+00:31.007	ID:5	[SENSING] Temperature: 29
+00:31.191	ID:3	[SENSING] Temperature: 24
+00:35.528	ID:2	[SENSING] Temperature: 24
+00:35.640	ID:4	[SENSING] Temperature: 29
+00:36.007	ID:5	[SENSING] Temperature: 29
+00:36.191	ID:3	[SENSING] Temperature: 24
+00:40.528	ID:2	[SENSING] Temperature: 24
+00:40.530	ID:2	[SIM] Temperature set to 24
+00:40.640	ID:4	[SENSING] Temperature: 29
+00:40.643	ID:4	[SIM] Temperature set to 29
+00:41.007	ID:5	[SENSING] Temperature: 29
+00:41.009	ID:5	[SIM] Temperature set to 29
+00:41.191	ID:3	[SENSING] Temperature: 24
+00:41.194	ID:3	[SIM] Temperature set to 24
+00:45.528	ID:2	[SENSING] Temperature: 24
+00:45.640	ID:4	[SENSING] Temperature: 29
+00:46.007	ID:5	[SENSING] Temperature: 29
+00:46.191	ID:3	[SENSING] Temperature: 24
+00:50.528	ID:2	[SENSING] Temperature: 24
+00:50.640	ID:4	[SENSING] Temperature: 29
+00:51.007	ID:5	[SENSING] Temperature: 29
+00:51.191	ID:3	[SENSING] Temperature: 24
+00:55.528	ID:2	[SENSING] Temperature: 24
+00:55.640	ID:4	[SENSING] Temperature: 29
+00:56.007	ID:5	[SENSING] Temperature: 29
+00:56.191	ID:3	[SENSING] Temperature: 24
+01:00.528	ID:2	[SENSING] Temperature: 24
+01:00.530	ID:2	[SIM] Temperature set to 24
+01:00.640	ID:4	[SENSING] Temperature: 29
+01:00.642	ID:4	[SIM] Temperature set to 29
+01:01.007	ID:5	[SENSING] Temperature: 29
+01:01.009	ID:5	[SIM] Temperature set to 29
+01:01.191	ID:3	[SENSING] Temperature: 24
+01:01.193	ID:3	[SIM] Temperature set to 24
+01:03.769	ID:1	`@tPl%=P0f`L?t3LLFdExJ2{
+01:03.770	ID:1	"cooling":false,
+01:03.772	ID:1	"heating":false,
+01:03.773	ID:1	"ventilation":false
+01:03.783	ID:1	}slip-bridge: Destination off-link but no route src=aaaa::1 dst=aa7e:1f:1140:aaaa::
+01:05.528	ID:2	[SENSING] Temperature: 24
+01:05.640	ID:4	[SENSING] Temperature: 29
+01:06.007	ID:5	[SENSING] Temperature: 29
+01:06.032	ID:1	`?t3L\dExQ`a2Added 1/3`)?t3L))TE'aa2{
+01:06.033	ID:1	"temperature":29
+01:06.087	ID:1	}`?t3L]dExO`a2Added 1/3`L?t3LLDdExN2{
+01:06.088	ID:1	"cooling":false,
+01:06.089	ID:1	"heating":false,
+01:06.091	ID:1	"ventilation":false
+01:06.191	ID:3	[SENSING] Temperature: 24
+01:06.709	ID:1	}`?t3L^dExM`a2Added 1/3`?t3L_dExK`a2Added 1/3`L?t3LLEdExL2{
+01:06.710	ID:1	"cooling":false,
+01:06.712	ID:1	"heating":false,
+01:06.713	ID:1	"ventilation":false
+01:10.528	ID:2	[SENSING] Temperature: 24
+01:10.553	ID:1	}`)?t3L)TE'paa2{
+01:10.554	ID:1	"temperature":24
+01:10.640	ID:4	[SENSING] Temperature: 29
+01:10.666	ID:1	}`)?t3L)iTEaa2{
+01:10.667	ID:1	"temperature":29
+01:11.007	ID:5	[SENSING] Temperature: 29
+01:11.032	ID:1	}`)?t3L)'TE(aa2{
+01:11.033	ID:1	"temperature":29
+01:11.177	ID:1	}`L?t3LLCdExP2{
+01:11.178	ID:1	"cooling":false,
+01:11.179	ID:1	"heating":false,
+01:11.181	ID:1	"ventilation":false
+01:11.191	ID:3	[SENSING] Temperature: 24
+01:11.216	ID:1	}`)?t3L)=TEoaa2{
+01:11.218	ID:1	"temperature":24
+01:15.528	ID:2	[SENSING] Temperature: 24
+01:15.553	ID:1	}`)?t3L)TE'qaa2{
+01:15.554	ID:1	"temperature":24
+01:15.640	ID:4	[SENSING] Temperature: 29
+01:15.665	ID:1	}`)?t3L)gTEaa2{
+01:15.667	ID:1	"temperature":29
+01:16.007	ID:5	[SENSING] Temperature: 29
+01:16.032	ID:1	}`)?t3L)%TE)aa2{
+01:16.033	ID:1	"temperature":29
+01:16.191	ID:3	[SENSING] Temperature: 24
+01:16.216	ID:1	}`)?t3L)=TEoaa2{
+01:16.217	ID:1	"temperature":24
+01:20.528	ID:2	[SENSING] Temperature: 24
+01:20.530	ID:2	[SIM] Temperature set to 24
+01:20.553	ID:1	}`)?t3L)TE'raa2{
+01:20.554	ID:1	"temperature":24
+01:20.640	ID:4	[SENSING] Temperature: 29
+01:20.642	ID:4	[SIM] Temperature set to 29
+01:20.665	ID:1	}`)?t3L)eTEaa2{
+01:20.667	ID:1	"temperature":29
+01:21.007	ID:5	[SENSING] Temperature: 29
+01:21.009	ID:5	[SIM] Temperature set to 29
+01:21.032	ID:1	}`)?t3L)#TE*aa2{
+01:21.033	ID:1	"temperature":29
+01:21.191	ID:3	[SENSING] Temperature: 24
+01:21.193	ID:3	[SIM] Temperature set to 24
+01:21.217	ID:1	}`)?t3L)=TEoaa2{
+01:21.218	ID:1	"temperature":24
+01:21.346	ID:2	[COOLING] started
+01:21.364	ID:1	}`"?t3L";OdExR2{
+01:22.710	ID:2	[VENTILATION] started
+01:22.728	ID:1	"value":true}`"?t3L";MdExS2{
+01:25.528	ID:2	[SENSING] Temperature: 24
+01:25.553	ID:1	"value":true}`)?t3L)TE'saa2{
+01:25.554	ID:1	"temperature":24
+01:25.640	ID:4	[SENSING] Temperature: 29
+01:25.665	ID:1	}`)?t3L)cTEaa2{
+01:25.667	ID:1	"temperature":29
+01:26.007	ID:5	[SENSING] Temperature: 29
+01:26.032	ID:1	}`)?t3L)!TE+aa2{
+01:26.033	ID:1	"temperature":29
+01:26.191	ID:3	[SENSING] Temperature: 24
+01:26.216	ID:1	}`)?t3L)=TEoaa2{
+01:26.217	ID:1	"temperature":24
+01:30.528	ID:2	[SENSING] Temperature: 24
+01:30.553	ID:1	}`)?t3L)TE'taa2{
+01:30.554	ID:1	"temperature":24
+01:30.640	ID:4	[SENSING] Temperature: 29
+01:30.665	ID:1	}`)?t3L)aTEaa2{
+01:30.667	ID:1	"temperature":29
+01:31.007	ID:5	[SENSING] Temperature: 29
+01:31.032	ID:1	}`)?t3L)TE,aa2{
+01:31.033	ID:1	"temperature":29
+01:31.191	ID:3	[SENSING] Temperature: 24
+01:31.216	ID:1	}`)?t3L)=TEoaa2{
+01:31.217	ID:1	"temperature":24
+01:35.528	ID:2	[SENSING] Temperature: 24
+01:35.553	ID:1	}`)?t3L)TE'uaa2{
+01:35.554	ID:1	"temperature":24
+01:35.640	ID:4	[SENSING] Temperature: 29
+01:35.665	ID:1	}`)?t3L)_TEaa2{
+01:35.667	ID:1	"temperature":29
+01:36.007	ID:5	[SENSING] Temperature: 29
+01:36.032	ID:1	}`)?t3L)TE-aa2{
+01:36.033	ID:1	"temperature":29
+01:36.191	ID:3	[SENSING] Temperature: 24
+01:36.217	ID:1	}`)?t3L)=TEoaa2{
+01:36.218	ID:1	"temperature":24
+01:40.528	ID:2	[SENSING] Temperature: 24
+01:40.530	ID:2	[SIM] Temperature set to 22
+01:40.553	ID:1	}`)?t3L)TE'vaa2{
+01:40.554	ID:1	"temperature":22
+01:40.640	ID:4	[SENSING] Temperature: 29
+01:40.642	ID:4	[SIM] Temperature set to 29
+01:40.665	ID:1	}`)?t3L)]TEaa2{
+01:40.667	ID:1	"temperature":29
+01:41.007	ID:5	[SENSING] Temperature: 29
+01:41.009	ID:5	[SIM] Temperature set to 29
+01:41.032	ID:1	}`)?t3L)TE.aa2{
+01:41.033	ID:1	"temperature":29
+01:41.191	ID:3	[SENSING] Temperature: 24
+01:41.193	ID:3	[SIM] Temperature set to 24
+01:41.216	ID:1	}`)?t3L)=TEoaa2{
+01:41.218	ID:1	"temperature":24
+01:45.528	ID:2	[SENSING] Temperature: 22
+01:45.553	ID:1	}`)?t3L)TE'waa2{
+01:45.554	ID:1	"temperature":22
+01:45.640	ID:4	[SENSING] Temperature: 29
+01:45.665	ID:1	}`)?t3L)[TEaa2{
+01:45.667	ID:1	"temperature":29
+01:46.007	ID:5	[SENSING] Temperature: 29
+01:46.032	ID:1	}`)?t3L)TE/aa2{
+01:46.033	ID:1	"temperature":29
+01:46.191	ID:3	[SENSING] Temperature: 24
+01:46.216	ID:1	}`)?t3L)=TEoaa2{
+01:46.217	ID:1	"temperature":24
+01:50.528	ID:2	[SENSING] Temperature: 22
+01:50.553	ID:1	}`)?t3L)TE'xaa2{
+01:50.554	ID:1	"temperature":22
+01:50.640	ID:4	[SENSING] Temperature: 29
+01:50.665	ID:1	}`)?t3L)YTEaa2{
+01:50.667	ID:1	"temperature":29
+01:51.007	ID:5	[SENSING] Temperature: 29
+01:51.032	ID:1	}`)?t3L)TE0aa2{
+01:51.033	ID:1	"temperature":29
+01:51.191	ID:3	[SENSING] Temperature: 24
+01:51.217	ID:1	}`)?t3L)=TEoaa2{
+01:51.218	ID:1	"temperature":24
+01:55.528	ID:2	[SENSING] Temperature: 22
+01:55.553	ID:1	}`)?t3L)TE'yaa2{
+01:55.554	ID:1	"temperature":22
+01:55.640	ID:4	[SENSING] Temperature: 29
+01:55.665	ID:1	}`)?t3L)WTEaa2{
+01:55.667	ID:1	"temperature":29
+01:56.007	ID:5	[SENSING] Temperature: 29
+01:56.032	ID:1	}`)?t3L)TE1aa2{
+01:56.033	ID:1	"temperature":29
+01:56.191	ID:3	[SENSING] Temperature: 24
+01:56.216	ID:1	}`)?t3L)=TEoaa2{
+01:56.218	ID:1	"temperature":24
+02:00.528	ID:2	[SENSING] Temperature: 22
+02:00.530	ID:2	[SIM] Temperature set to 20
+02:00.553	ID:1	}`)?t3L)TE'zaa2{
+02:00.554	ID:1	"temperature":20
+02:00.640	ID:4	[SENSING] Temperature: 29
+02:00.642	ID:4	[SIM] Temperature set to 29
+02:00.665	ID:1	}`)?t3L)UTEaa2{
+02:00.667	ID:1	"temperature":29
+02:01.007	ID:5	[SENSING] Temperature: 29
+02:01.009	ID:5	[SIM] Temperature set to 29
+02:01.032	ID:1	}`)?t3L)TE2aa2{
+02:01.033	ID:1	"temperature":29
+02:01.191	ID:3	[SENSING] Temperature: 24
+02:01.193	ID:3	[SIM] Temperature set to 24
+02:01.216	ID:1	}`)?t3L)=TEoaa2{
+02:01.217	ID:1	"temperature":24
+02:05.528	ID:2	[SENSING] Temperature: 20
+02:05.553	ID:1	}`)?t3L)DE'{aa2{
+02:05.554	ID:1	"temperature":20
+02:05.640	ID:4	[SENSING] Temperature: 29
+02:05.666	ID:1	}`)?t3L)SDEaa2{
+02:05.667	ID:1	"temperature":29
+02:06.007	ID:5	[SENSING] Temperature: 29
+02:06.032	ID:1	}`)?t3L)DE3aa2{
+02:06.033	ID:1	"temperature":29
+02:06.191	ID:3	[SENSING] Temperature: 24
+02:06.217	ID:1	}`)?t3L)MDEoaa2{
+02:06.219	ID:1	"temperature":24
+02:10.528	ID:2	[SENSING] Temperature: 20
+02:10.553	ID:1	}`)?t3L)TE'|aa2{
+02:10.554	ID:1	"temperature":20
+02:10.640	ID:4	[SENSING] Temperature: 29
+02:10.665	ID:1	}`)?t3L)QTEaa2{
+02:10.667	ID:1	"temperature":29
+02:11.007	ID:5	[SENSING] Temperature: 29
+02:11.032	ID:1	}`)?t3L)TE4aa2{
+02:11.033	ID:1	"temperature":29
+02:11.191	ID:3	[SENSING] Temperature: 24
+02:11.216	ID:1	}`)?t3L)=TEoaa2{
+02:11.217	ID:1	"temperature":24
+02:15.528	ID:2	[SENSING] Temperature: 20
+02:15.553	ID:1	}`)?t3L)TE'}aa2{
+02:15.554	ID:1	"temperature":20
+02:15.640	ID:4	[SENSING] Temperature: 29
+02:15.665	ID:1	}`)?t3L)OTEaa2{
+02:15.667	ID:1	"temperature":29
+02:16.007	ID:5	[SENSING] Temperature: 29
+02:16.032	ID:1	}`)?t3L)TE5aa2{
+02:16.033	ID:1	"temperature":29
+02:16.191	ID:3	[SENSING] Temperature: 24
+02:16.216	ID:1	}`)?t3L)=TEoaa2{
+02:16.217	ID:1	"temperature":24
+02:20.528	ID:2	[SENSING] Temperature: 20
+02:20.530	ID:2	[SIM] Temperature set to 18
+02:20.553	ID:1	}`)?t3L)TE'~aa2{
+02:20.554	ID:1	"temperature":18
+02:20.640	ID:4	[SENSING] Temperature: 29
+02:20.642	ID:4	[SIM] Temperature set to 29
+02:20.665	ID:1	}`)?t3L)MTEaa2{
+02:20.667	ID:1	"temperature":29
+02:21.007	ID:5	[SENSING] Temperature: 29
+02:21.009	ID:5	[SIM] Temperature set to 29
+02:21.032	ID:1	}`)?t3L)TE6aa2{
+02:21.033	ID:1	"temperature":29
+02:21.191	ID:3	[SENSING] Temperature: 24
+02:21.193	ID:3	[SIM] Temperature set to 24
+02:21.217	ID:1	}`)?t3L)=TEoaa2{
+02:21.218	ID:1	"temperature":24
+02:25.528	ID:2	[SENSING] Temperature: 18
+02:25.553	ID:1	}`)?t3L)TE'aa2{
+02:25.554	ID:1	"temperature":18
+02:25.640	ID:4	[SENSING] Temperature: 29
+02:25.665	ID:1	}`)?t3L)KTEaa2{
+02:25.667	ID:1	"temperature":29
+02:26.007	ID:5	[SENSING] Temperature: 29
+02:26.032	ID:1	}`)?t3L)TE7aa2{
+02:26.033	ID:1	"temperature":29
+02:26.191	ID:3	[SENSING] Temperature: 24
+02:26.216	ID:1	}`)?t3L)=TEoaa2{
+02:26.217	ID:1	"temperature":24
+02:30.528	ID:2	[SENSING] Temperature: 18
+02:30.553	ID:1	}`)?t3L)TE'aa2{
+02:30.554	ID:1	"temperature":18
+02:30.640	ID:4	[SENSING] Temperature: 29
+02:30.665	ID:1	}`)?t3L)ITEaa2{
+02:30.667	ID:1	"temperature":29
+02:31.007	ID:5	[SENSING] Temperature: 29
+02:31.032	ID:1	}`)?t3L)TE8aa2{
+02:31.033	ID:1	"temperature":29
+02:31.191	ID:3	[SENSING] Temperature: 24
+02:31.216	ID:1	}`)?t3L)=TEoaa2{
+02:31.217	ID:1	"temperature":24
+02:35.528	ID:2	[SENSING] Temperature: 18
+02:35.553	ID:1	}`)?t3L)TE'aa2{
+02:35.554	ID:1	"temperature":18
+02:35.640	ID:4	[SENSING] Temperature: 29
+02:35.665	ID:1	}`)?t3L)GTEaa2{
+02:35.667	ID:1	"temperature":29
+02:36.007	ID:5	[SENSING] Temperature: 29
+02:36.032	ID:1	}`)?t3L)TE9aa2{
+02:36.033	ID:1	"temperature":29
+02:36.191	ID:3	[SENSING] Temperature: 24
+02:36.217	ID:1	}`)?t3L)=TEoaa2{
+02:36.218	ID:1	"temperature":24
+02:40.528	ID:2	[SENSING] Temperature: 18
+02:40.530	ID:2	[SIM] Temperature set to 16
+02:40.553	ID:1	}`)?t3L)TE'a a2{
+02:40.554	ID:1	"temperature":16
+02:40.640	ID:4	[SENSING] Temperature: 29
+02:40.642	ID:4	[SIM] Temperature set to 29
+02:40.665	ID:1	}`)?t3L)ETEa a2{
+02:40.667	ID:1	"temperature":29
+02:41.007	ID:5	[SENSING] Temperature: 29
+02:41.009	ID:5	[SIM] Temperature set to 29
+02:41.032	ID:1	}`)?t3L)TE:a a2{
+02:41.033	ID:1	"temperature":29
+02:41.191	ID:3	[SENSING] Temperature: 24
+02:41.193	ID:3	[SIM] Temperature set to 24
+02:41.216	ID:1	}`)?t3L)=TEoa a2{
+02:41.218	ID:1	"temperature":24
+02:45.528	ID:2	[SENSING] Temperature: 16
+02:45.553	ID:1	}`)?t3L)TE'a!a2{
+02:45.554	ID:1	"temperature":16
+02:45.640	ID:4	[SENSING] Temperature: 29
+02:45.665	ID:1	}`)?t3L)CTEa!a2{
+02:45.667	ID:1	"temperature":29
+02:46.007	ID:5	[SENSING] Temperature: 29
+02:46.032	ID:1	}`)?t3L)TE;a!a2{
+02:46.033	ID:1	"temperature":29
+02:46.191	ID:3	[SENSING] Temperature: 24
+02:46.216	ID:1	}`)?t3L)=TEoa!a2{
+02:46.217	ID:1	"temperature":24
+02:50.528	ID:2	[SENSING] Temperature: 16
+02:50.553	ID:1	}`)?t3L)TE'a"a2{
+02:50.554	ID:1	"temperature":16
+02:50.640	ID:4	[SENSING] Temperature: 29
+02:50.665	ID:1	}`)?t3L)ATEa"a2{
+02:50.667	ID:1	"temperature":29
+02:51.007	ID:5	[SENSING] Temperature: 29
+02:51.032	ID:1	}`)?t3L)TE<a"a2{
+02:51.033	ID:1	"temperature":29
+02:51.191	ID:3	[SENSING] Temperature: 24
+02:51.217	ID:1	}`)?t3L)=TEoa"a2{
+02:51.218	ID:1	"temperature":24
+02:55.528	ID:2	[SENSING] Temperature: 16
+02:55.553	ID:1	}`)?t3L)TE'a#a2{
+02:55.554	ID:1	"temperature":16
+02:55.640	ID:4	[SENSING] Temperature: 29
+02:55.665	ID:1	}`)?t3L)?TEa#a2{
+02:55.667	ID:1	"temperature":29
+02:56.007	ID:5	[SENSING] Temperature: 29
+02:56.032	ID:1	}`)?t3L)TE=a#a2{
+02:56.033	ID:1	"temperature":29
+02:56.191	ID:3	[SENSING] Temperature: 24
+02:56.216	ID:1	}`)?t3L)=TEoa#a2{
+02:56.217	ID:1	"temperature":24
+03:00.528	ID:2	[SENSING] Temperature: 16
+03:00.530	ID:2	[SIM] Temperature set to 14
+03:00.553	ID:1	}`)?t3L)TE'a$a2{
+03:00.554	ID:1	"temperature":14
+03:00.640	ID:4	[SENSING] Temperature: 29
+03:00.642	ID:4	[SIM] Temperature set to 29
+03:00.665	ID:1	}`)?t3L)=TEa$a2{
+03:00.667	ID:1	"temperature":29
+03:01.007	ID:5	[SENSING] Temperature: 29
+03:01.009	ID:5	[SIM] Temperature set to 29
+03:01.032	ID:1	}`)?t3L)TE>a$a2{
+03:01.033	ID:1	"temperature":29
+03:01.191	ID:3	[SENSING] Temperature: 24
+03:01.193	ID:3	[SIM] Temperature set to 24
+03:01.216	ID:1	}`)?t3L)=TEoa$a2{
+03:01.218	ID:1	"temperature":24
+03:05.528	ID:2	[SENSING] Temperature: 14
+03:05.553	ID:1	}`)?t3L)DE'a%a2{
+03:05.554	ID:1	"temperature":14
+03:05.640	ID:4	[SENSING] Temperature: 29
+03:05.666	ID:1	}`)?t3L);DEa%a2{
+03:05.667	ID:1	"temperature":29
+03:06.007	ID:5	[SENSING] Temperature: 29
+03:06.032	ID:1	}`)?t3L)DE?a%a2{
+03:06.033	ID:1	"temperature":29
+03:06.191	ID:3	[SENSING] Temperature: 24
+03:06.217	ID:1	}`)?t3L)M~DEoa%a2{
+03:06.218	ID:1	"temperature":24
+03:06.549	ID:2	[COOLING] stopped
+03:06.566	ID:1	}`#?t3L#wdExT2{
+03:08.537	ID:2	[VENTILATION] stopped
+03:08.555	ID:1	"value":false}`#?t3L#udExU2{
+03:10.150	ID:2	[COOLING] started
+03:10.168	ID:1	"value":false}`"?t3L";GdExV2{
+03:10.528	ID:2	[SENSING] Temperature: 14
+03:10.553	ID:1	"value":true}`)?t3L)TE'a&a2{
+03:10.554	ID:1	"temperature":14
+03:10.640	ID:4	[SENSING] Temperature: 29
+03:10.665	ID:1	}`)?t3L)9TEa&a2{
+03:10.667	ID:1	"temperature":29
+03:11.007	ID:5	[SENSING] Temperature: 29
+03:11.032	ID:1	}`)?t3L)TE@a&a2{
+03:11.033	ID:1	"temperature":29
+03:11.191	ID:3	[SENSING] Temperature: 24
+03:11.216	ID:1	}`)?t3L)=|TEoa&a2{
+03:11.217	ID:1	"temperature":24
+03:12.513	ID:2	[VENTILATION] started
+03:12.531	ID:1	}`"?t3L";EdExW2{
+03:15.528	ID:2	[SENSING] Temperature: 14
+03:15.553	ID:1	"value":true}`)?t3L)TE'a'a2{
+03:15.554	ID:1	"temperature":14
+03:15.640	ID:4	[SENSING] Temperature: 29
+03:15.665	ID:1	}`)?t3L)7TEa'a2{
+03:15.667	ID:1	"temperature":29
+03:16.007	ID:5	[SENSING] Temperature: 29
+03:16.032	ID:1	}`)?t3L)TEAa'a2{
+03:16.033	ID:1	"temperature":29
+03:16.191	ID:3	[SENSING] Temperature: 24
+03:16.216	ID:1	}`)?t3L)=zTEoa'a2{
+03:16.217	ID:1	"temperature":24
+03:20.528	ID:2	[SENSING] Temperature: 14
+03:20.530	ID:2	[SIM] Temperature set to 12
+03:20.553	ID:1	}`)?t3L)TE'a(a2{
+03:20.554	ID:1	"temperature":12
+03:20.640	ID:4	[SENSING] Temperature: 29
+03:20.642	ID:4	[SIM] Temperature set to 29
+03:20.665	ID:1	}`)?t3L)5TEa(a2{
+03:20.667	ID:1	"temperature":29
+03:21.007	ID:5	[SENSING] Temperature: 29
+03:21.009	ID:5	[SIM] Temperature set to 29
+03:21.032	ID:1	}`)?t3L)TEBa(a2{
+03:21.033	ID:1	"temperature":29
+03:21.191	ID:3	[SENSING] Temperature: 24
+03:21.193	ID:3	[SIM] Temperature set to 24
+03:21.217	ID:1	}`)?t3L)=xTEoa(a2{
+03:21.218	ID:1	"temperature":24
+03:25.376	ID:2	[COOLING] stopped
+03:25.394	ID:1	}`#?t3L#odExX2{
+03:25.528	ID:2	[SENSING] Temperature: 12
+03:25.553	ID:1	"value":false}`)?t3L)TE'a)a2{
+03:25.554	ID:1	"temperature":12
+03:25.640	ID:4	[SENSING] Temperature: 29
+03:25.665	ID:1	}`)?t3L)3TEa)a2{
+03:25.667	ID:1	"temperature":29
+03:26.007	ID:5	[SENSING] Temperature: 29
+03:26.032	ID:1	}`)?t3L)TECa)a2{
+03:26.033	ID:1	"temperature":29
+03:26.191	ID:3	[SENSING] Temperature: 24
+03:26.216	ID:1	}`)?t3L)=vTEoa)a2{
+03:26.217	ID:1	"temperature":24
+03:28.239	ID:2	[COOLING] started
+03:28.257	ID:1	}`"?t3L";AdExY2{
+03:29.853	ID:2	[VENTILATION] stopped
+03:29.871	ID:1	"value":true}`#?t3L#kdExZ2{
+03:30.528	ID:2	[SENSING] Temperature: 12
+03:30.553	ID:1	"value":false}`)?t3L)TE'a*a2{
+03:30.554	ID:1	"temperature":12
+03:30.640	ID:4	[SENSING] Temperature: 29
+03:30.665	ID:1	}`)?t3L)1TEa*a2{
+03:30.667	ID:1	"temperature":29
+03:31.007	ID:5	[SENSING] Temperature: 29
+03:31.032	ID:1	}`)?t3L)TEDa*a2{
+03:31.033	ID:1	"temperature":29
+03:31.191	ID:3	[SENSING] Temperature: 24
+03:31.216	ID:1	}`)?t3L)=tTEoa*a2{
+03:31.217	ID:1	"temperature":24
+03:35.528	ID:2	[SENSING] Temperature: 12
+03:35.553	ID:1	}`)?t3L)TE'a+a2{
+03:35.554	ID:1	"temperature":12
+03:35.640	ID:4	[SENSING] Temperature: 29
+03:35.665	ID:1	}`)?t3L)/TEa+a2{
+03:35.667	ID:1	"temperature":29
+03:36.007	ID:5	[SENSING] Temperature: 29
+03:36.032	ID:1	}`)?t3L)TEEa+a2{
+03:36.033	ID:1	"temperature":29
+03:36.191	ID:3	[SENSING] Temperature: 24
+03:36.217	ID:1	}`)?t3L)=rTEoa+a2{
+03:36.218	ID:1	"temperature":24
+03:40.528	ID:2	[SENSING] Temperature: 12
+03:40.530	ID:2	[SIM] Temperature set to 11
+03:40.553	ID:1	}`)?t3L)TE'a,a2{
+03:40.554	ID:1	"temperature":11
+03:40.640	ID:4	[SENSING] Temperature: 29
+03:40.642	ID:4	[SIM] Temperature set to 29
+03:40.665	ID:1	}`)?t3L)-TEa,a2{
+03:40.667	ID:1	"temperature":29
+03:41.007	ID:5	[SENSING] Temperature: 29
+03:41.009	ID:5	[SIM] Temperature set to 29
+03:41.032	ID:1	}`)?t3L)TEFa,a2{
+03:41.033	ID:1	"temperature":29
+03:41.191	ID:3	[SENSING] Temperature: 24
+03:41.193	ID:3	[SIM] Temperature set to 24
+03:41.216	ID:1	}`)?t3L)=pTEoa,a2{
+03:41.217	ID:1	"temperature":24
+03:43.590	ID:2	[COOLING] stopped
+03:43.608	ID:1	}`#?t3L#idEx[2{
+03:45.528	ID:2	[SENSING] Temperature: 11
+03:45.553	ID:1	"value":false}`)?t3L)TE'a-a2{
+03:45.554	ID:1	"temperature":11
+03:45.640	ID:4	[SENSING] Temperature: 29
+03:45.665	ID:1	}`)?t3L)+TEa-a2{
+03:45.667	ID:1	"temperature":29
+03:46.007	ID:5	[SENSING] Temperature: 29
+03:46.032	ID:1	}`)?t3L)TEGa-a2{
+03:46.033	ID:1	"temperature":29
+03:46.191	ID:3	[SENSING] Temperature: 24
+03:46.216	ID:1	}`)?t3L)=nTEoa-a2{
+03:46.217	ID:1	"temperature":24
+03:50.528	ID:2	[SENSING] Temperature: 11
+03:50.553	ID:1	}`)?t3L)TE'a.a2{
+03:50.554	ID:1	"temperature":11
+03:50.640	ID:4	[SENSING] Temperature: 29
+03:50.665	ID:1	}`)?t3L))TE
+03:50.665	ID:1	a.a2{
+03:50.666	ID:1	"temperature":29
+03:51.007	ID:5	[SENSING] Temperature: 29
+03:51.032	ID:1	}`)?t3L)TEHa.a2{
+03:51.033	ID:1	"temperature":29
+03:51.191	ID:3	[SENSING] Temperature: 24
+03:51.217	ID:1	}`)?t3L)=lTEoa.a2{
+03:51.218	ID:1	"temperature":24
+03:55.528	ID:2	[SENSING] Temperature: 11
+03:55.553	ID:1	}`)?t3L)TE'a/a2{
+03:55.554	ID:1	"temperature":11
+03:55.640	ID:4	[SENSING] Temperature: 29
+03:55.665	ID:1	}`)?t3L)'TEa/a2{
+03:55.666	ID:1	"temperature":29
+03:56.007	ID:5	[SENSING] Temperature: 29
+03:56.032	ID:1	}`)?t3L)TEIa/a2{
+03:56.033	ID:1	"temperature":29
+03:56.191	ID:3	[SENSING] Temperature: 24
+03:56.216	ID:1	}`)?t3L)=jTEoa/a2{
+03:56.217	ID:1	"temperature":24
+04:00.528	ID:2	[SENSING] Temperature: 11
+04:00.530	ID:2	[SIM] Temperature set to 11
+04:00.553	ID:1	}`)?t3L)TE'a0a2{
+04:00.554	ID:1	"temperature":11
+04:00.640	ID:4	[SENSING] Temperature: 29
+04:00.642	ID:4	[SIM] Temperature set to 29
+04:00.665	ID:1	}`)?t3L)%TEa0a2{
+04:00.667	ID:1	"temperature":29
+04:01.007	ID:5	[SENSING] Temperature: 29
+04:01.009	ID:5	[SIM] Temperature set to 29
+04:01.032	ID:1	}`)?t3L)TEJa0a2{
+04:01.033	ID:1	"temperature":29
+04:01.191	ID:3	[SENSING] Temperature: 24
+04:01.193	ID:3	[SIM] Temperature set to 24
+04:01.216	ID:1	}`)?t3L)=hTEoa0a2{
+04:01.217	ID:1	"temperature":24
+04:05.528	ID:2	[SENSING] Temperature: 11
+04:05.553	ID:1	}`)?t3L)DE'a1a2{
+04:05.554	ID:1	"temperature":11
+04:05.640	ID:4	[SENSING] Temperature: 29
+04:05.666	ID:1	}`)?t3L)#DEa1a2{
+04:05.667	ID:1	"temperature":29
+04:06.007	ID:5	[SENSING] Temperature: 29
+04:06.032	ID:1	}`)?t3L)DEKa1a2{
+04:06.033	ID:1	"temperature":29
+04:06.191	ID:3	[SENSING] Temperature: 24
+04:06.217	ID:1	}`)?t3L)MfDEoa1a2{
+04:06.218	ID:1	"temperature":24
+04:10.528	ID:2	[SENSING] Temperature: 11
+04:10.553	ID:1	}`)?t3L)TE'a2a2{
+04:10.554	ID:1	"temperature":11
+04:10.640	ID:4	[SENSING] Temperature: 29
+04:10.665	ID:1	}`)?t3L)!TEa2a2{
+04:10.667	ID:1	"temperature":29
+04:11.007	ID:5	[SENSING] Temperature: 29
+04:11.032	ID:1	}`)?t3L)TELa2a2{
+04:11.033	ID:1	"temperature":29
+04:11.191	ID:3	[SENSING] Temperature: 24
+04:11.216	ID:1	}`)?t3L)=dTEoa2a2{
+04:11.217	ID:1	"temperature":24
+04:15.528	ID:2	[SENSING] Temperature: 11
+04:15.553	ID:1	}`)?t3L)TE'a3a2{
+04:15.554	ID:1	"temperature":11
+04:15.640	ID:4	[SENSING] Temperature: 29
+04:15.665	ID:1	}`)?t3L)TEa3a2{
+04:15.667	ID:1	"temperature":29
+04:16.007	ID:5	[SENSING] Temperature: 29
+04:16.032	ID:1	}`)?t3L)TEMa3a2{
+04:16.033	ID:1	"temperature":29
+04:16.191	ID:3	[SENSING] Temperature: 24
+04:16.216	ID:1	}`)?t3L)=bTEoa3a2{
+04:16.217	ID:1	"temperature":24
+04:20.528	ID:2	[SENSING] Temperature: 11
+04:20.530	ID:2	[SIM] Temperature set to 11
+04:20.553	ID:1	}`)?t3L)TE'a4a2{
+04:20.554	ID:1	"temperature":11
+04:20.640	ID:4	[SENSING] Temperature: 29
+04:20.642	ID:4	[SIM] Temperature set to 29
+04:20.665	ID:1	}`)?t3L)TEa4a2{
+04:20.667	ID:1	"temperature":29
+04:21.007	ID:5	[SENSING] Temperature: 29
+04:21.009	ID:5	[SIM] Temperature set to 29
+04:21.032	ID:1	}`)?t3L)TENa4a2{
+04:21.033	ID:1	"temperature":29
+04:21.061	ID:1	}slip-bridge: Destination off-link but no route src=aaaa::1 dst=aaaa::1aa:aa00:0
+04:21.134	ID:1	`L?t3LLCdExb2{
+04:21.135	ID:1	"cooling":false,
+04:21.136	ID:1	"heating":false,
+04:21.138	ID:1	"ventilation":false
+04:21.191	ID:3	[SENSING] Temperature: 24
+04:21.193	ID:3	[SIM] Temperature set to 24
+04:21.217	ID:1	}`)?t3L)=`TEoa4a2{
+04:21.218	ID:1	"temperature":24
+04:23.092	ID:1	}`L?t3LLFdEx\2{
+04:23.093	ID:1	"cooling":false,
+04:23.094	ID:1	"heating":false,
+04:23.095	ID:1	"ventilation":false
+04:23.524	ID:1	}`?t3L^dEx]`a2Added 1/3`L?t3LLEdEx^2{
+04:23.526	ID:1	"cooling":false,
+04:23.527	ID:1	"heating":false,
+04:23.528	ID:1	"ventilation":false
+04:23.649	ID:1	}`L?t3LLDdEx`2{
+04:23.650	ID:1	"cooling":false,
+04:23.651	ID:1	"heating":false,
+04:23.653	ID:1	"ventilation":false
+04:25.528	ID:2	[SENSING] Temperature: 11
+04:25.553	ID:1	}`?t3L]dEx_`a2Added 1/3`?t3L\dExa`a2Added 1/3`?t3L[dExc`a2Added 1/3`)?t3L)TE'a5a2{
+04:25.554	ID:1	"temperature":11
+04:25.640	ID:4	[SENSING] Temperature: 29
+04:25.665	ID:1	}`)?t3L)TEa5a2{
+04:25.667	ID:1	"temperature":29
+04:26.009	ID:5	[SENSING] Temperature: 29
+04:26.041	ID:1	}`)?t3L)TEOa5a2{
+04:26.042	ID:1	"temperature":29
+04:26.191	ID:3	[SENSING] Temperature: 24
+04:26.216	ID:1	}`)?t3L)=LTEoa5a2{
+04:26.218	ID:1	"temperature":24
+04:30.528	ID:2	[SENSING] Temperature: 11
+04:30.553	ID:1	}`)?t3L)TE'a6a2{
+04:30.554	ID:1	"temperature":11
+04:30.640	ID:4	[SENSING] Temperature: 29
+04:30.665	ID:1	}`)?t3L)TEa6a2{
+04:30.667	ID:1	"temperature":29
+04:31.007	ID:5	[SENSING] Temperature: 29
+04:31.032	ID:1	}`)?t3L)TEPa6a2{
+04:31.033	ID:1	"temperature":29
+04:31.191	ID:3	[SENSING] Temperature: 24
+04:31.216	ID:1	}`)?t3L)=JTEoa6a2{
+04:31.218	ID:1	"temperature":24
+04:35.528	ID:2	[SENSING] Temperature: 11
+04:35.553	ID:1	}`)?t3L)TE'a7a2{
+04:35.554	ID:1	"temperature":11
+04:35.640	ID:4	[SENSING] Temperature: 29
+04:35.665	ID:1	}`)?t3L)TEa7a2{
+04:35.667	ID:1	"temperature":29
+04:36.007	ID:5	[SENSING] Temperature: 29
+04:36.032	ID:1	}`)?t3L)TEQa7a2{
+04:36.033	ID:1	"temperature":29
+04:36.191	ID:3	[SENSING] Temperature: 24
+04:36.217	ID:1	}`)?t3L)=HTEoa7a2{
+04:36.218	ID:1	"temperature":24
+04:40.528	ID:2	[SENSING] Temperature: 11
+04:40.530	ID:2	[SIM] Temperature set to 11
+04:40.553	ID:1	}`)?t3L)TE'a8a2{
+04:40.554	ID:1	"temperature":11
+04:40.640	ID:4	[SENSING] Temperature: 29
+04:40.642	ID:4	[SIM] Temperature set to 29
+04:40.665	ID:1	}`)?t3L)TEa8a2{
+04:40.667	ID:1	"temperature":29
+04:41.007	ID:5	[SENSING] Temperature: 29
+04:41.009	ID:5	[SIM] Temperature set to 29
+04:41.032	ID:1	}`)?t3L)TERa8a2{
+04:41.033	ID:1	"temperature":29
+04:41.191	ID:3	[SENSING] Temperature: 24
+04:41.193	ID:3	[SIM] Temperature set to 24
+04:41.216	ID:1	}`)?t3L)=FTEoa8a2{
+04:41.217	ID:1	"temperature":24
+04:45.528	ID:2	[SENSING] Temperature: 11
+04:45.553	ID:1	}`)?t3L)TE'a9a2{
+04:45.554	ID:1	"temperature":11
+04:45.640	ID:4	[SENSING] Temperature: 29
+04:45.665	ID:1	}`)?t3L)TEa9a2{
+04:45.667	ID:1	"temperature":29
+04:46.007	ID:5	[SENSING] Temperature: 29
+04:46.032	ID:1	}`)?t3L)TESa9a2{
+04:46.033	ID:1	"temperature":29
+04:46.191	ID:3	[SENSING] Temperature: 24
+04:46.216	ID:1	}`)?t3L)=DTEoa9a2{
+04:46.217	ID:1	"temperature":24
+04:46.304	ID:2	[HEATING] started
+04:46.322	ID:1	}`"?t3L";+dExd2{
+04:50.528	ID:2	[SENSING] Temperature: 11
+04:50.553	ID:1	"value":true}`)?t3L)TE'a:a2{
+04:50.554	ID:1	"temperature":11
+04:50.640	ID:4	[SENSING] Temperature: 29
+04:50.665	ID:1	}`)?t3L)TEa:a2{
+04:50.667	ID:1	"temperature":29
+04:51.007	ID:5	[SENSING] Temperature: 29
+04:51.032	ID:1	}`)?t3L)TETa:a2{
+04:51.033	ID:1	"temperature":29
+04:51.191	ID:3	[SENSING] Temperature: 24
+04:51.217	ID:1	}`)?t3L)=BTEoa:a2{
+04:51.218	ID:1	"temperature":24
+04:55.528	ID:2	[SENSING] Temperature: 11
+04:55.553	ID:1	}`)?t3L)TE'a;a2{
+04:55.554	ID:1	"temperature":11
+04:55.640	ID:4	[SENSING] Temperature: 29
+04:55.665	ID:1	}`)?t3L)TEa;a2{
+04:55.667	ID:1	"temperature":29
+04:56.007	ID:5	[SENSING] Temperature: 29
+04:56.032	ID:1	}`)?t3L)TEUa;a2{
+04:56.033	ID:1	"temperature":29
+04:56.191	ID:3	[SENSING] Temperature: 24
+04:56.216	ID:1	}`)?t3L)=@TEoa;a2{
+04:56.217	ID:1	"temperature":24
+05:00.528	ID:2	[SENSING] Temperature: 11
+05:00.530	ID:2	[SIM] Temperature set to 12
+05:00.553	ID:1	}`)?t3L)TE'a<a2{
+05:00.554	ID:1	"temperature":12
+05:00.640	ID:4	[SENSING] Temperature: 29
+05:00.642	ID:4	[SIM] Temperature set to 29
+05:00.665	ID:1	}`)?t3L)TEa<a2{
+05:00.667	ID:1	"temperature":29
+05:01.007	ID:5	[SENSING] Temperature: 29
+05:01.009	ID:5	[SIM] Temperature set to 29
+05:01.032	ID:1	}`)?t3L)TEVa<a2{
+05:01.033	ID:1	"temperature":29
+05:01.191	ID:3	[SENSING] Temperature: 24
+05:01.193	ID:3	[SIM] Temperature set to 24
+05:01.216	ID:1	}`)?t3L)=>TEoa<a2{
+05:01.218	ID:1	"temperature":24
+05:05.292	ID:2	[HEATING] stopped
+05:05.310	ID:1	}`#?t3L#UdExe2{
+05:05.528	ID:2	[SENSING] Temperature: 12
+05:05.553	ID:1	"value":false}`)?t3L)TE'a=a2{
+05:05.554	ID:1	"temperature":12
+05:05.640	ID:4	[SENSING] Temperature: 29
+05:05.665	ID:1	}`)?t3L)TEa=a2{
+05:05.667	ID:1	"temperature":29
+05:06.007	ID:5	[SENSING] Temperature: 29
+05:06.032	ID:1	}`)?t3L)TEWa=a2{
+05:06.033	ID:1	"temperature":29
+05:06.191	ID:3	[SENSING] Temperature: 24
+05:06.217	ID:1	}`)?t3L)=<TEoa=a2{
+05:06.218	ID:1	"temperature":24
+05:06.530	ID:2	[HEATING] started
+05:06.548	ID:1	}`"?t3L";'dExf2{
+05:10.528	ID:2	[SENSING] Temperature: 12
+05:10.553	ID:1	"value":true}`)?t3L)}TE'a>a2{
+05:10.554	ID:1	"temperature":12
+05:10.640	ID:4	[SENSING] Temperature: 29
+05:10.665	ID:1	}`)?t3L)TEa>a2{
+05:10.667	ID:1	"temperature":29
+05:11.007	ID:5	[SENSING] Temperature: 29
+05:11.032	ID:1	}`)?t3L)TEXa>a2{
+05:11.033	ID:1	"temperature":29
+05:11.191	ID:3	[SENSING] Temperature: 24
+05:11.216	ID:1	}`)?t3L)=:TEoa>a2{
+05:11.217	ID:1	"temperature":24
+05:15.528	ID:2	[SENSING] Temperature: 12
+05:15.553	ID:1	}`)?t3L){TE'a?a2{
+05:15.554	ID:1	"temperature":12
+05:15.640	ID:4	[SENSING] Temperature: 29
+05:15.665	ID:1	}`)?t3L)TEa?a2{
+05:15.667	ID:1	"temperature":29
+05:16.007	ID:5	[SENSING] Temperature: 29
+05:16.032	ID:1	}`)?t3L)TEYa?a2{
+05:16.033	ID:1	"temperature":29
+05:16.191	ID:3	[SENSING] Temperature: 24
+05:16.216	ID:1	}`)?t3L)=8TEoa?a2{
+05:16.217	ID:1	"temperature":24
+05:20.528	ID:2	[SENSING] Temperature: 12
+05:20.530	ID:2	[SIM] Temperature set to 13
+05:20.553	ID:1	}`)?t3L)yTE'a@a2{
+05:20.554	ID:1	"temperature":13
+05:20.640	ID:4	[SENSING] Temperature: 29
+05:20.642	ID:4	[SIM] Temperature set to 29
+05:20.665	ID:1	}`)?t3L)TEa@a2{
+05:20.667	ID:1	"temperature":29
+05:21.007	ID:5	[SENSING] Temperature: 29
+05:21.009	ID:5	[SIM] Temperature set to 29
+05:21.032	ID:1	}`)?t3L)TEZa@a2{
+05:21.033	ID:1	"temperature":29
+05:21.191	ID:3	[SENSING] Temperature: 24
+05:21.193	ID:3	[SIM] Temperature set to 24
+05:21.217	ID:1	}`)?t3L)=6TEoa@a2{
+05:21.218	ID:1	"temperature":24
+05:25.528	ID:2	[SENSING] Temperature: 13
+05:25.553	ID:1	}`)?t3L)wDE'aAa2{
+05:25.554	ID:1	"temperature":13
+05:25.640	ID:4	[SENSING] Temperature: 29
+05:25.666	ID:1	}`)?t3L)DEaAa2{
+05:25.667	ID:1	"temperature":29
+05:26.007	ID:5	[SENSING] Temperature: 29
+05:26.032	ID:1	}`)?t3L)DE[aAa2{
+05:26.033	ID:1	"temperature":29
+05:26.191	ID:3	[SENSING] Temperature: 24
+05:26.217	ID:1	}`)?t3L)M4DEoaAa2{
+05:26.219	ID:1	"temperature":24
+05:30.528	ID:2	[SENSING] Temperature: 13
+05:30.553	ID:1	}`)?t3L)uTE'aBa2{
+05:30.554	ID:1	"temperature":13
+05:30.640	ID:4	[SENSING] Temperature: 29
+05:30.665	ID:1	}`)?t3L)TEaBa2{
+05:30.667	ID:1	"temperature":29
+05:31.007	ID:5	[SENSING] Temperature: 29
+05:31.032	ID:1	}`)?t3L)TE\aBa2{
+05:31.033	ID:1	"temperature":29
+05:31.191	ID:3	[SENSING] Temperature: 24
+05:31.216	ID:1	}`)?t3L)=2TEoaBa2{
+05:31.217	ID:1	"temperature":24
+05:35.528	ID:2	[SENSING] Temperature: 13
+05:35.553	ID:1	}`)?t3L)sTE'aCa2{
+05:35.554	ID:1	"temperature":13
+05:35.640	ID:4	[SENSING] Temperature: 29
+05:35.665	ID:1	}`)?t3L)TEaCa2{
+05:35.667	ID:1	"temperature":29
+05:36.007	ID:5	[SENSING] Temperature: 29
+05:36.032	ID:1	}`)?t3L)TE]aCa2{
+05:36.033	ID:1	"temperature":29
+05:36.191	ID:3	[SENSING] Temperature: 24
+05:36.217	ID:1	}`)?t3L)=0TEoaCa2{
+05:36.218	ID:1	"temperature":24
+05:40.528	ID:2	[SENSING] Temperature: 13
+05:40.530	ID:2	[SIM] Temperature set to 14
+05:40.553	ID:1	}`)?t3L)qTE'aDa2{
+05:40.554	ID:1	"temperature":14
+05:40.640	ID:4	[SENSING] Temperature: 29
+05:40.642	ID:4	[SIM] Temperature set to 29
+05:40.665	ID:1	}`)?t3L)TE aDa2{
+05:40.667	ID:1	"temperature":29
+05:41.007	ID:5	[SENSING] Temperature: 29
+05:41.009	ID:5	[SIM] Temperature set to 29
+05:41.032	ID:1	}`)?t3L)TE^aDa2{
+05:41.033	ID:1	"temperature":29
+05:41.191	ID:3	[SENSING] Temperature: 24
+05:41.193	ID:3	[SIM] Temperature set to 24
+05:41.216	ID:1	}`)?t3L)=.TEoaDa2{
+05:41.217	ID:1	"temperature":24
+05:45.528	ID:2	[SENSING] Temperature: 14
+05:45.553	ID:1	}`)?t3L)oTE'aEa2{
+05:45.554	ID:1	"temperature":14
+05:45.640	ID:4	[SENSING] Temperature: 29
+05:45.665	ID:1	}`)?t3L)TE!aEa2{
+05:45.667	ID:1	"temperature":29
+05:46.007	ID:5	[SENSING] Temperature: 29
+05:46.032	ID:1	}`)?t3L)TE_aEa2{
+05:46.033	ID:1	"temperature":29
+05:46.191	ID:3	[SENSING] Temperature: 24
+05:46.216	ID:1	}`)?t3L)=,TEoaEa2{
+05:46.217	ID:1	"temperature":24
+05:50.528	ID:2	[SENSING] Temperature: 14
+05:50.553	ID:1	}`)?t3L)mTE'aFa2{
+05:50.554	ID:1	"temperature":14
+05:50.640	ID:4	[SENSING] Temperature: 29
+05:50.665	ID:1	}`)?t3L)TE"aFa2{
+05:50.667	ID:1	"temperature":29
+05:51.007	ID:5	[SENSING] Temperature: 29
+05:51.032	ID:1	}`)?t3L)TE`aFa2{
+05:51.033	ID:1	"temperature":29
+05:51.191	ID:3	[SENSING] Temperature: 24
+05:51.217	ID:1	}`)?t3L)=*TEoaFa2{
+05:51.218	ID:1	"temperature":24
+05:55.528	ID:2	[SENSING] Temperature: 14
+05:55.553	ID:1	}`)?t3L)kTE'aGa2{
+05:55.554	ID:1	"temperature":14
+05:55.640	ID:4	[SENSING] Temperature: 29
+05:55.665	ID:1	}`)?t3L)TE#aGa2{
+05:55.667	ID:1	"temperature":29
+05:56.007	ID:5	[SENSING] Temperature: 29
+05:56.032	ID:1	}`)?t3L)TEaaGa2{
+05:56.033	ID:1	"temperature":29
+05:56.191	ID:3	[SENSING] Temperature: 24
+05:56.216	ID:1	}`)?t3L)=(TEoaGa2{
+05:56.217	ID:1	"temperature":24
+06:00.528	ID:2	[SENSING] Temperature: 14
+06:00.530	ID:2	[SIM] Temperature set to 15
+06:00.553	ID:1	}`)?t3L)iTE'aHa2{
+06:00.554	ID:1	"temperature":15
+06:00.640	ID:4	[SENSING] Temperature: 29
+06:00.642	ID:4	[SIM] Temperature set to 29
+06:00.665	ID:1	}`)?t3L)TE$aHa2{
+06:00.667	ID:1	"temperature":29
+06:01.007	ID:5	[SENSING] Temperature: 29
+06:01.009	ID:5	[SIM] Temperature set to 29
+06:01.032	ID:1	}`)?t3L)TEbaHa2{
+06:01.033	ID:1	"temperature":29
+06:01.191	ID:3	[SENSING] Temperature: 24
+06:01.193	ID:3	[SIM] Temperature set to 24
+06:01.216	ID:1	}`)?t3L)=&TEoaHa2{
+06:01.217	ID:1	"temperature":24
+06:05.528	ID:2	[SENSING] Temperature: 15
+06:05.553	ID:1	}`)?t3L)gTE'aIa2{
+06:05.554	ID:1	"temperature":15
+06:05.640	ID:4	[SENSING] Temperature: 29
+06:05.665	ID:1	}`)?t3L)TE%aIa2{
+06:05.667	ID:1	"temperature":29
+06:06.007	ID:5	[SENSING] Temperature: 29
+06:06.032	ID:1	}`)?t3L)TEcaIa2{
+06:06.033	ID:1	"temperature":29
+06:06.191	ID:3	[SENSING] Temperature: 24
+06:06.217	ID:1	}`)?t3L)=$TEoaIa2{
+06:06.218	ID:1	"temperature":24
+06:10.528	ID:2	[SENSING] Temperature: 15
+06:10.553	ID:1	}`)?t3L)eTE'aJa2{
+06:10.554	ID:1	"temperature":15
+06:10.640	ID:4	[SENSING] Temperature: 29
+06:10.665	ID:1	}`)?t3L)TE&aJa2{
+06:10.667	ID:1	"temperature":29
+06:11.007	ID:5	[SENSING] Temperature: 29
+06:11.032	ID:1	}`)?t3L)TEdaJa2{
+06:11.033	ID:1	"temperature":29
+06:11.191	ID:3	[SENSING] Temperature: 24
+06:11.216	ID:1	}`)?t3L)="TEoaJa2{
+06:11.217	ID:1	"temperature":24
+06:15.528	ID:2	[SENSING] Temperature: 15
+06:15.553	ID:1	}`)?t3L)cTE'aKa2{
+06:15.554	ID:1	"temperature":15
+06:15.640	ID:4	[SENSING] Temperature: 29
+06:15.665	ID:1	}`)?t3L)TE'aKa2{
+06:15.667	ID:1	"temperature":29
+06:16.007	ID:5	[SENSING] Temperature: 29
+06:16.032	ID:1	}`)?t3L)TEeaKa2{
+06:16.033	ID:1	"temperature":29
+06:16.191	ID:3	[SENSING] Temperature: 24
+06:16.216	ID:1	}`)?t3L)= TEoaKa2{
+06:16.217	ID:1	"temperature":24
+06:20.528	ID:2	[SENSING] Temperature: 15
+06:20.530	ID:2	[SIM] Temperature set to 16
+06:20.553	ID:1	}`)?t3L)aTE'aLa2{
+06:20.554	ID:1	"temperature":16
+06:20.640	ID:4	[SENSING] Temperature: 29
+06:20.642	ID:4	[SIM] Temperature set to 29
+06:20.666	ID:1	}`)?t3L)TE(aLa2{
+06:20.667	ID:1	"temperature":29
+06:21.007	ID:5	[SENSING] Temperature: 29
+06:21.009	ID:5	[SIM] Temperature set to 29
+06:21.032	ID:1	}`)?t3L)TEfaLa2{
+06:21.033	ID:1	"temperature":29
+06:21.191	ID:3	[SENSING] Temperature: 24
+06:21.193	ID:3	[SIM] Temperature set to 24
+06:21.217	ID:1	}`)?t3L)=TEoaLa2{
+06:21.218	ID:1	"temperature":24
+06:23.644	ID:1	}slip-bridge: Destination off-link but no route src=aaaa::1 dst=aa73:7465:6d73:1100:212:7402:2:202
+06:23.661	ID:1	`K?t3LK,dExg
+06:23.661	ID:1	2{
+06:23.663	ID:1	"cooling":false,
+06:23.664	ID:1	"heating":true,
+06:23.665	ID:1	"ventilation":false
+06:25.528	ID:2	[SENSING] Temperature: 16
+06:25.553	ID:1	}`?t3L[dExn`a2Added 1/3`)?t3L)_DE'aMa2{
+06:25.554	ID:1	"temperature":16
+06:25.640	ID:4	[SENSING] Temperature: 29
+06:25.666	ID:1	}`)?t3L)DE)aMa2{
+06:25.667	ID:1	"temperature":29
+06:25.831	ID:1	}`?t3L]dExj`a2Added 1/3`L?t3LLCtdExm2{
+06:25.833	ID:1	"cooling":false,
+06:25.834	ID:1	"heating":false,
+06:25.835	ID:1	"ventilation":false
+06:25.977	ID:1	}`L?t3LLEdExi2{
+06:25.978	ID:1	"cooling":false,
+06:25.979	ID:1	"heating":false,
+06:25.980	ID:1	"ventilation":false
+06:26.007	ID:5	[SENSING] Temperature: 29
+06:26.032	ID:1	}`)?t3L)TEgaMa2{
+06:26.033	ID:1	"temperature":29
+06:26.121	ID:1	}`L?t3LLD{dExk2{
+06:26.122	ID:1	"cooling":false,
+06:26.123	ID:1	"heating":false,
+06:26.124	ID:1	"ventilation":false
+06:26.191	ID:3	[SENSING] Temperature: 24
+06:26.216	ID:1	}`?t3L\dExl`a2Added 1/3`)?t3L)=TEoaMa2{
+06:26.217	ID:1	"temperature":24
+06:30.528	ID:2	[SENSING] Temperature: 16
+06:30.553	ID:1	}`?t3L^dExh`a2Added 1/3`)?t3L)RTE'aNa2{
+06:30.554	ID:1	"temperature":16
+06:30.640	ID:4	[SENSING] Temperature: 29
+06:30.665	ID:1	}`)?t3L)TE*aNa2{
+06:30.667	ID:1	"temperature":29
+06:31.007	ID:5	[SENSING] Temperature: 29
+06:31.032	ID:1	}`)?t3L)TEhaNa2{
+06:31.033	ID:1	"temperature":29
+06:31.191	ID:3	[SENSING] Temperature: 24
+06:31.216	ID:1	}`)?t3L)=TEoaNa2{
+06:31.217	ID:1	"temperature":24
+06:35.528	ID:2	[SENSING] Temperature: 16
+06:35.553	ID:1	}`)?t3L)PTE'aOa2{
+06:35.554	ID:1	"temperature":16
+06:35.640	ID:4	[SENSING] Temperature: 29
+06:35.665	ID:1	}`)?t3L)TE+aOa2{
+06:35.667	ID:1	"temperature":29
+06:36.007	ID:5	[SENSING] Temperature: 29
+06:36.032	ID:1	}`)?t3L)TEiaOa2{
+06:36.033	ID:1	"temperature":29
+06:36.191	ID:3	[SENSING] Temperature: 24
+06:36.217	ID:1	}`)?t3L)=TEoaOa2{
+06:36.218	ID:1	"temperature":24
+06:40.528	ID:2	[SENSING] Temperature: 16
+06:40.530	ID:2	[SIM] Temperature set to 17
+06:40.553	ID:1	}`)?t3L)NTE'aPa2{
+06:40.554	ID:1	"temperature":17
+06:40.640	ID:4	[SENSING] Temperature: 29
+06:40.642	ID:4	[SIM] Temperature set to 29
+06:40.665	ID:1	}`)?t3L)TE,aPa2{
+06:40.667	ID:1	"temperature":29
+06:41.007	ID:5	[SENSING] Temperature: 29
+06:41.009	ID:5	[SIM] Temperature set to 29
+06:41.032	ID:1	}`)?t3L)TEjaPa2{
+06:41.033	ID:1	"temperature":29
+06:41.191	ID:3	[SENSING] Temperature: 24
+06:41.193	ID:3	[SIM] Temperature set to 24
+06:41.216	ID:1	}`)?t3L)=TEoaPa2{
+06:41.217	ID:1	"temperature":24
+06:45.528	ID:2	[SENSING] Temperature: 17
+06:45.553	ID:1	}`)?t3L)LTE'aQa2{
+06:45.554	ID:1	"temperature":17
+06:45.640	ID:4	[SENSING] Temperature: 29
+06:45.665	ID:1	}`)?t3L)TE-aQa2{
+06:45.667	ID:1	"temperature":29
+06:46.007	ID:5	[SENSING] Temperature: 29
+06:46.032	ID:1	}`)?t3L)TEkaQa2{
+06:46.033	ID:1	"temperature":29
+06:46.191	ID:3	[SENSING] Temperature: 24
+06:46.216	ID:1	}`)?t3L)=TEoaQa2{
+06:46.217	ID:1	"temperature":24
+06:50.528	ID:2	[SENSING] Temperature: 17
+06:50.553	ID:1	}`)?t3L)JTE'aRa2{
+06:50.554	ID:1	"temperature":17
+06:50.640	ID:4	[SENSING] Temperature: 29
+06:50.665	ID:1	}`)?t3L)TE.aRa2{
+06:50.667	ID:1	"temperature":29
+06:51.007	ID:5	[SENSING] Temperature: 29
+06:51.032	ID:1	}`)?t3L)TElaRa2{
+06:51.033	ID:1	"temperature":29
+06:51.191	ID:3	[SENSING] Temperature: 24
+06:51.217	ID:1	}`)?t3L)=TEoaRa2{
+06:51.218	ID:1	"temperature":24
+06:55.528	ID:2	[SENSING] Temperature: 17
+06:55.553	ID:1	}`)?t3L)HTE'aSa2{
+06:55.554	ID:1	"temperature":17
+06:55.640	ID:4	[SENSING] Temperature: 29
+06:55.665	ID:1	}`)?t3L)TE/aSa2{
+06:55.667	ID:1	"temperature":29
+06:56.007	ID:5	[SENSING] Temperature: 29
+06:56.032	ID:1	}`)?t3L)TEmaSa2{
+06:56.033	ID:1	"temperature":29
+06:56.191	ID:3	[SENSING] Temperature: 24
+06:56.216	ID:1	}`)?t3L)=TEoaSa2{
+06:56.217	ID:1	"temperature":24
+07:00.528	ID:2	[SENSING] Temperature: 17
+07:00.530	ID:2	[SIM] Temperature set to 18
+07:00.553	ID:1	}`)?t3L)FTE'aTa2{
+07:00.554	ID:1	"temperature":18
+07:00.640	ID:4	[SENSING] Temperature: 29
+07:00.642	ID:4	[SIM] Temperature set to 29
+07:00.666	ID:1	}`)?t3L)TE0aTa2{
+07:00.667	ID:1	"temperature":29
+07:01.007	ID:5	[SENSING] Temperature: 29
+07:01.009	ID:5	[SIM] Temperature set to 29
+07:01.032	ID:1	}`)?t3L)~TEnaTa2{
+07:01.033	ID:1	"temperature":29
+07:01.191	ID:3	[SENSING] Temperature: 24
+07:01.193	ID:3	[SIM] Temperature set to 24
+07:01.216	ID:1	}`)?t3L)=TEoaTa2{
+07:01.217	ID:1	"temperature":24
+07:05.528	ID:2	[SENSING] Temperature: 18
+07:05.553	ID:1	}`)?t3L)DTE'aUa2{
+07:05.554	ID:1	"temperature":18
+07:05.640	ID:4	[SENSING] Temperature: 29
+07:05.665	ID:1	}`)?t3L)TE1aUa2{
+07:05.667	ID:1	"temperature":29
+07:06.007	ID:5	[SENSING] Temperature: 29
+07:06.032	ID:1	}`)?t3L)|TEoaUa2{
+07:06.033	ID:1	"temperature":29
+07:06.191	ID:3	[SENSING] Temperature: 24
+07:06.217	ID:1	}`)?t3L)=TEoaUa2{
+07:06.218	ID:1	"temperature":24
+07:10.528	ID:2	[SENSING] Temperature: 18
+07:10.553	ID:1	}`)?t3L)BTE'aVa2{
+07:10.554	ID:1	"temperature":18
+07:10.640	ID:4	[SENSING] Temperature: 29
+07:10.665	ID:1	}`)?t3L)TE2aVa2{
+07:10.667	ID:1	"temperature":29
+07:11.007	ID:5	[SENSING] Temperature: 29
+07:11.032	ID:1	}`)?t3L)zTEpaVa2{
+07:11.033	ID:1	"temperature":29
+07:11.191	ID:3	[SENSING] Temperature: 24
+07:11.216	ID:1	}`)?t3L)<TEoaVa2{
+07:11.217	ID:1	"temperature":24
+07:15.528	ID:2	[SENSING] Temperature: 18
+07:15.553	ID:1	}`)?t3L)@TE'aWa2{
+07:15.554	ID:1	"temperature":18
+07:15.640	ID:4	[SENSING] Temperature: 29
+07:15.665	ID:1	}`)?t3L)TE3aWa2{
+07:15.667	ID:1	"temperature":29
+07:16.007	ID:5	[SENSING] Temperature: 29
+07:16.032	ID:1	}`)?t3L)xTEqaWa2{
+07:16.033	ID:1	"temperature":29
+07:16.191	ID:3	[SENSING] Temperature: 24
+07:16.216	ID:1	}`)?t3L)<TEoaWa2{
+07:16.217	ID:1	"temperature":24
+07:20.528	ID:2	[SENSING] Temperature: 18
+07:20.530	ID:2	[SIM] Temperature set to 19
+07:20.553	ID:1	}`)?t3L)>TE'aXa2{
+07:20.554	ID:1	"temperature":19
+07:20.640	ID:4	[SENSING] Temperature: 29
+07:20.642	ID:4	[SIM] Temperature set to 29
+07:20.665	ID:1	}`)?t3L)TE4aXa2{
+07:20.667	ID:1	"temperature":29
+07:21.007	ID:5	[SENSING] Temperature: 29
+07:21.009	ID:5	[SIM] Temperature set to 29
+07:21.032	ID:1	}`)?t3L)vTEraXa2{
+07:21.033	ID:1	"temperature":29
+07:21.191	ID:3	[SENSING] Temperature: 24
+07:21.193	ID:3	[SIM] Temperature set to 24
+07:21.217	ID:1	}`)?t3L)<TEoaXa2{
+07:21.218	ID:1	"temperature":24
+07:25.528	ID:2	[SENSING] Temperature: 19
+07:25.553	ID:1	}`)?t3L)<TE'aYa2{
+07:25.554	ID:1	"temperature":19
+07:25.640	ID:4	[SENSING] Temperature: 29
+07:25.666	ID:1	}`)?t3L)DE5aYa2{
+07:25.667	ID:1	"temperature":29
+07:26.007	ID:5	[SENSING] Temperature: 29
+07:26.032	ID:1	}`)?t3L)tDEsaYa2{
+07:26.033	ID:1	"temperature":29
+07:26.191	ID:3	[SENSING] Temperature: 24
+07:26.217	ID:1	}`)?t3L)LDEoaYa2{
+07:26.218	ID:1	"temperature":24
+07:30.528	ID:2	[SENSING] Temperature: 19
+07:30.553	ID:1	}`)?t3L):DE'aZa2{
+07:30.554	ID:1	"temperature":19
+07:30.640	ID:4	[SENSING] Temperature: 29
+07:30.665	ID:1	}`)?t3L)TE6aZa2{
+07:30.667	ID:1	"temperature":29
+07:31.007	ID:5	[SENSING] Temperature: 29
+07:31.032	ID:1	}`)?t3L)rTEtaZa2{
+07:31.033	ID:1	"temperature":29
+07:31.191	ID:3	[SENSING] Temperature: 24
+07:31.216	ID:1	}`)?t3L)<TEoaZa2{
+07:31.217	ID:1	"temperature":24
+07:35.528	ID:2	[SENSING] Temperature: 19
+07:35.553	ID:1	}`)?t3L)8TE'a[a2{
+07:35.554	ID:1	"temperature":19
+07:35.640	ID:4	[SENSING] Temperature: 29
+07:35.665	ID:1	}`)?t3L)TE7a[a2{
+07:35.667	ID:1	"temperature":29
+07:36.007	ID:5	[SENSING] Temperature: 29
+07:36.032	ID:1	}`)?t3L)pTEua[a2{
+07:36.033	ID:1	"temperature":29
+07:36.191	ID:3	[SENSING] Temperature: 24
+07:36.217	ID:1	}`)?t3L)<TEoa[a2{
+07:36.218	ID:1	"temperature":24
+07:40.528	ID:2	[SENSING] Temperature: 19
+07:40.530	ID:2	[SIM] Temperature set to 20
+07:40.553	ID:1	}`)?t3L)5TE'a\a2{
+07:40.554	ID:1	"temperature":20
+07:40.640	ID:4	[SENSING] Temperature: 29
+07:40.642	ID:4	[SIM] Temperature set to 29
+07:40.665	ID:1	}`)?t3L)TE8a\a2{
+07:40.667	ID:1	"temperature":29
+07:41.007	ID:5	[SENSING] Temperature: 29
+07:41.009	ID:5	[SIM] Temperature set to 29
+07:41.032	ID:1	}`)?t3L)nTEva\a2{
+07:41.033	ID:1	"temperature":29
+07:41.191	ID:3	[SENSING] Temperature: 24
+07:41.193	ID:3	[SIM] Temperature set to 24
+07:41.216	ID:1	}`)?t3L)<TEoa\a2{
+07:41.217	ID:1	"temperature":24
+07:45.528	ID:2	[SENSING] Temperature: 20
+07:45.553	ID:1	}`)?t3L)3TE'a]a2{
+07:45.554	ID:1	"temperature":20
+07:45.640	ID:4	[SENSING] Temperature: 29
+07:45.665	ID:1	}`)?t3L)TE9a]a2{
+07:45.666	ID:1	"temperature":29
+07:46.007	ID:5	[SENSING] Temperature: 29
+07:46.032	ID:1	}`)?t3L)lTEwa]a2{
+07:46.033	ID:1	"temperature":29
+07:46.191	ID:3	[SENSING] Temperature: 24
+07:46.216	ID:1	}`)?t3L)<TEoa]a2{
+07:46.217	ID:1	"temperature":24
+07:50.528	ID:2	[SENSING] Temperature: 20
+07:50.553	ID:1	}`)?t3L)1TE'a^a2{
+07:50.554	ID:1	"temperature":20
+07:50.640	ID:4	[SENSING] Temperature: 29
+07:50.665	ID:1	}`)?t3L)TE:a^a2{
+07:50.666	ID:1	"temperature":29
+07:51.007	ID:5	[SENSING] Temperature: 29
+07:51.032	ID:1	}`)?t3L)jTExa^a2{
+07:51.033	ID:1	"temperature":29
+07:51.191	ID:3	[SENSING] Temperature: 24
+07:51.217	ID:1	}`)?t3L)<TEoa^a2{
+07:51.218	ID:1	"temperature":24
+07:55.528	ID:2	[SENSING] Temperature: 20
+07:55.553	ID:1	}`)?t3L)/TE'a_a2{
+07:55.554	ID:1	"temperature":20
+07:55.640	ID:4	[SENSING] Temperature: 29
+07:55.665	ID:1	}`)?t3L)TE;a_a2{
+07:55.666	ID:1	"temperature":29
+07:56.007	ID:5	[SENSING] Temperature: 29
+07:56.032	ID:1	}`)?t3L)hTEya_a2{
+07:56.033	ID:1	"temperature":29
+07:56.191	ID:3	[SENSING] Temperature: 24
+07:56.216	ID:1	}`)?t3L)<TEoa_a2{
+07:56.217	ID:1	"temperature":24
+08:00.528	ID:2	[SENSING] Temperature: 20
+08:00.530	ID:2	[SIM] Temperature set to 21
+08:00.553	ID:1	}`)?t3L)-TE'a`a2{
+08:00.554	ID:1	"temperature":21
+08:00.640	ID:4	[SENSING] Temperature: 29
+08:00.642	ID:4	[SIM] Temperature set to 29
+08:00.665	ID:1	}`)?t3L)TE<a`a2{
+08:00.667	ID:1	"temperature":29
+08:01.007	ID:5	[SENSING] Temperature: 29
+08:01.009	ID:5	[SIM] Temperature set to 29
+08:01.032	ID:1	}`)?t3L)fTEza`a2{
+08:01.033	ID:1	"temperature":29
+08:01.191	ID:3	[SENSING] Temperature: 24
+08:01.193	ID:3	[SIM] Temperature set to 24
+08:01.216	ID:1	}`)?t3L)<TEoa`a2{
+08:01.217	ID:1	"temperature":24
+08:05.528	ID:2	[SENSING] Temperature: 21
+08:05.553	ID:1	}`)?t3L)+TE'aaa2{
+08:05.554	ID:1	"temperature":21
+08:05.640	ID:4	[SENSING] Temperature: 29
+08:05.665	ID:1	}`)?t3L)TE=aaa2{
+08:05.666	ID:1	"temperature":29
+08:06.007	ID:5	[SENSING] Temperature: 29
+08:06.032	ID:1	}`)?t3L)dTE{aaa2{
+08:06.033	ID:1	"temperature":29
+08:06.191	ID:3	[SENSING] Temperature: 24
+08:06.217	ID:1	}`)?t3L)<TEpaaa2{
+08:06.218	ID:1	"temperature":24
+08:10.528	ID:2	[SENSING] Temperature: 21
+08:10.553	ID:1	}`)?t3L))TE'aba2{
+08:10.554	ID:1	"temperature":21
+08:10.640	ID:4	[SENSING] Temperature: 29
+08:10.665	ID:1	}`)?t3L)TE>aba2{
+08:10.666	ID:1	"temperature":29
+08:11.007	ID:5	[SENSING] Temperature: 29
+08:11.032	ID:1	}`)?t3L)bTE|aba2{
+08:11.033	ID:1	"temperature":29
+08:11.191	ID:3	[SENSING] Temperature: 24
+08:11.216	ID:1	}`)?t3L)<TEpaba2{
+08:11.217	ID:1	"temperature":24
+08:15.528	ID:2	[SENSING] Temperature: 21
+08:15.553	ID:1	}`)?t3L)'TE'aca2{
+08:15.554	ID:1	"temperature":21
+08:15.640	ID:4	[SENSING] Temperature: 29
+08:15.665	ID:1	}`)?t3L)TE?aca2{
+08:15.666	ID:1	"temperature":29
+08:16.007	ID:5	[SENSING] Temperature: 29
+08:16.032	ID:1	}`)?t3L)`TE}aca2{
+08:16.033	ID:1	"temperature":29
+08:16.191	ID:3	[SENSING] Temperature: 24
+08:16.216	ID:1	}`)?t3L)<TEpaca2{
+08:16.217	ID:1	"temperature":24
+08:16.964	ID:1	}`L?t3LLDkdExs2{
+08:16.965	ID:1	"cooling":false,
+08:16.966	ID:1	"heating":false,
+08:16.968	ID:1	"ventilation":false
+08:18.858	ID:1	}`K?t3LKdExo2{
+08:18.859	ID:1	"cooling":false,
+08:18.860	ID:1	"heating":true,
+08:18.861	ID:1	"ventilation":false
+08:19.083	ID:1	}`L?t3LLErdExq2{
+08:19.084	ID:1	"cooling":false,
+08:19.086	ID:1	"heating":false,
+08:19.087	ID:1	"ventilation":false
+08:19.310	ID:1	}`L?t3LLCddExu2{
+08:19.312	ID:1	"cooling":false,
+08:19.313	ID:1	"heating":false,
+08:19.314	ID:1	"ventilation":false
+08:20.528	ID:2	[SENSING] Temperature: 21
+08:20.530	ID:2	[SIM] Temperature set to 22
+08:20.553	ID:1	}`?t3L[dExv`a2Added 1/3`?t3L]dExr`a2Added 1/3`?t3L^dExp`a2Added 1/3`)?t3L)TE'ada2{
+08:20.554	ID:1	"temperature":22
+08:20.640	ID:4	[SENSING] Temperature: 29
+08:20.642	ID:4	[SIM] Temperature set to 29
+08:20.665	ID:1	}`)?t3L)TE@ada2{
+08:20.667	ID:1	"temperature":29
+08:21.007	ID:5	[SENSING] Temperature: 29
+08:21.009	ID:5	[SIM] Temperature set to 29
+08:21.032	ID:1	}`)?t3L)VTE~ada2{
+08:21.033	ID:1	"temperature":29
+08:21.191	ID:3	[SENSING] Temperature: 24
+08:21.193	ID:3	[SIM] Temperature set to 24
+08:21.217	ID:1	}`)?t3L)<TEpada2{
+08:21.218	ID:1	"temperature":24
+08:25.528	ID:2	[SENSING] Temperature: 22
+08:25.553	ID:1	}`?t3L\dExt`a2Added 1/3`)?t3L)TE'aea2{
+08:25.554	ID:1	"temperature":22
+08:25.640	ID:4	[SENSING] Temperature: 29
+08:25.665	ID:1	}`)?t3L)TEAaea2{
+08:25.667	ID:1	"temperature":29
+08:26.007	ID:5	[SENSING] Temperature: 29
+08:26.032	ID:1	}`)?t3L)TTEaea2{
+08:26.033	ID:1	"temperature":29
+08:26.191	ID:3	[SENSING] Temperature: 24
+08:26.216	ID:1	}`)?t3L)<TEpaea2{
+08:26.217	ID:1	"temperature":24
+08:30.528	ID:2	[SENSING] Temperature: 22
+08:30.553	ID:1	}`)?t3L)TE'afa2{
+08:30.554	ID:1	"temperature":22
+08:30.640	ID:4	[SENSING] Temperature: 29
+08:30.665	ID:1	}`)?t3L)TEBafa2{
+08:30.667	ID:1	"temperature":29
+08:31.007	ID:5	[SENSING] Temperature: 29
+08:31.032	ID:1	}`)?t3L)RTEafa2{
+08:31.033	ID:1	"temperature":29
+08:31.191	ID:3	[SENSING] Temperature: 24
+08:31.216	ID:1	}`)?t3L)<TEpafa2{
+08:31.217	ID:1	"temperature":24
+08:31.810	ID:2	[HEATING] stopped
+08:31.828	ID:1	}`#?t3L#1dExw2{
+08:35.528	ID:2	[SENSING] Temperature: 22
+08:35.553	ID:1	"value":false}`)?t3L)TE'aga2{
+08:35.554	ID:1	"temperature":22
+08:35.640	ID:4	[SENSING] Temperature: 29
+08:35.665	ID:1	}`)?t3L)TECaga2{
+08:35.667	ID:1	"temperature":29
+08:36.007	ID:5	[SENSING] Temperature: 29
+08:36.032	ID:1	}`)?t3L)PTEaga2{
+08:36.033	ID:1	"temperature":29
+08:36.191	ID:3	[SENSING] Temperature: 24
+08:36.217	ID:1	}`)?t3L)<TEpaga2{
+08:36.218	ID:1	"temperature":24
+08:40.528	ID:2	[SENSING] Temperature: 22
+08:40.530	ID:2	[SIM] Temperature set to 22
+08:40.553	ID:1	}`)?t3L)TE'aha2{
+08:40.554	ID:1	"temperature":22
+08:40.640	ID:4	[SENSING] Temperature: 29
+08:40.642	ID:4	[SIM] Temperature set to 29
+08:40.665	ID:1	}`)?t3L)TEDaha2{
+08:40.667	ID:1	"temperature":29
+08:41.007	ID:5	[SENSING] Temperature: 29
+08:41.009	ID:5	[SIM] Temperature set to 29
+08:41.032	ID:1	}`)?t3L)NTEaha2{
+08:41.033	ID:1	"temperature":29
+08:41.191	ID:3	[SENSING] Temperature: 24
+08:41.193	ID:3	[SIM] Temperature set to 24
+08:41.216	ID:1	}`)?t3L)<TEpaha2{
+08:41.217	ID:1	"temperature":24
+08:45.528	ID:2	[SENSING] Temperature: 22
+08:45.553	ID:1	}`)?t3L)TE'aia2{
+08:45.554	ID:1	"temperature":22
+08:45.640	ID:4	[SENSING] Temperature: 29
+08:45.666	ID:1	}`)?t3L)TEEaia2{
+08:45.667	ID:1	"temperature":29
+08:46.007	ID:5	[SENSING] Temperature: 29
+08:46.032	ID:1	}`)?t3L)LTEaia2{
+08:46.033	ID:1	"temperature":29
+08:46.191	ID:3	[SENSING] Temperature: 24
+08:46.216	ID:1	}`)?t3L)<TEpaia2{
+08:46.218	ID:1	"temperature":24
+08:50.528	ID:2	[SENSING] Temperature: 22
+08:50.553	ID:1	}`)?t3L)TE'aja2{
+08:50.554	ID:1	"temperature":22
+08:50.640	ID:4	[SENSING] Temperature: 29
+08:50.665	ID:1	}`)?t3L)TEFaja2{
+08:50.667	ID:1	"temperature":29
+08:51.007	ID:5	[SENSING] Temperature: 29
+08:51.032	ID:1	}`)?t3L)JTEaja2{
+08:51.033	ID:1	"temperature":29
+08:51.191	ID:3	[SENSING] Temperature: 24
+08:51.217	ID:1	}`)?t3L)<TEpaja2{
+08:51.218	ID:1	"temperature":24
+08:55.528	ID:2	[SENSING] Temperature: 22
+08:55.553	ID:1	}`)?t3L)TE'aka2{
+08:55.554	ID:1	"temperature":22
+08:55.640	ID:4	[SENSING] Temperature: 29
+08:55.665	ID:1	}`)?t3L)TEGaka2{
+08:55.667	ID:1	"temperature":29
+08:56.007	ID:5	[SENSING] Temperature: 29
+08:56.032	ID:1	}`)?t3L)HTEaka2{
+08:56.033	ID:1	"temperature":29
+08:56.191	ID:3	[SENSING] Temperature: 24
+08:56.216	ID:1	}`)?t3L)<TEp
+08:56.216	ID:1	aka2{
+08:56.217	ID:1	"temperature":24
+09:00.528	ID:2	[SENSING] Temperature: 22
+09:00.530	ID:2	[SIM] Temperature set to 22
+09:00.553	ID:1	}`)?t3L)TE'ala2{
+09:00.554	ID:1	"temperature":22
+09:00.640	ID:4	[SENSING] Temperature: 29
+09:00.642	ID:4	[SIM] Temperature set to 29
+09:00.665	ID:1	}`)?t3L)TEHala2{
+09:00.667	ID:1	"temperature":29
+09:01.007	ID:5	[SENSING] Temperature: 29
+09:01.009	ID:5	[SIM] Temperature set to 29
+09:01.032	ID:1	}`)?t3L)FTEala2{
+09:01.033	ID:1	"temperature":29
+09:01.191	ID:3	[SENSING] Temperature: 24
+09:01.193	ID:3	[SIM] Temperature set to 24
+09:01.216	ID:1	}`)?t3L)<TEpala2{
+09:01.217	ID:1	"temperature":24
+09:05.528	ID:2	[SENSING] Temperature: 22
+09:05.553	ID:1	}`)?t3L)TE'ama2{
+09:05.554	ID:1	"temperature":22
+09:05.640	ID:4	[SENSING] Temperature: 29
+09:05.665	ID:1	}`)?t3L)TEIama2{
+09:05.667	ID:1	"temperature":29
+09:06.007	ID:5	[SENSING] Temperature: 29
+09:06.032	ID:1	}`)?t3L)DTEama2{
+09:06.033	ID:1	"temperature":29
+09:06.048	ID:2	[HEATING] started
+09:06.066	ID:1	}`"?t3L";dExx2{
+09:06.191	ID:3	[SENSING] Temperature: 24
+09:06.217	ID:1	"value":true}`)?t3L)<TEpama2{
+09:06.218	ID:1	"temperature":24
+09:10.528	ID:2	[SENSING] Temperature: 22
+09:10.553	ID:1	}`)?t3L)TE'ana2{
+09:10.554	ID:1	"temperature":22
+09:10.640	ID:4	[SENSING] Temperature: 29
+09:10.665	ID:1	}`)?t3L)TEJana2{
+09:10.667	ID:1	"temperature":29
+09:11.007	ID:5	[SENSING] Temperature: 29
+09:11.032	ID:1	}`)?t3L)BTEana2{
+09:11.033	ID:1	"temperature":29
+09:11.191	ID:3	[SENSING] Temperature: 24
+09:11.216	ID:1	}`)?t3L)<TEpana2{
+09:11.217	ID:1	"temperature":24
+09:15.528	ID:2	[SENSING] Temperature: 22
+09:15.553	ID:1	}`)?t3L)TE'aoa2{
+09:15.554	ID:1	"temperature":22
+09:15.640	ID:4	[SENSING] Temperature: 29
+09:15.665	ID:1	}`)?t3L)TEKaoa2{
+09:15.667	ID:1	"temperature":29
+09:16.007	ID:5	[SENSING] Temperature: 29
+09:16.032	ID:1	}`)?t3L)@TEaoa2{
+09:16.033	ID:1	"temperature":29
+09:16.191	ID:3	[SENSING] Temperature: 24
+09:16.216	ID:1	}`)?t3L)<TEpaoa2{
+09:16.217	ID:1	"temperature":24
+09:20.528	ID:2	[SENSING] Temperature: 22
+09:20.530	ID:2	[SIM] Temperature set to 23
+09:20.553	ID:1	}`?t3L]dEx|`a2Added 1/3`)?t3L)DE'apa2{
+09:20.554	ID:1	"temperature":23
+09:20.640	ID:4	[SENSING] Temperature: 29
+09:20.642	ID:4	[SIM] Temperature set to 29
+09:20.665	ID:1	}`)?t3L)TELapa2{
+09:20.667	ID:1	"temperature":29
+09:21.007	ID:5	[SENSING] Temperature: 29
+09:21.009	ID:5	[SIM] Temperature set to 29
+09:21.032	ID:1	}`)?t3L)>DEapa2{
+09:21.033	ID:1	"temperature":29
+09:21.191	ID:3	[SENSING] Temperature: 24
+09:21.193	ID:3	[SIM] Temperature set to 24
+09:21.217	ID:1	}`)?t3L)<TEpapa2{
+09:21.218	ID:1	"temperature":24
+09:22.440	ID:1	}`L?t3LLDWdEx} 2{
+09:22.441	ID:1	"cooling":false,
+09:22.443	ID:1	"heating":false,
+09:22.444	ID:1	"ventilation":false
+09:22.542	ID:1	}`L?t3LLE^dEx{2{
+09:22.543	ID:1	"cooling":false,
+09:22.544	ID:1	"heating":false,
+09:22.546	ID:1	"ventilation":false
+09:22.784	ID:1	}`?t3L^dExz`a2Added 1/3`L?t3LLCPdEx"2{
+09:22.785	ID:1	"cooling":false,
+09:22.786	ID:1	"heating":false,
+09:22.787	ID:1	"ventilation":false
+09:25.528	ID:2	[SENSING] Temperature: 23
+09:25.553	ID:1	}`?t3L[dEx#`a2Added 1/3`)?t3L)TE'aqa2{
+09:25.554	ID:1	"temperature":23
+09:25.640	ID:4	[SENSING] Temperature: 29
+09:25.666	ID:1	}`)?t3L)~DEMaqa2{
+09:25.667	ID:1	"temperature":29
+09:26.007	ID:5	[SENSING] Temperature: 29
+09:26.032	ID:1	}`)?t3L)2TE#aqa2{
+09:26.033	ID:1	"temperature":29
+09:26.191	ID:3	[SENSING] Temperature: 24
+09:26.216	ID:1	}`)?t3L)<TEpaqa2{
+09:26.217	ID:1	"temperature":24
+09:27.149	ID:1	}`?t3L\dEx~!`a2Added 1/3`K?t3LKdExy2{
+09:27.150	ID:1	"cooling":false,
+09:27.151	ID:1	"heating":true,
+09:27.152	ID:1	"ventilation":false
+09:30.528	ID:2	[SENSING] Temperature: 23
+09:30.553	ID:1	}`)?t3L)TE'ara2{
+09:30.554	ID:1	"temperature":23
+09:30.640	ID:4	[SENSING] Temperature: 29
+09:30.665	ID:1	}`)?t3L)rTEN!ara2{
+09:30.667	ID:1	"temperature":29
+09:31.007	ID:5	[SENSING] Temperature: 29
+09:31.032	ID:1	}`)?t3L)0TE#ara2{
+09:31.033	ID:1	"temperature":29
+09:31.191	ID:3	[SENSING] Temperature: 24
+09:31.216	ID:1	}`)?t3L)<TEpara2{
+09:31.217	ID:1	"temperature":24
+09:35.528	ID:2	[SENSING] Temperature: 23
+09:35.553	ID:1	}`)?t3L)TE'asa2{
+09:35.554	ID:1	"temperature":23
+09:35.640	ID:4	[SENSING] Temperature: 29
+09:35.665	ID:1	}`)?t3L)pTEO!asa2{
+09:35.667	ID:1	"temperature":29
+09:36.007	ID:5	[SENSING] Temperature: 29
+09:36.032	ID:1	}`)?t3L).TE#asa2{
+09:36.033	ID:1	"temperature":29
+09:36.191	ID:3	[SENSING] Temperature: 24
+09:36.217	ID:1	}`)?t3L)<TEpasa2{
+09:36.218	ID:1	"temperature":24
+09:40.528	ID:2	[SENSING] Temperature: 23
+09:40.530	ID:2	[SIM] Temperature set to 24
+09:40.553	ID:1	}`)?t3L)TE'ata2{
+09:40.554	ID:1	"temperature":24
+09:40.640	ID:4	[SENSING] Temperature: 29
+09:40.642	ID:4	[SIM] Temperature set to 29
+09:40.665	ID:1	}`)?t3L)nTEP!ata2{
+09:40.667	ID:1	"temperature":29
+09:41.007	ID:5	[SENSING] Temperature: 29
+09:41.009	ID:5	[SIM] Temperature set to 29
+09:41.032	ID:1	}`)?t3L),TE#ata2{
+09:41.033	ID:1	"temperature":29
+09:41.191	ID:3	[SENSING] Temperature: 24
+09:41.193	ID:3	[SIM] Temperature set to 24
+09:41.216	ID:1	}`)?t3L)<TEpata2{
+09:41.217	ID:1	"temperature":24
+09:45.528	ID:2	[SENSING] Temperature: 24
+09:45.553	ID:1	}`)?t3L)TE'aua2{
+09:45.554	ID:1	"temperature":24
+09:45.640	ID:4	[SENSING] Temperature: 29
+09:45.665	ID:1	}`)?t3L)lTEQ!aua2{
+09:45.667	ID:1	"temperature":29
+09:46.007	ID:5	[SENSING] Temperature: 29
+09:46.032	ID:1	}`)?t3L)*TE#aua2{
+09:46.033	ID:1	"temperature":29
+09:46.191	ID:3	[SENSING] Temperature: 24
+09:46.216	ID:1	}`)?t3L)<TEpaua2{
+09:46.217	ID:1	"temperature":24
+09:50.528	ID:2	[SENSING] Temperature: 24
+09:50.553	ID:1	}`)?t3L)TE'ava2{
+09:50.554	ID:1	"temperature":24
+09:50.640	ID:4	[SENSING] Temperature: 29
+09:50.665	ID:1	}`)?t3L)jTER!ava2{
+09:50.667	ID:1	"temperature":29
+09:51.007	ID:5	[SENSING] Temperature: 29
+09:51.032	ID:1	}`)?t3L)(TE#ava2{
+09:51.033	ID:1	"temperature":29
+09:51.191	ID:3	[SENSING] Temperature: 24
+09:51.217	ID:1	}`)?t3L)<TEpava2{
+09:51.218	ID:1	"temperature":24
+09:55.528	ID:2	[SENSING] Temperature: 24
+09:55.553	ID:1	}`)?t3L)TE'awa2{
+09:55.554	ID:1	"temperature":24
+09:55.640	ID:4	[SENSING] Temperature: 29
+09:55.665	ID:1	}`)?t3L)hTES!awa2{
+09:55.667	ID:1	"temperature":29
+09:56.007	ID:5	[SENSING] Temperature: 29
+09:56.032	ID:1	}`)?t3L)&TE#awa2{
+09:56.033	ID:1	"temperature":29
+09:56.191	ID:3	[SENSING] Temperature: 24
+09:56.216	ID:1	}`)?t3L)<TEpawa2{
+09:56.217	ID:1	"temperature":24
+10:00.528	ID:2	[SENSING] Temperature: 24
+10:00.530	ID:2	[SIM] Temperature set to 25
+10:00.553	ID:1	}`)?t3L)TE'axa2{
+10:00.554	ID:1	"temperature":25
+10:00.640	ID:4	[SENSING] Temperature: 29
+10:00.642	ID:4	[SIM] Temperature set to 29
+10:00.665	ID:1	}`)?t3L)fTET!axa2{
+10:00.667	ID:1	"temperature":29
+10:01.007	ID:5	[SENSING] Temperature: 29
+10:01.009	ID:5	[SIM] Temperature set to 29
+10:01.032	ID:1	}`)?t3L)$TE#axa2{
+10:01.033	ID:1	"temperature":29
+10:01.191	ID:3	[SENSING] Temperature: 24
+10:01.193	ID:3	[SIM] Temperature set to 24
+10:01.216	ID:1	}`)?t3L)<TEpaxa2{
+10:01.217	ID:1	"temperature":24
+10:05.528	ID:2	[SENSING] Temperature: 25
+10:05.553	ID:1	}`)?t3L)TE'aya2{
+10:05.554	ID:1	"temperature":25
+10:05.640	ID:4	[SENSING] Temperature: 29
+10:05.665	ID:1	}`)?t3L)dTEU!aya2{
+10:05.667	ID:1	"temperature":29
+10:06.007	ID:5	[SENSING] Temperature: 29
+10:06.032	ID:1	}`)?t3L)"TE#aya2{
+10:06.033	ID:1	"temperature":29
+10:06.191	ID:3	[SENSING] Temperature: 24
+10:06.217	ID:1	}`)?t3L)<TEpaya2{
+10:06.218	ID:1	"temperature":24
+10:10.528	ID:2	[SENSING] Temperature: 25
+10:10.553	ID:1	}`)?t3L)TE'aza2{
+10:10.554	ID:1	"temperature":25
+10:10.640	ID:4	[SENSING] Temperature: 29
+10:10.665	ID:1	}`)?t3L)bTEV!aza2{
+10:10.667	ID:1	"temperature":29
+10:11.007	ID:5	[SENSING] Temperature: 29
+10:11.032	ID:1	}`)?t3L) TE#aza2{
+10:11.033	ID:1	"temperature":29
+10:11.191	ID:3	[SENSING] Temperature: 24
+10:11.216	ID:1	}`)?t3L)<TEpaza2{
+10:11.217	ID:1	"temperature":24
+10:15.528	ID:2	[SENSING] Temperature: 25
+10:15.553	ID:1	}`)?t3L)TE'a{a2{
+10:15.554	ID:1	"temperature":25
+10:15.640	ID:4	[SENSING] Temperature: 29
+10:15.665	ID:1	}`)?t3L)`TEW!a{a2{
+10:15.667	ID:1	"temperature":29
+10:16.007	ID:5	[SENSING] Temperature: 29
+10:16.032	ID:1	}`)?t3L)TE#a{a2{
+10:16.033	ID:1	"temperature":29
+10:16.191	ID:3	[SENSING] Temperature: 24
+10:16.216	ID:1	}`)?t3L)<TEpa{a2{
+10:16.217	ID:1	"temperature":24
+10:20.528	ID:2	[SENSING] Temperature: 25
+10:20.530	ID:2	[SIM] Temperature set to 26
+10:20.553	ID:1	}`)?t3L)TE'a|a2{
+10:20.554	ID:1	"temperature":26
+10:20.640	ID:4	[SENSING] Temperature: 29
+10:20.642	ID:4	[SIM] Temperature set to 29
+10:20.665	ID:1	}`)?t3L)^TEX!a|a2{
+10:20.667	ID:1	"temperature":29
+10:21.007	ID:5	[SENSING] Temperature: 29
+10:21.009	ID:5	[SIM] Temperature set to 29
+10:21.032	ID:1	}`)?t3L)TE#a|a2{
+10:21.033	ID:1	"temperature":29
+10:21.191	ID:3	[SENSING] Temperature: 24
+10:21.193	ID:3	[SIM] Temperature set to 24
+10:21.217	ID:1	}`)?t3L)LDEpa|a2{
+10:21.218	ID:1	"temperature":24
+10:25.528	ID:2	[SENSING] Temperature: 26
+10:25.553	ID:1	}`)?t3L)DE'a}a2{
+10:25.554	ID:1	"temperature":26
+10:25.640	ID:4	[SENSING] Temperature: 29
+10:25.665	ID:1	}`)?t3L)\TEY!a}a2{
+10:25.667	ID:1	"temperature":29
+10:26.007	ID:5	[SENSING] Temperature: 29
+10:26.032	ID:1	}`)?t3L)DE#a}a2{
+10:26.033	ID:1	"temperature":29
+10:26.191	ID:3	[SENSING] Temperature: 24
+10:26.216	ID:1	}`)?t3L)<TEpa}a2{
+10:26.217	ID:1	"temperature":24
+10:30.528	ID:2	[SENSING] Temperature: 26
+10:30.553	ID:1	}`)?t3L)TE'a~a2{
+10:30.554	ID:1	"temperature":26
+10:30.640	ID:4	[SENSING] Temperature: 29
+10:30.666	ID:1	}`)?t3L)ZDEZ!a~a2{
+10:30.667	ID:1	"temperature":29
+10:31.007	ID:5	[SENSING] Temperature: 29
+10:31.032	ID:1	}`)?t3L)TE#a~a2{
+10:31.033	ID:1	"temperature":29
+10:31.191	ID:3	[SENSING] Temperature: 24
+10:31.216	ID:1	}`)?t3L)<TEpa~a2{
+10:31.217	ID:1	"temperature":24
+10:35.528	ID:2	[SENSING] Temperature: 26
+10:35.553	ID:1	}`)?t3L)TE'aa2{
+10:35.554	ID:1	"temperature":26
+10:35.640	ID:4	[SENSING] Temperature: 29
+10:35.665	ID:1	}`)?t3L)XTE[!aa2{
+10:35.667	ID:1	"temperature":29
+10:36.007	ID:5	[SENSING] Temperature: 29
+10:36.032	ID:1	}`)?t3L)TE#aa2{
+10:36.033	ID:1	"temperature":29
+10:36.191	ID:3	[SENSING] Temperature: 24
+10:36.217	ID:1	}`)?t3L)<TEpaa2{
+10:36.218	ID:1	"temperature":24
+10:40.528	ID:2	[SENSING] Temperature: 26
+10:40.530	ID:2	[SIM] Temperature set to 27
+10:40.553	ID:1	}`)?t3L)TE'aa2{
+10:40.554	ID:1	"temperature":27
+10:40.640	ID:4	[SENSING] Temperature: 29
+10:40.642	ID:4	[SIM] Temperature set to 29
+10:40.665	ID:1	}`)?t3L)VTE\!aa2{
+10:40.667	ID:1	"temperature":29
+10:41.007	ID:5	[SENSING] Temperature: 29
+10:41.009	ID:5	[SIM] Temperature set to 29
+10:41.032	ID:1	}`)?t3L)TE#aa2{
+10:41.033	ID:1	"temperature":29
+10:41.191	ID:3	[SENSING] Temperature: 24
+10:41.193	ID:3	[SIM] Temperature set to 24
+10:41.216	ID:1	}`)?t3L)<TEpaa2{
+10:41.217	ID:1	"temperature":24
+10:45.528	ID:2	[SENSING] Temperature: 27
+10:45.553	ID:1	}`)?t3L)TE'aa2{
+10:45.554	ID:1	"temperature":27
+10:45.640	ID:4	[SENSING] Temperature: 29
+10:45.665	ID:1	}`)?t3L)TTE]!aa2{
+10:45.667	ID:1	"temperature":29
+10:46.007	ID:5	[SENSING] Temperature: 29
+10:46.032	ID:1	}`)?t3L)TE#aa2{
+10:46.033	ID:1	"temperature":29
+10:46.191	ID:3	[SENSING] Temperature: 24
+10:46.216	ID:1	}`)?t3L)<TEp aa2{
+10:46.217	ID:1	"temperature":24
+10:50.528	ID:2	[SENSING] Temperature: 27
+10:50.553	ID:1	}`)?t3L)TE'aa2{
+10:50.554	ID:1	"temperature":27
+10:50.640	ID:4	[SENSING] Temperature: 29
+10:50.665	ID:1	}`)?t3L)RTE^!aa2{
+10:50.667	ID:1	"temperature":29
+10:51.007	ID:5	[SENSING] Temperature: 29
+10:51.032	ID:1	}`)?t3L)TE#aa2{
+10:51.033	ID:1	"temperature":29
+10:51.191	ID:3	[SENSING] Temperature: 24
+10:51.217	ID:1	}`)?t3L)<TEp!aa2{
+10:51.218	ID:1	"temperature":24
+10:55.528	ID:2	[SENSING] Temperature: 27
+10:55.553	ID:1	}`)?t3L)TE'aa2{
+10:55.554	ID:1	"temperature":27
+10:55.640	ID:4	[SENSING] Temperature: 29
+10:55.665	ID:1	}`)?t3L)PTE_!aa2{
+10:55.667	ID:1	"temperature":29
+10:56.007	ID:5	[SENSING] Temperature: 29
+10:56.032	ID:1	}`)?t3L)TE#aa2{
+10:56.033	ID:1	"temperature":29
+10:56.191	ID:3	[SENSING] Temperature: 24
+10:56.216	ID:1	}`)?t3L)<TEp"aa2{
+10:56.217	ID:1	"temperature":24
+11:00.528	ID:2	[SENSING] Temperature: 27
+11:00.530	ID:2	[SIM] Temperature set to 28
+11:00.553	ID:1	}`)?t3L)TE'aa2{
+11:00.554	ID:1	"temperature":28
+11:00.640	ID:4	[SENSING] Temperature: 29
+11:00.642	ID:4	[SIM] Temperature set to 29
+11:00.665	ID:1	}`)?t3L)NTE`!aa2{
+11:00.667	ID:1	"temperature":29
+11:01.007	ID:5	[SENSING] Temperature: 29
+11:01.009	ID:5	[SIM] Temperature set to 29
+11:01.032	ID:1	}`)?t3L)TE#aa2{
+11:01.033	ID:1	"temperature":29
+11:01.191	ID:3	[SENSING] Temperature: 24
+11:01.193	ID:3	[SIM] Temperature set to 24
+11:01.216	ID:1	}`)?t3L)<TEp#aa2{
+11:01.217	ID:1	"temperature":24
+11:05.528	ID:2	[SENSING] Temperature: 28
+11:05.553	ID:1	}`)?t3L)TE'aa2{
+11:05.554	ID:1	"temperature":28
+11:05.640	ID:4	[SENSING] Temperature: 29
+11:05.665	ID:1	}`)?t3L)LTEa!aa2{
+11:05.667	ID:1	"temperature":29
+11:06.007	ID:5	[SENSING] Temperature: 29
+11:06.031	ID:1	}`)?t3L)
+11:06.032	ID:1	TE#aa2{
+11:06.033	ID:1	"temperature":29
+11:06.191	ID:3	[SENSING] Temperature: 24
+11:06.217	ID:1	}`)?t3L)<TEp$aa2{
+11:06.218	ID:1	"temperature":24
+11:10.528	ID:2	[SENSING] Temperature: 28
+11:10.553	ID:1	}`)?t3L)TE'aa2{
+11:10.554	ID:1	"temperature":28
+11:10.640	ID:4	[SENSING] Temperature: 29
+11:10.665	ID:1	}`)?t3L)JTEb!aa2{
+11:10.667	ID:1	"temperature":29
+11:10.936	ID:1	}slip-bridge: Destination off-link but no route src=aaaa::aa00:0 dst=::1aa:aa00:0
+11:11.007	ID:5	[SENSING] Temperature: 29
+11:11.032	ID:1	`)?t3L)TE#aa2{
+11:11.033	ID:1	"temperature":29
+11:11.111	ID:1	}`L?t3LLC@dEx*2{
+11:11.112	ID:1	"cooling":false,
+11:11.113	ID:1	"heating":false,
+11:11.114	ID:1	"ventilation":false
+11:11.191	ID:3	[SENSING] Temperature: 24
+11:11.216	ID:1	}`?t3L[dEx+`a2Added 1/3`)?t3L)<TEp%aa2{
+11:11.217	ID:1	"temperature":24
+11:13.368	ID:1	}`?t3L\dEx)`a2Added 1/3`?t3L]dEx'`a2Added 1/3`L?t3LLDGdEx(2{
+11:13.370	ID:1	"cooling":false,
+11:13.371	ID:1	"heating":false,
+11:13.372	ID:1	"ventilation":false
+11:13.619	ID:1	}`?t3L^dEx%`a2Added 1/3`L?t3LLENdEx&2{
+11:13.620	ID:1	"cooling":false,
+11:13.622	ID:1	"heating":false,
+11:13.623	ID:1	"ventilation":false
+11:15.528	ID:2	[SENSING] Temperature: 28
+11:15.553	ID:1	}`)?t3L)TE'%aa2{
+11:15.554	ID:1	"temperature":28
+11:15.640	ID:4	[SENSING] Temperature: 29
+11:15.665	ID:1	}`)?t3L)@TEc)aa2{
+11:15.667	ID:1	"temperature":29
+11:16.007	ID:5	[SENSING] Temperature: 29
+11:16.032	ID:1	}`)?t3L)TE+aa2{
+11:16.033	ID:1	"temperature":29
+11:16.191	ID:3	[SENSING] Temperature: 24
+11:16.216	ID:1	}`)?t3L)<TEp&'aa2{
+11:16.217	ID:1	"temperature":24
+11:18.464	ID:1	}`K?t3LKdEx$2{
+11:18.465	ID:1	"cooling":false,
+11:18.466	ID:1	"heating":true,
+11:18.468	ID:1	"ventilation":false
+11:20.528	ID:2	[SENSING] Temperature: 28
+11:20.530	ID:2	[SIM] Temperature set to 29
+11:20.553	ID:1	}`)?t3L)TE'%aa2{
+11:20.554	ID:1	"temperature":29
+11:20.640	ID:4	[SENSING] Temperature: 29
+11:20.642	ID:4	[SIM] Temperature set to 29
+11:20.665	ID:1	}`)?t3L)>TEd)aa2{
+11:20.667	ID:1	"temperature":29
+11:21.007	ID:5	[SENSING] Temperature: 29
+11:21.009	ID:5	[SIM] Temperature set to 29
+11:21.032	ID:1	}`)?t3L)TE+aa2{
+11:21.033	ID:1	"temperature":29
+11:21.191	ID:3	[SENSING] Temperature: 24
+11:21.193	ID:3	[SIM] Temperature set to 24
+11:21.217	ID:1	}`)?t3L)<TEp''aa2{
+11:21.218	ID:1	"temperature":24
+11:25.528	ID:2	[SENSING] Temperature: 29
+11:25.553	ID:1	}`)?t3L)TE'%aa2{
+11:25.554	ID:1	"temperature":29
+11:25.640	ID:4	[SENSING] Temperature: 29
+11:25.665	ID:1	}`)?t3L)<TEe)aa2{
+11:25.667	ID:1	"temperature":29
+11:26.007	ID:5	[SENSING] Temperature: 29
+11:26.032	ID:1	}`)?t3L)TE+aa2{
+11:26.033	ID:1	"temperature":29
+11:26.191	ID:3	[SENSING] Temperature: 24
+11:26.216	ID:1	}`)?t3L)<TEp('aa2{
+11:26.217	ID:1	"temperature":24
+11:30.528	ID:2	[SENSING] Temperature: 29
+11:30.553	ID:1	}`)?t3L)TE'%aa2{
+11:30.554	ID:1	"temperature":29
+11:30.640	ID:4	[SENSING] Temperature: 29
+11:30.665	ID:1	}`)?t3L):TEf)aa2{
+11:30.667	ID:1	"temperature":29
+11:31.007	ID:5	[SENSING] Temperature: 29
+11:31.032	ID:1	}`)?t3L)TE+aa2{
+11:31.033	ID:1	"temperature":29
+11:31.191	ID:3	[SENSING] Temperature: 24
+11:31.216	ID:1	}`)?t3L)<}TEp)'aa2{
+11:31.217	ID:1	"temperature":24
+11:34.178	ID:2	[HEATING] stopped
+11:34.196	ID:1	}`#?t3L#dEx,2{
+11:35.416	ID:2	[HEATING] started
+11:35.434	ID:1	"value":false}`"?t3L":dEx-2{
+11:35.528	ID:2	[SENSING] Temperature: 29
+11:35.553	ID:1	"value":true}`)?t3L)TE'%aa2{
+11:35.554	ID:1	"temperature":29
+11:35.640	ID:4	[SENSING] Temperature: 29
+11:35.665	ID:1	}`)?t3L)8TEg)aa2{
+11:35.667	ID:1	"temperature":29
+11:36.007	ID:5	[SENSING] Temperature: 29
+11:36.032	ID:1	}`)?t3L)TE+aa2{
+11:36.033	ID:1	"temperature":29
+11:36.191	ID:3	[SENSING] Temperature: 24
+11:36.217	ID:1	}`)?t3L)<{TEp*'aa2{
+11:36.219	ID:1	"temperature":24
+11:40.528	ID:2	[SENSING] Temperature: 29
+11:40.530	ID:2	[SIM] Temperature set to 30
+11:40.553	ID:1	}`)?t3L)TE'%aa2{
+11:40.554	ID:1	"temperature":30
+11:40.640	ID:4	[SENSING] Temperature: 29
+11:40.642	ID:4	[SIM] Temperature set to 29
+11:40.666	ID:1	}`)?t3L)6TEh)aa2{
+11:40.667	ID:1	"temperature":29
+11:41.007	ID:5	[SENSING] Temperature: 29
+11:41.009	ID:5	[SIM] Temperature set to 29
+11:41.032	ID:1	}`)?t3L)TE+aa2{
+11:41.033	ID:1	"temperature":29
+11:41.191	ID:3	[SENSING] Temperature: 24
+11:41.193	ID:3	[SIM] Temperature set to 24
+11:41.217	ID:1	}`)?t3L)<yTEp+'aa2{
+11:41.218	ID:1	"temperature":24
+11:45.528	ID:2	[SENSING] Temperature: 30
+11:45.553	ID:1	}`)?t3L)TE'%aa2{
+11:45.554	ID:1	"temperature":30
+11:45.640	ID:4	[SENSING] Temperature: 29
+11:45.666	ID:1	}`)?t3L)4TEi)aa2{
+11:45.667	ID:1	"temperature":29
+11:46.007	ID:5	[SENSING] Temperature: 29
+11:46.032	ID:1	}`)?t3L)TE+aa2{
+11:46.033	ID:1	"temperature":29
+11:46.191	ID:3	[SENSING] Temperature: 24
+11:46.216	ID:1	}`)?t3L)<wTEp,'aa2{
+11:46.218	ID:1	"temperature":24
+11:50.528	ID:2	[SENSING] Temperature: 30
+11:50.553	ID:1	}`)?t3L)TE'%aa2{
+11:50.554	ID:1	"temperature":30
+11:50.640	ID:4	[SENSING] Temperature: 29
+11:50.666	ID:1	}`)?t3L)2TEj)aa2{
+11:50.667	ID:1	"temperature":29
+11:51.007	ID:5	[SENSING] Temperature: 29
+11:51.032	ID:1	}`)?t3L)TE+aa2{
+11:51.033	ID:1	"temperature":29
+11:51.191	ID:3	[SENSING] Temperature: 24
+11:51.217	ID:1	}`)?t3L)<uTEp-'aa2{
+11:51.219	ID:1	"temperature":24
+11:55.528	ID:2	[SENSING] Temperature: 30
+11:55.553	ID:1	}`)?t3L)TE'%aa2{
+11:55.554	ID:1	"temperature":30
+11:55.640	ID:4	[SENSING] Temperature: 29
+11:55.666	ID:1	}`)?t3L)0TEk)aa2{
+11:55.667	ID:1	"temperature":29
+11:56.007	ID:5	[SENSING] Temperature: 29
+11:56.032	ID:1	}`)?t3L)TE+aa2{
+11:56.033	ID:1	"temperature":29
+11:56.191	ID:3	[SENSING] Temperature: 24
+11:56.216	ID:1	}`)?t3L)<sTEp.'aa2{
+11:56.218	ID:1	"temperature":24
+12:00.528	ID:2	[SENSING] Temperature: 30
+12:00.530	ID:2	[SIM] Temperature set to 31
+12:00.553	ID:1	}`)?t3L)TE'%aa2{
+12:00.554	ID:1	"temperature":31
+12:00.640	ID:4	[SENSING] Temperature: 29
+12:00.642	ID:4	[SIM] Temperature set to 29
+12:00.666	ID:1	}`)?t3L).TEl)aa2{
+12:00.667	ID:1	"temperature":29
+12:01.007	ID:5	[SENSING] Temperature: 29
+12:01.009	ID:5	[SIM] Temperature set to 29
+12:01.032	ID:1	}`)?t3L)TE+aa2{
+12:01.033	ID:1	"temperature":29
+12:01.191	ID:3	[SENSING] Temperature: 24
+12:01.193	ID:3	[SIM] Temperature set to 24
+12:01.217	ID:1	}`)?t3L)<qTEp/'aa2{
+12:01.218	ID:1	"temperature":24
+12:05.528	ID:2	[SENSING] Temperature: 31
+12:05.553	ID:1	}`)?t3L)TE'%aa2{
+12:05.554	ID:1	"temperature":31
+12:05.640	ID:4	[SENSING] Temperature: 29
+12:05.666	ID:1	}`)?t3L),TEm)aa2{
+12:05.667	ID:1	"temperature":29
+12:06.007	ID:5	[SENSING] Temperature: 29
+12:06.032	ID:1	}`)?t3L)TE+aa2{
+12:06.033	ID:1	"temperature":29
+12:06.191	ID:3	[SENSING] Temperature: 24
+12:06.217	ID:1	}`)?t3L)<oTEp0'aa2{
+12:06.219	ID:1	"temperature":24
+12:10.528	ID:2	[SENSING] Temperature: 31
+12:10.553	ID:1	}`)?t3L)TE'%aa2{
+12:10.554	ID:1	"temperature":31
+12:10.640	ID:4	[SENSING] Temperature: 29
+12:10.666	ID:1	}`)?t3L)*TEn)aa2{
+12:10.667	ID:1	"temperature":29
+12:11.007	ID:5	[SENSING] Temperature: 29
+12:11.032	ID:1	}`)?t3L)DE+aa2{
+12:11.033	ID:1	"temperature":29
+12:11.191	ID:3	[SENSING] Temperature: 24
+12:11.216	ID:1	}`)?t3L)<mTEp1'aa2{
+12:11.218	ID:1	"temperature":24
+12:15.528	ID:2	[SENSING] Temperature: 31
+12:15.553	ID:1	}`)?t3L)DE'%aa2{
+12:15.554	ID:1	"temperature":31
+12:15.640	ID:4	[SENSING] Temperature: 29
+12:15.667	ID:1	}`)?t3L)(DEo)aa2{
+12:15.668	ID:1	"temperature":29
+12:16.007	ID:5	[SENSING] Temperature: 29
+12:16.032	ID:1	}`)?t3L)TE+aa2{
+12:16.033	ID:1	"temperature":29
+12:16.191	ID:3	[SENSING] Temperature: 24
+12:16.217	ID:1	}`)?t3L)LkDEp2'aa2{
+12:16.218	ID:1	"temperature":24
+12:20.528	ID:2	[SENSING] Temperature: 31
+12:20.530	ID:2	[SIM] Temperature set to 32
+12:20.553	ID:1	}`)?t3L)TE'%aa2{
+12:20.554	ID:1	"temperature":32
+12:20.640	ID:4	[SENSING] Temperature: 29
+12:20.642	ID:4	[SIM] Temperature set to 29
+12:20.665	ID:1	}`)?t3L)&TEp)aa2{
+12:20.667	ID:1	"temperature":29
+12:21.007	ID:5	[SENSING] Temperature: 29
+12:21.009	ID:5	[SIM] Temperature set to 29
+12:21.032	ID:1	}`)?t3L)TE+aa2{
+12:21.033	ID:1	"temperature":29
+12:21.191	ID:3	[SENSING] Temperature: 24
+12:21.193	ID:3	[SIM] Temperature set to 24
+12:21.217	ID:1	}`)?t3L)<iTEp3'aa2{
+12:21.218	ID:1	"temperature":24
+12:25.528	ID:2	[SENSING] Temperature: 32
+12:25.553	ID:1	}`)?t3L)TE'%aa2{
+12:25.554	ID:1	"temperature":32
+12:25.640	ID:4	[SENSING] Temperature: 29
+12:25.665	ID:1	}`)?t3L)$TEq)aa2{
+12:25.667	ID:1	"temperature":29
+12:26.007	ID:5	[SENSING] Temperature: 29
+12:26.032	ID:1	}`)?t3L)TE+aa2{
+12:26.033	ID:1	"temperature":29
+12:26.191	ID:3	[SENSING] Temperature: 24
+12:26.216	ID:1	}`)?t3L)<gTEp4'aa2{
+12:26.217	ID:1	"temperature":24
+12:30.528	ID:2	[SENSING] Temperature: 32
+12:30.553	ID:1	}`)?t3L)TE'%aa2{
+12:30.554	ID:1	"temperature":32
+12:30.640	ID:4	[SENSING] Temperature: 29
+12:30.665	ID:1	}`)?t3L)"TEr)aa2{
+12:30.667	ID:1	"temperature":29
+12:31.007	ID:5	[SENSING] Temperature: 29
+12:31.032	ID:1	}`)?t3L)TE+aa2{
+12:31.033	ID:1	"temperature":29
+12:31.191	ID:3	[SENSING] Temperature: 24
+12:31.216	ID:1	}`)?t3L)<eTEp5'aa2{
+12:31.217	ID:1	"temperature":24
+12:35.528	ID:2	[SENSING] Temperature: 32
+12:35.553	ID:1	}`)?t3L)TE'%aa2{
+12:35.554	ID:1	"temperature":32
+12:35.640	ID:4	[SENSING] Temperature: 29
+12:35.665	ID:1	}`)?t3L) TEs)aa2{
+12:35.667	ID:1	"temperature":29
+12:36.007	ID:5	[SENSING] Temperature: 29
+12:36.032	ID:1	}`)?t3L)TE+aa2{
+12:36.033	ID:1	"temperature":29
+12:36.191	ID:3	[SENSING] Temperature: 24
+12:36.217	ID:1	}`)?t3L)<cTEp6'aa2{
+12:36.218	ID:1	"temperature":24
+12:38.518	ID:2	[HEATING] stopped
+12:38.535	ID:1	}`#?t3L#dEx.2{
+12:40.528	ID:2	[SENSING] Temperature: 32
+12:40.530	ID:2	[SIM] Temperature set to 32
+12:40.553	ID:1	"value":false}`)?t3L)TE'%aa2{
+12:40.554	ID:1	"temperature":32
+12:40.640	ID:4	[SENSING] Temperature: 29
+12:40.642	ID:4	[SIM] Temperature set to 29
+12:40.665	ID:1	}`)?t3L)TEt)aa2{
+12:40.667	ID:1	"temperature":29
+12:41.007	ID:5	[SENSING] Temperature: 29
+12:41.009	ID:5	[SIM] Temperature set to 29
+12:41.032	ID:1	}`)?t3L)TE+aa2{
+12:41.033	ID:1	"temperature":29
+12:41.191	ID:3	[SENSING] Temperature: 24
+12:41.193	ID:3	[SIM] Temperature set to 24
+12:41.216	ID:1	}`)?t3L)<aTEp7'aa2{
+12:41.217	ID:1	"temperature":24
+12:41.631	ID:2	[COOLING] started
+12:41.648	ID:1	}`"?t3L":dEx/2{
+12:45.528	ID:2	[SENSING] Temperature: 32
+12:45.553	ID:1	"value":true}`)?t3L)TE'%aa2{
+12:45.554	ID:1	"temperature":32
+12:45.640	ID:4	[SENSING] Temperature: 29
+12:45.665	ID:1	}`)?t3L)TEu)aa2{
+12:45.667	ID:1	"temperature":29
+12:46.007	ID:5	[SENSING] Temperature: 29
+12:46.032	ID:1	}`)?t3L)TE+aa2{
+12:46.033	ID:1	"temperature":29
+12:46.191	ID:3	[SENSING] Temperature: 24
+12:46.216	ID:1	}`)?t3L)<_TEp8'aa2{
+12:46.217	ID:1	"temperature":24
+12:50.528	ID:2	[SENSING] Temperature: 32
+12:50.553	ID:1	}`)?t3L)TE'%aa2{
+12:50.554	ID:1	"temperature":32
+12:50.640	ID:4	[SENSING] Temperature: 29
+12:50.665	ID:1	}`)?t3L)TEv)aa2{
+12:50.667	ID:1	"temperature":29
+12:51.007	ID:5	[SENSING] Temperature: 29
+12:51.032	ID:1	}`)?t3L)TE+aa2{
+12:51.033	ID:1	"temperature":29
+12:51.191	ID:3	[SENSING] Temperature: 24
+12:51.217	ID:1	}`)?t3L)<]TEp9'aa2{
+12:51.218	ID:1	"temperature":24
+12:55.528	ID:2	[SENSING] Temperature: 32
+12:55.553	ID:1	}`)?t3L)TE'%aa2{
+12:55.554	ID:1	"temperature":32
+12:55.640	ID:4	[SENSING] Temperature: 29
+12:55.665	ID:1	}`)?t3L)TEw)aa2{
+12:55.667	ID:1	"temperature":29
+12:56.007	ID:5	[SENSING] Temperature: 29
+12:56.032	ID:1	}`)?t3L)TE+aa2{
+12:56.033	ID:1	"temperature":29
+12:56.191	ID:3	[SENSING] Temperature: 24
+12:56.216	ID:1	}`)?t3L)<[TEp:'aa2{
+12:56.217	ID:1	"temperature":24
+13:00.528	ID:2	[SENSING] Temperature: 32
+13:00.530	ID:2	[SIM] Temperature set to 31
+13:00.553	ID:1	}`)?t3L)TE'%aa2{
+13:00.554	ID:1	"temperature":31
+13:00.640	ID:4	[SENSING] Temperature: 29
+13:00.642	ID:4	[SIM] Temperature set to 29
+13:00.665	ID:1	}`)?t3L)TEx)aa2{
+13:00.667	ID:1	"temperature":29
+13:01.007	ID:5	[SENSING] Temperature: 29
+13:01.009	ID:5	[SIM] Temperature set to 29
+13:01.032	ID:1	}`)?t3L)TE+aa2{
+13:01.033	ID:1	"temperature":29
+13:01.191	ID:3	[SENSING] Temperature: 24
+13:01.193	ID:3	[SIM] Temperature set to 24
+13:01.216	ID:1	}`)?t3L)<YTEp;'aa2{
+13:01.217	ID:1	"temperature":24
+13:05.528	ID:2	[SENSING] Temperature: 31
+13:05.553	ID:1	}`)?t3L)TE'%aa2{
+13:05.554	ID:1	"temperature":31
+13:05.640	ID:4	[SENSING] Temperature: 29
+13:05.665	ID:1	}`)?t3L)TEy)aa2{
+13:05.667	ID:1	"temperature":29
+13:06.007	ID:5	[SENSING] Temperature: 29
+13:06.032	ID:1	}`)?t3L)TE+aa2{
+13:06.033	ID:1	"temperature":29
+13:06.191	ID:3	[SENSING] Temperature: 24
+13:06.217	ID:1	}`)?t3L)<WTEp<'aa2{
+13:06.218	ID:1	"temperature":24
+13:10.528	ID:2	[SENSING] Temperature: 31
+13:10.553	ID:1	}`)?t3L)TE(%aa2{
+13:10.554	ID:1	"temperature":31
+13:10.640	ID:4	[SENSING] Temperature: 29
+13:10.665	ID:1	}`)?t3L)TEz)aa2{
+13:10.667	ID:1	"temperature":29
+13:11.007	ID:5	[SENSING] Temperature: 29
+13:11.032	ID:1	}`)?t3L)DE+aa2{
+13:11.034	ID:1	"temperature":29
+13:11.191	ID:3	[SENSING] Temperature: 24
+13:11.216	ID:1	}`)?t3L)<UTEp='aa2{
+13:11.217	ID:1	"temperature":24
+13:15.528	ID:2	[SENSING] Temperature: 31
+13:15.553	ID:1	}`)?t3L)DE(%aa2{
+13:15.554	ID:1	"temperature":31
+13:15.640	ID:4	[SENSING] Temperature: 29
+13:15.666	ID:1	}`)?t3L)DE{)aa2{
+13:15.667	ID:1	"temperature":29
+13:16.007	ID:5	[SENSING] Temperature: 29
+13:16.032	ID:1	}`)?t3L)TE+aa2{
+13:16.033	ID:1	"temperature":29
+13:16.191	ID:3	[SENSING] Temperature: 24
+13:16.217	ID:1	}`)?t3L)LSDEp>'aa2{
+13:16.218	ID:1	"temperature":24
+13:20.528	ID:2	[SENSING] Temperature: 31
+13:20.530	ID:2	[SIM] Temperature set to 30
+13:20.553	ID:1	}`)?t3L)TE(%aa2{
+13:20.554	ID:1	"temperature":30
+13:20.640	ID:4	[SENSING] Temperature: 29
+13:20.642	ID:4	[SIM] Temperature set to 29
+13:20.666	ID:1	}`)?t3L)TE|)aa2{
+13:20.667	ID:1	"temperature":29
+13:21.007	ID:5	[SENSING] Temperature: 29
+13:21.009	ID:5	[SIM] Temperature set to 29
+13:21.032	ID:1	}`)?t3L)TE+aa2{
+13:21.033	ID:1	"temperature":29
+13:21.191	ID:3	[SENSING] Temperature: 24
+13:21.193	ID:3	[SIM] Temperature set to 24
+13:21.217	ID:1	}`)?t3L)<QTEp?'aa2{
+13:21.219	ID:1	"temperature":24
+13:25.528	ID:2	[SENSING] Temperature: 30
+13:25.553	ID:1	}`)?t3L)TE(%aa2{
+13:25.554	ID:1	"temperature":30
+13:25.640	ID:4	[SENSING] Temperature: 29
+13:25.666	ID:1	}`)?t3L)TE})aa2{
+13:25.667	ID:1	"temperature":29
+13:26.007	ID:5	[SENSING] Temperature: 29
+13:26.032	ID:1	}`)?t3L)TE+aa2{
+13:26.033	ID:1	"temperature":29
+13:26.191	ID:3	[SENSING] Temperature: 24
+13:26.216	ID:1	}`)?t3L)<OTEp@'aa2{
+13:26.218	ID:1	"temperature":24
+13:30.528	ID:2	[SENSING] Temperature: 30
+13:30.553	ID:1	}`)?t3L)TE(%aa2{
+13:30.554	ID:1	"temperature":30
+13:30.640	ID:4	[SENSING] Temperature: 29
+13:30.665	ID:1	}`)?t3L)
+13:30.666	ID:1	TE~)aa2{
+13:30.667	ID:1	"temperature":29
+13:31.007	ID:5	[SENSING] Temperature: 29
+13:31.032	ID:1	}`)?t3L)TE+aa2{
+13:31.033	ID:1	"temperature":29
+13:31.191	ID:3	[SENSING] Temperature: 24
+13:31.216	ID:1	}`)?t3L)<MTEpA'aa2{
+13:31.218	ID:1	"temperature":24
+13:35.528	ID:2	[SENSING] Temperature: 30
+13:35.553	ID:1	}`)?t3L)TE(%aa2{
+13:35.554	ID:1	"temperature":30
+13:35.640	ID:4	[SENSING] Temperature: 29
+13:35.666	ID:1	}`)?t3L)TE)aa2{
+13:35.667	ID:1	"temperature":29
+13:36.007	ID:5	[SENSING] Temperature: 29
+13:36.032	ID:1	}`)?t3L)TE+aa2{
+13:36.033	ID:1	"temperature":29
+13:36.191	ID:3	[SENSING] Temperature: 24
+13:36.217	ID:1	}`)?t3L)<KTEpB'aa2{
+13:36.219	ID:1	"temperature":24
+13:40.528	ID:2	[SENSING] Temperature: 30
+13:40.530	ID:2	[SIM] Temperature set to 29
+13:40.553	ID:1	}`)?t3L)TE(%aa2{
+13:40.554	ID:1	"temperature":29
+13:40.640	ID:4	[SENSING] Temperature: 29
+13:40.642	ID:4	[SIM] Temperature set to 29
+13:40.666	ID:1	}`)?t3L)TE)aa2{
+13:40.667	ID:1	"temperature":29
+13:41.007	ID:5	[SENSING] Temperature: 29
+13:41.009	ID:5	[SIM] Temperature set to 29
+13:41.032	ID:1	}`)?t3L)TE+aa2{
+13:41.033	ID:1	"temperature":29
+13:41.191	ID:3	[SENSING] Temperature: 24
+13:41.193	ID:3	[SIM] Temperature set to 24
+13:41.217	ID:1	}`)?t3L)<ITEpC'aa2{
+13:41.218	ID:1	"temperature":24
+13:45.528	ID:2	[SENSING] Temperature: 29
+13:45.553	ID:1	}`)?t3L)TE(%aa2{
+13:45.554	ID:1	"temperature":29
+13:45.640	ID:4	[SENSING] Temperature: 29
+13:45.665	ID:1	}`)?t3L)TE)aa2{
+13:45.667	ID:1	"temperature":29
+13:46.007	ID:5	[SENSING] Temperature: 29
+13:46.032	ID:1	}`)?t3L)TE+aa2{
+13:46.033	ID:1	"temperature":29
+13:46.191	ID:3	[SENSING] Temperature: 24
+13:46.216	ID:1	}`)?t3L)<GTEpD'aa2{
+13:46.217	ID:1	"temperature":24
+13:50.528	ID:2	[SENSING] Temperature: 29
+13:50.553	ID:1	}`)?t3L)TE(%aa2{
+13:50.554	ID:1	"temperature":29
+13:50.640	ID:4	[SENSING] Temperature: 29
+13:50.669	ID:1	}`)?t3L)TE)aa2{
+13:50.670	ID:1	"temperature":29
+13:50.946	ID:1	}`L?t3LLD/dEx42{
+13:50.947	ID:1	"cooling":false,
+13:50.948	ID:1	"heating":false,
+13:50.949	ID:1	"ventilation":false
+13:51.007	ID:5	[SENSING] Temperature: 29
+13:51.032	ID:1	}`)?t3L)TE+aa2{
+13:51.033	ID:1	"temperature":29
+13:51.191	ID:3	[SENSING] Temperature: 24
+13:51.217	ID:1	}`)?t3L)<ETEpE'aa2{
+13:51.218	ID:1	"temperature":24
+13:52.869	ID:1	}`?t3L^dEx1`a2Added 1/3`?t3L[dEx7`a2Added 1/3`K?t3LKdEx02{
+13:52.870	ID:1	"cooling":true,
+13:52.871	ID:1	"heating":false,
+13:52.872	ID:1	"ventilation":false
+13:53.301	ID:1	}`?t3L\dEx5`a2Added 1/3`L?t3LLC(dEx62{
+13:53.302	ID:1	"cooling":false,
+13:53.303	ID:1	"heating":false,
+13:53.304	ID:1	"ventilation":false
+13:55.528	ID:2	[SENSING] Temperature: 29
+13:55.553	ID:1	}`)?t3L)yTE(1aa2{
+13:55.554	ID:1	"temperature":29
+13:55.640	ID:4	[SENSING] Temperature: 29
+13:55.665	ID:1	}`)?t3L)TE5aa2{
+13:55.667	ID:1	"temperature":29
+13:56.007	ID:5	[SENSING] Temperature: 29
+13:56.032	ID:1	}`)?t3L)TE7aa2{
+13:56.033	ID:1	"temperature":29
+13:56.210	ID:3	[SENSING] Temperature: 24
+13:56.212	ID:1	}`?t3L]dEx3`a2Added 1/3`L?t3LLE6dEx22{
+13:56.213	ID:1	"cooling":false,
+13:56.214	ID:1	"heating":false,
+13:56.215	ID:1	"ventilation":false
+13:56.230	ID:1	}`)?t3L)<7TEpF3aa2{
+13:56.231	ID:1	"temperature":24
+14:00.528	ID:2	[SENSING] Temperature: 29
+14:00.530	ID:2	[SIM] Temperature set to 28
+14:00.552	ID:1	}`)?t3L)wTE(
+14:00.553	ID:1	1aa2{
+14:00.554	ID:1	"temperature":28
+14:00.640	ID:4	[SENSING] Temperature: 29
+14:00.642	ID:4	[SIM] Temperature set to 29
+14:00.666	ID:1	}`)?t3L)TE5aa2{
+14:00.667	ID:1	"temperature":29
+14:01.007	ID:5	[SENSING] Temperature: 29
+14:01.009	ID:5	[SIM] Temperature set to 29
+14:01.032	ID:1	}`)?t3L)TE7aa2{
+14:01.033	ID:1	"temperature":29
+14:01.191	ID:3	[SIM] Temperature set to 24
+14:01.210	ID:3	[SENSING] Temperature: 24
+14:01.216	ID:1	}`)?t3L)<5TEpG3aa2{
+14:01.218	ID:1	"temperature":24
+14:02.708	ID:2	[COOLING] stopped
+14:02.726	ID:1	}`#?t3L#dEx82{
+14:03.821	ID:2	[COOLING] started
+14:03.839	ID:1	"value":false}`"?t3L":dEx92{
+14:05.528	ID:2	[SENSING] Temperature: 28
+14:05.553	ID:1	"value":true}`)?t3L)uTE(1aa2{
+14:05.554	ID:1	"temperature":28
+14:05.640	ID:4	[SENSING] Temperature: 29
+14:05.665	ID:1	}`)?t3L)TE5aa2{
+14:05.667	ID:1	"temperature":29
+14:06.007	ID:5	[SENSING] Temperature: 29
+14:06.032	ID:1	}`)?t3L)TE7aa2{
+14:06.033	ID:1	"temperature":29
+14:06.210	ID:3	[SENSING] Temperature: 24
+14:06.217	ID:1	}`)?t3L)<3TEpH3aa2{
+14:06.218	ID:1	"temperature":24
+14:10.528	ID:2	[SENSING] Temperature: 28
+14:10.553	ID:1	}`)?t3L)sTE(1aa2{
+14:10.554	ID:1	"temperature":28
+14:10.640	ID:4	[SENSING] Temperature: 29
+14:10.665	ID:1	}`)?t3L)TE5aa2{
+14:10.667	ID:1	"temperature":29
+14:11.007	ID:5	[SENSING] Temperature: 29
+14:11.032	ID:1	}`)?t3L)TE7aa2{
+14:11.033	ID:1	"temperature":29
+14:11.210	ID:3	[SENSING] Temperature: 24
+14:11.216	ID:1	}`)?t3L)<1TEpI3aa2{
+14:11.217	ID:1	"temperature":24
+14:15.528	ID:2	[SENSING] Temperature: 28
+14:15.553	ID:1	}`)?t3L)qTE(1aa2{
+14:15.554	ID:1	"temperature":28
+14:15.640	ID:4	[SENSING] Temperature: 29
+14:15.665	ID:1	}`)?t3L)TE5aa2{
+14:15.667	ID:1	"temperature":29
+14:16.007	ID:5	[SENSING] Temperature: 29
+14:16.032	ID:1	}`)?t3L)TE7aa2{
+14:16.033	ID:1	"temperature":29
+14:16.210	ID:3	[SENSING] Temperature: 24
+14:16.216	ID:1	}`)?t3L)</TEpJ3aa2{
+14:16.217	ID:1	"temperature":24
+14:20.528	ID:2	[SENSING] Temperature: 28
+14:20.530	ID:2	[SIM] Temperature set to 27
+14:20.553	ID:1	}`)?t3L)oTE(1aa2{
+14:20.554	ID:1	"temperature":27
+14:20.640	ID:4	[SENSING] Temperature: 29
+14:20.642	ID:4	[SIM] Temperature set to 29
+14:20.665	ID:1	}`)?t3L)TE5aa2{
+14:20.667	ID:1	"temperature":29
+14:21.007	ID:5	[SENSING] Temperature: 29
+14:21.009	ID:5	[SIM] Temperature set to 29
+14:21.032	ID:1	}`)?t3L)TE7aa2{
+14:21.033	ID:1	"temperature":29
+14:21.191	ID:3	[SIM] Temperature set to 24
+14:21.210	ID:3	[SENSING] Temperature: 24
+14:21.217	ID:1	}`)?t3L)<-TEpK3aa2{
+14:21.218	ID:1	"temperature":24
+14:25.528	ID:2	[SENSING] Temperature: 27
+14:25.553	ID:1	}`)?t3L)mTE(1aa2{
+14:25.554	ID:1	"temperature":27
+14:25.640	ID:4	[SENSING] Temperature: 29
+14:25.666	ID:1	}`)?t3L)TE5aa2{
+14:25.667	ID:1	"temperature":29
+14:26.007	ID:5	[SENSING] Temperature: 29
+14:26.032	ID:1	}`)?t3L)TE7aa2{
+14:26.033	ID:1	"temperature":29
+14:26.211	ID:3	[SENSING] Temperature: 24
+14:26.217	ID:1	}`)?t3L)<+TEpL3aa2{
+14:26.218	ID:1	"temperature":24
+14:30.528	ID:2	[SENSING] Temperature: 27
+14:30.553	ID:1	}`)?t3L)kTE(1aa2{
+14:30.554	ID:1	"temperature":27
+14:30.640	ID:4	[SENSING] Temperature: 29
+14:30.665	ID:1	}`)?t3L)TE5aa2{
+14:30.667	ID:1	"temperature":29
+14:31.007	ID:5	[SENSING] Temperature: 29
+14:31.032	ID:1	}`)?t3L)TE7aa2{
+14:31.033	ID:1	"temperature":29
+14:31.210	ID:3	[SENSING] Temperature: 24
+14:31.216	ID:1	}`)?t3L)<)TEpM3aa2{
+14:31.217	ID:1	"temperature":24
+14:35.528	ID:2	[SENSING] Temperature: 27
+14:35.553	ID:1	}`)?t3L)iTE(1aa2{
+14:35.554	ID:1	"temperature":27
+14:35.640	ID:4	[SENSING] Temperature: 29
+14:35.665	ID:1	}`)?t3L)TE5aa2{
+14:35.667	ID:1	"temperature":29
+14:36.007	ID:5	[SENSING] Temperature: 29
+14:36.032	ID:1	}`)?t3L)TE7aa2{
+14:36.033	ID:1	"temperature":29
+14:36.210	ID:3	[SENSING] Temperature: 24
+14:36.217	ID:1	}`)?t3L)<'TEpN3aa2{
+14:36.218	ID:1	"temperature":24
+14:40.528	ID:2	[SENSING] Temperature: 27
+14:40.530	ID:2	[SIM] Temperature set to 26
+14:40.553	ID:1	}`)?t3L)gTE(1aa2{
+14:40.554	ID:1	"temperature":26
+14:40.640	ID:4	[SENSING] Temperature: 29
+14:40.642	ID:4	[SIM] Temperature set to 29
+14:40.665	ID:1	}`)?t3L)TE5aa2{
+14:40.667	ID:1	"temperature":29
+14:41.007	ID:5	[SENSING] Temperature: 29
+14:41.009	ID:5	[SIM] Temperature set to 29
+14:41.032	ID:1	}`)?t3L)TE7aa2{
+14:41.033	ID:1	"temperature":29
+14:41.191	ID:3	[SIM] Temperature set to 24
+14:41.210	ID:3	[SENSING] Temperature: 24
+14:41.216	ID:1	}`)?t3L)<%TEpO3aa2{
+14:41.217	ID:1	"temperature":24
+14:45.528	ID:2	[SENSING] Temperature: 26
+14:45.553	ID:1	}`)?t3L)eTE(1aa2{
+14:45.554	ID:1	"temperature":26
+14:45.640	ID:4	[SENSING] Temperature: 29
+14:45.665	ID:1	}`)?t3L)TE5aa2{
+14:45.667	ID:1	"temperature":29
+14:46.007	ID:5	[SENSING] Temperature: 29
+14:46.032	ID:1	}`)?t3L)TE7aa2{
+14:46.033	ID:1	"temperature":29
+14:46.210	ID:3	[SENSING] Temperature: 24
+14:46.216	ID:1	}`)?t3L)<#TEpP3aa2{
+14:46.217	ID:1	"temperature":24
+14:50.528	ID:2	[SENSING] Temperature: 26
+14:50.553	ID:1	}`)?t3L)cTE(1aa2{
+14:50.554	ID:1	"temperature":26
+14:50.640	ID:4	[SENSING] Temperature: 29
+14:50.665	ID:1	}`)?t3L)TE5aa2{
+14:50.667	ID:1	"temperature":29
+14:51.007	ID:5	[SENSING] Temperature: 29
+14:51.032	ID:1	}`)?t3L)TE7aa2{
+14:51.033	ID:1	"temperature":29
+14:51.210	ID:3	[SENSING] Temperature: 24
+14:51.217	ID:1	}`)?t3L)<!TEpQ3aa2{
+14:51.218	ID:1	"temperature":24
+14:55.528	ID:2	[SENSING] Temperature: 26
+14:55.553	ID:1	}`)?t3L)aDE(1aa2{
+14:55.554	ID:1	"temperature":26
+14:55.640	ID:4	[SENSING] Temperature: 29
+14:55.666	ID:1	}`)?t3L)DE5aa2{
+14:55.667	ID:1	"temperature":29
+14:56.007	ID:5	[SENSING] Temperature: 29
+14:56.032	ID:1	}`)?t3L)DE7aa2{
+14:56.033	ID:1	"temperature":29
+14:56.211	ID:3	[SENSING] Temperature: 24
+14:56.217	ID:1	}`)?t3L)LDEpR3aa2{
+14:56.218	ID:1	"temperature":24
+15:00.528	ID:2	[SENSING] Temperature: 26
+15:00.530	ID:2	[SIM] Temperature set to 25
+15:00.553	ID:1	}`)?t3L)_TE(1aa2{
+15:00.554	ID:1	"temperature":25
+15:00.640	ID:4	[SENSING] Temperature: 29
+15:00.642	ID:4	[SIM] Temperature set to 29
+15:00.665	ID:1	}`)?t3L)TE5aa2{
+15:00.667	ID:1	"temperature":29
+15:01.007	ID:5	[SENSING] Temperature: 29
+15:01.009	ID:5	[SIM] Temperature set to 29
+15:01.032	ID:1	}`)?t3L)TE7aa2{
+15:01.033	ID:1	"temperature":29
+15:01.191	ID:3	[SIM] Temperature set to 24
+15:01.210	ID:3	[SENSING] Temperature: 24
+15:01.216	ID:1	}`)?t3L)<TEpS3aa2{
+15:01.218	ID:1	"temperature":24
+15:05.528	ID:2	[SENSING] Temperature: 25
+15:05.553	ID:1	}`)?t3L)]TE(1aa2{
+15:05.554	ID:1	"temperature":25
+15:05.640	ID:4	[SENSING] Temperature: 29
+15:05.665	ID:1	}`)?t3L)TE5aa2{
+15:05.667	ID:1	"temperature":29
+15:06.007	ID:5	[SENSING] Temperature: 29
+15:06.032	ID:1	}`)?t3L)TE7aa2{
+15:06.033	ID:1	"temperature":29
+15:06.210	ID:3	[SENSING] Temperature: 24
+15:06.217	ID:1	}`)?t3L)<TEpT3aa2{
+15:06.218	ID:1	"temperature":24
+15:10.528	ID:2	[SENSING] Temperature: 25
+15:10.553	ID:1	}`)?t3L)[TE(1aa2{
+15:10.554	ID:1	"temperature":25
+15:10.640	ID:4	[SENSING] Temperature: 29
+15:10.665	ID:1	}`)?t3L)TE5aa2{
+15:10.667	ID:1	"temperature":29
+15:11.007	ID:5	[SENSING] Temperature: 29
+15:11.032	ID:1	}`)?t3L)TE7aa2{
+15:11.033	ID:1	"temperature":29
+15:11.210	ID:3	[SENSING] Temperature: 24
+15:11.216	ID:1	}`)?t3L)<TEpU3aa2{
+15:11.217	ID:1	"temperature":24
+15:15.528	ID:2	[SENSING] Temperature: 25
+15:15.553	ID:1	}`)?t3L)YTE(1aa2{
+15:15.554	ID:1	"temperature":25
+15:15.640	ID:4	[SENSING] Temperature: 29
+15:15.665	ID:1	}`)?t3L)TE5aa2{
+15:15.667	ID:1	"temperature":29
+15:16.007	ID:5	[SENSING] Temperature: 29
+15:16.032	ID:1	}`)?t3L)TE7aa2{
+15:16.033	ID:1	"temperature":29
+15:16.210	ID:3	[SENSING] Temperature: 24
+15:16.216	ID:1	}`)?t3L)<TEpV3aa2{
+15:16.217	ID:1	"temperature":24
+15:20.528	ID:2	[SENSING] Temperature: 25
+15:20.530	ID:2	[SIM] Temperature set to 24
+15:20.553	ID:1	}`)?t3L)WTE(1aa2{
+15:20.554	ID:1	"temperature":24
+15:20.640	ID:4	[SENSING] Temperature: 29
+15:20.642	ID:4	[SIM] Temperature set to 29
+15:20.665	ID:1	}`)?t3L)TE5aa2{
+15:20.667	ID:1	"temperature":29
+15:21.007	ID:5	[SENSING] Temperature: 29
+15:21.009	ID:5	[SIM] Temperature set to 29
+15:21.032	ID:1	}`)?t3L)TE7aa2{
+15:21.033	ID:1	"temperature":29
+15:21.191	ID:3	[SIM] Temperature set to 24
+15:21.210	ID:3	[SENSING] Temperature: 24
+15:21.217	ID:1	}`)?t3L)<TEpW3aa2{
+15:21.218	ID:1	"temperature":24
+15:25.528	ID:2	[SENSING] Temperature: 24
+15:25.553	ID:1	}`)?t3L)UTE(1aa2{
+15:25.554	ID:1	"temperature":24
+15:25.640	ID:4	[SENSING] Temperature: 29
+15:25.665	ID:1	}`)?t3L)TE5aa2{
+15:25.667	ID:1	"temperature":29
+15:26.007	ID:5	[SENSING] Temperature: 29
+15:26.032	ID:1	}`)?t3L)TE7aa2{
+15:26.033	ID:1	"temperature":29
+15:26.210	ID:3	[SENSING] Temperature: 24
+15:26.216	ID:1	}`)?t3L)<TEpX3aa2{
+15:26.217	ID:1	"temperature":24
+15:30.528	ID:2	[SENSING] Temperature: 24
+15:30.553	ID:1	}`)?t3L)STE(1aa2{
+15:30.554	ID:1	"temperature":24
+15:30.640	ID:4	[SENSING] Temperature: 29
+15:30.665	ID:1	}`)?t3L)TE5aa2{
+15:30.667	ID:1	"temperature":29
+15:31.007	ID:5	[SENSING] Temperature: 29
+15:31.032	ID:1	}`)?t3L)TE7aa2{
+15:31.033	ID:1	"temperature":29
+15:31.210	ID:3	[SENSING] Temperature: 24
+15:31.216	ID:1	}`)?t3L)<TEpY3aa2{
+15:31.217	ID:1	"temperature":24
+15:35.528	ID:2	[SENSING] Temperature: 24
+15:35.553	ID:1	}`)?t3L)QTE(1aa2{
+15:35.554	ID:1	"temperature":24
+15:35.640	ID:4	[SENSING] Temperature: 29
+15:35.665	ID:1	}`)?t3L)TE5aa2{
+15:35.667	ID:1	"temperature":29
+15:36.007	ID:5	[SENSING] Temperature: 29
+15:36.032	ID:1	}`)?t3L)TE7aa2{
+15:36.033	ID:1	"temperature":29
+15:36.210	ID:3	[SENSING] Temperature: 24
+15:36.217	ID:1	}`)?t3L)<TEpZ3aa2{
+15:36.218	ID:1	"temperature":24
+15:40.528	ID:2	[SENSING] Temperature: 24
+15:40.530	ID:2	[SIM] Temperature set to 23
+15:40.553	ID:1	}`)?t3L)OTE(1aa2{
+15:40.554	ID:1	"temperature":23
+15:40.640	ID:4	[SENSING] Temperature: 29
+15:40.642	ID:4	[SIM] Temperature set to 29
+15:40.665	ID:1	}`)?t3L)TE5aa2{
+15:40.667	ID:1	"temperature":29
+15:41.007	ID:5	[SENSING] Temperature: 29
+15:41.009	ID:5	[SIM] Temperature set to 29
+15:41.032	ID:1	}`)?t3L)TE7aa2{
+15:41.033	ID:1	"temperature":29
+15:41.191	ID:3	[SIM] Temperature set to 24
+15:41.210	ID:3	[SENSING] Temperature: 24
+15:41.216	ID:1	}`)?t3L)<TEp[3aa2{
+15:41.217	ID:1	"temperature":24
+15:45.528	ID:2	[SENSING] Temperature: 23
+15:45.553	ID:1	}`)?t3L)MTE(1aa2{
+15:45.554	ID:1	"temperature":23
+15:45.640	ID:4	[SENSING] Temperature: 29
+15:45.665	ID:1	}`)?t3L)TE5aa2{
+15:45.667	ID:1	"temperature":29
+15:46.007	ID:5	[SENSING] Temperature: 29
+15:46.032	ID:1	}`)?t3L)TE7aa2{
+15:46.033	ID:1	"temperature":29
+15:46.210	ID:3	[SENSING] Temperature: 24
+15:46.216	ID:1	}`)?t3L)<TEp\3aa2{
+15:46.217	ID:1	"temperature":24
+15:50.528	ID:2	[SENSING] Temperature: 23
+15:50.553	ID:1	}`)?t3L)KTE( 1aa2{
+15:50.554	ID:1	"temperature":23
+15:50.640	ID:4	[SENSING] Temperature: 29
+15:50.670	ID:1	}`)?t3L)TE5aa2{
+15:50.671	ID:1	"temperature":29
+15:51.007	ID:5	[SENSING] Temperature: 29
+15:51.032	ID:1	}`)?t3L)TE7aa2{
+15:51.033	ID:1	"temperature":29
+15:51.210	ID:3	[SENSING] Temperature: 24
+15:51.217	ID:1	}`)?t3L)<TEp]3aa2{
+15:51.218	ID:1	"temperature":24
+15:55.528	ID:2	[SENSING] Temperature: 23
+15:55.553	ID:1	}`)?t3L)IDE(!1aa2{
+15:55.554	ID:1	"temperature":23
+15:55.640	ID:4	[SENSING] Temperature: 29
+15:55.816	ID:1	}`)?t3L)DE5aa2{
+15:55.817	ID:1	"temperature":29
+15:56.007	ID:5	[SENSING] Temperature: 29
+15:56.032	ID:1	}`)?t3L)DE7aa2{
+15:56.033	ID:1	"temperature":29
+15:56.211	ID:3	[SENSING] Temperature: 24
+15:56.217	ID:1	}`)?t3L)LDEp^3aa2{
+15:56.218	ID:1	"temperature":24
+15:58.499	ID:1	}slip-bridge: Destination off-link but no route src=aaaa::1 dst=aaaa::1aa:aa00:0
+16:00.528	ID:2	[SENSING] Temperature: 23
+16:00.530	ID:2	[SIM] Temperature set to 22
+16:00.553	ID:1	`)?t3L)GTE("1aa2{
+16:00.554	ID:1	"temperature":22
+16:00.640	ID:4	[SENSING] Temperature: 29
+16:00.642	ID:4	[SIM] Temperature set to 29
+16:01.007	ID:5	[SENSING] Temperature: 29
+16:01.009	ID:5	[SIM] Temperature set to 29
+16:01.024	ID:1	}`?t3L\vdEx?`a2Added 1/3`L?t3LLE"dEx<2{
+16:01.026	ID:1	"cooling":false,
+16:01.027	ID:1	"heating":false,
+16:01.028	ID:1	"ventilation":false
+16:01.045	ID:1	}`)?t3L)vTEAaa2{
+16:01.046	ID:1	"temperature":29
+16:01.128	ID:1	}`L?t3LLCdEx@2{
+16:01.129	ID:1	"cooling":false,
+16:01.130	ID:1	"heating":false,
+16:01.132	ID:1	"ventilation":false
+16:01.191	ID:3	[SIM] Temperature set to 24
+16:01.210	ID:3	[SENSING] Temperature: 24
+16:01.216	ID:1	}`)?t3L);TEp_=aa2{
+16:01.218	ID:1	"temperature":24
+16:01.313	ID:1	}`?t3L^dEx;`a2Added 1/3`K?t3LKdEx:2{
+16:01.314	ID:1	"cooling":true,
+16:01.315	ID:1	"heating":false,
+16:01.316	ID:1	"ventilation":false
+16:04.487	ID:1	}`L?t3LLDdEx>2{
+16:04.488	ID:1	"cooling":false,
+16:04.489	ID:1	"heating":false,
+16:04.491	ID:1	"ventilation":false
+16:05.528	ID:2	[SENSING] Temperature: 22
+16:05.553	ID:1	}`)?t3L);TE(#;aa2{
+16:05.554	ID:1	"temperature":22
+16:05.640	ID:4	[SENSING] Temperature: 29
+16:05.665	ID:1	}`)?t3L)TE?aa2{
+16:05.667	ID:1	"temperature":29
+16:06.007	ID:5	[SENSING] Temperature: 29
+16:06.032	ID:1	}`)?t3L)tTEAaa2{
+16:06.033	ID:1	"temperature":29
+16:06.210	ID:3	[SENSING] Temperature: 24
+16:06.217	ID:1	}`)?t3L);TEp`=aa2{
+16:06.218	ID:1	"temperature":24
+16:10.528	ID:2	[SENSING] Temperature: 22
+16:10.553	ID:1	}`)?t3L)9TE($;aa2{
+16:10.554	ID:1	"temperature":22
+16:10.640	ID:4	[SENSING] Temperature: 29
+16:10.665	ID:1	}`)?t3L)TE?aa2{
+16:10.667	ID:1	"temperature":29
+16:11.007	ID:5	[SENSING] Temperature: 29
+16:11.032	ID:1	}`)?t3L)rTEAaa2{
+16:11.033	ID:1	"temperature":29
+16:11.210	ID:3	[SENSING] Temperature: 24
+16:11.216	ID:1	}`)?t3L);TEpa=aa2{
+16:11.218	ID:1	"temperature":24
+16:15.528	ID:2	[SENSING] Temperature: 22
+16:15.553	ID:1	}`)?t3L)7TE(%;aa2{
+16:15.554	ID:1	"temperature":22
+16:15.640	ID:4	[SENSING] Temperature: 29
+16:15.666	ID:1	}`)?t3L)TE?aa2{
+16:15.667	ID:1	"temperature":29
+16:16.007	ID:5	[SENSING] Temperature: 29
+16:16.032	ID:1	}`)?t3L)pTEAaa2{
+16:16.033	ID:1	"temperature":29
+16:16.210	ID:3	[SENSING] Temperature: 24
+16:16.216	ID:1	}`)?t3L);TEpb=aa2{
+16:16.218	ID:1	"temperature":24
+16:20.528	ID:2	[SENSING] Temperature: 22
+16:20.530	ID:2	[SIM] Temperature set to 21
+16:20.553	ID:1	}`)?t3L)5TE(&;aa2{
+16:20.554	ID:1	"temperature":21
+16:20.640	ID:4	[SENSING] Temperature: 29
+16:20.642	ID:4	[SIM] Temperature set to 29
+16:20.666	ID:1	}`)?t3L)TE?aa2{
+16:20.667	ID:1	"temperature":29
+16:21.007	ID:5	[SENSING] Temperature: 29
+16:21.009	ID:5	[SIM] Temperature set to 29
+16:21.032	ID:1	}`)?t3L)nTEAaa2{
+16:21.033	ID:1	"temperature":29
+16:21.191	ID:3	[SIM] Temperature set to 24
+16:21.210	ID:3	[SENSING] Temperature: 24
+16:21.217	ID:1	}`)?t3L);TEpc=aa2{
+16:21.219	ID:1	"temperature":24
+16:25.528	ID:2	[SENSING] Temperature: 21
+16:25.553	ID:1	}`)?t3L)3TE(';aa2{
+16:25.554	ID:1	"temperature":21
+16:25.640	ID:4	[SENSING] Temperature: 29
+16:25.666	ID:1	}`)?t3L)TE?aa2{
+16:25.667	ID:1	"temperature":29
+16:26.007	ID:5	[SENSING] Temperature: 29
+16:26.032	ID:1	}`)?t3L)lTEAaa2{
+16:26.033	ID:1	"temperature":29
+16:26.210	ID:3	[SENSING] Temperature: 24
+16:26.216	ID:1	}`)?t3L);TEpd=aa2{
+16:26.218	ID:1	"temperature":24
+16:30.528	ID:2	[SENSING] Temperature: 21
+16:30.553	ID:1	}`)?t3L)1TE((;aa2{
+16:30.554	ID:1	"temperature":21
+16:30.640	ID:4	[SENSING] Temperature: 29
+16:30.666	ID:1	}`)?t3L)TE?aa2{
+16:30.667	ID:1	"temperature":29
+16:31.007	ID:5	[SENSING] Temperature: 29
+16:31.032	ID:1	}`)?t3L)jTEAaa2{
+16:31.033	ID:1	"temperature":29
+16:31.210	ID:3	[SENSING] Temperature: 24
+16:31.216	ID:1	}`)?t3L);TEpe=aa2{
+16:31.218	ID:1	"temperature":24
+16:35.528	ID:2	[SENSING] Temperature: 21
+16:35.553	ID:1	}`)?t3L)/TE();aa2{
+16:35.554	ID:1	"temperature":21
+16:35.640	ID:4	[SENSING] Temperature: 29
+16:35.666	ID:1	}`)?t3L)TE?aa2{
+16:35.667	ID:1	"temperature":29
+16:36.007	ID:5	[SENSING] Temperature: 29
+16:36.032	ID:1	}`)?t3L)hTEAaa2{
+16:36.033	ID:1	"temperature":29
+16:36.210	ID:3	[SENSING] Temperature: 24
+16:36.217	ID:1	}`)?t3L);TEpf=aa2{
+16:36.219	ID:1	"temperature":24
+16:40.350	ID:1	}`L?t3LLDdExF2{
+16:40.351	ID:1	"cooling":false,
+16:40.352	ID:1	"heating":false,
+16:40.353	ID:1	"ventilation":false
+16:40.410	ID:1	}`K?t3LKdExB2{
+16:40.411	ID:1	"cooling":true,
+16:40.412	ID:1	"heating":false,
+16:40.414	ID:1	"ventilation":false
+16:40.528	ID:2	[SENSING] Temperature: 21
+16:40.530	ID:2	[SIM] Temperature set to 20
+16:40.553	ID:1	}`?t3L[_dExI`a2Added 1/3`)?t3L)-TE(*;aa2{
+16:40.554	ID:1	"temperature":20
+16:40.640	ID:4	[SENSING] Temperature: 29
+16:40.642	ID:4	[SIM] Temperature set to 29
+16:40.665	ID:1	}`)?t3L)TE?aa2{
+16:40.667	ID:1	"temperature":29
+16:41.007	ID:5	[SENSING] Temperature: 29
+16:41.009	ID:5	[SIM] Temperature set to 29
+16:41.032	ID:1	}`)?t3L)^TEIaa2{
+16:41.033	ID:1	"temperature":29
+16:41.191	ID:3	[SIM] Temperature set to 24
+16:41.210	ID:3	[SENSING] Temperature: 24
+16:41.216	ID:1	}`)?t3L);TEpg=aa2{
+16:41.218	ID:1	"temperature":24
+16:42.979	ID:1	}`?t3L\fdExG`a2Added 1/3`?t3L]mdExE`a2Added 1/3`?t3L^tdExC`a2Added 1/3`L?t3LLCdExH2{
+16:42.980	ID:1	"cooling":false,
+16:42.982	ID:1	"heating":false,
+16:42.983	ID:1	"ventilation":false
+16:45.528	ID:2	[SENSING] Temperature: 20
+16:45.553	ID:1	}`)?t3L)#TE(+Caa2{
+16:45.554	ID:1	"temperature":20
+16:45.640	ID:4	[SENSING] Temperature: 29
+16:45.665	ID:1	}`)?t3L)TEGaa2{
+16:45.666	ID:1	"temperature":29
+16:46.007	ID:5	[SENSING] Temperature: 29
+16:46.032	ID:1	}`)?t3L)\TEIaa2{
+16:46.033	ID:1	"temperature":29
+16:46.210	ID:3	[SENSING] Temperature: 24
+16:46.216	ID:1	}`)?t3L);TEphEaa2{
+16:46.217	ID:1	"temperature":24
+16:47.238	ID:1	}`L?t3LLEdExD2{
+16:47.239	ID:1	"cooling":false,
+16:47.240	ID:1	"heating":false,
+16:47.241	ID:1	"ventilation":false
+16:50.528	ID:2	[SENSING] Temperature: 20
+16:50.553	ID:1	}`)?t3L)!TE(,Caa2{
+16:50.554	ID:1	"temperature":20
+16:50.640	ID:4	[SENSING] Temperature: 29
+16:50.665	ID:1	}`)?t3L)TEGaa2{
+16:50.667	ID:1	"temperature":29
+16:51.007	ID:5	[SENSING] Temperature: 29
+16:51.032	ID:1	}`)?t3L)ZTEIaa2{
+16:51.033	ID:1	"temperature":29
+16:51.210	ID:3	[SENSING] Temperature: 24
+16:51.217	ID:1	}`)?t3L);TEpiEaa2{
+16:51.218	ID:1	"temperature":24
+16:55.528	ID:2	[SENSING] Temperature: 20
+16:55.553	ID:1	}`)?t3L)TE(-Caa2{
+16:55.554	ID:1	"temperature":20
+16:55.640	ID:4	[SENSING] Temperature: 29
+16:55.665	ID:1	}`)?t3L)TEGaa2{
+16:55.667	ID:1	"temperature":29
+16:56.007	ID:5	[SENSING] Temperature: 29
+16:56.032	ID:1	}`)?t3L)XTEIaa2{
+16:56.033	ID:1	"temperature":29
+16:56.210	ID:3	[SENSING] Temperature: 24
+16:56.216	ID:1	}`)?t3L);TEpjEaa2{
+16:56.217	ID:1	"temperature":24
+16:58.600	ID:2	[COOLING] stopped
+16:58.618	ID:1	}`#?t3L#dExJ2{
+17:00.528	ID:2	[SENSING] Temperature: 20
+17:00.530	ID:2	[SIM] Temperature set to 20
+17:00.553	ID:1	"value":false}`)?t3L)TE(.Caa2{
+17:00.554	ID:1	"temperature":20
+17:00.640	ID:4	[SENSING] Temperature: 29
+17:00.642	ID:4	[SIM] Temperature set to 29
+17:00.665	ID:1	}`)?t3L)TEGaa2{
+17:00.667	ID:1	"temperature":29
+17:01.007	ID:5	[SENSING] Temperature: 29
+17:01.009	ID:5	[SIM] Temperature set to 29
+17:01.032	ID:1	}`)?t3L)VTEIaa2{
+17:01.033	ID:1	"temperature":29
+17:01.191	ID:3	[SIM] Temperature set to 24
+17:01.210	ID:3	[SENSING] Temperature: 24
+17:01.216	ID:1	}`)?t3L);TEpkEaa2{
+17:01.218	ID:1	"temperature":24
+17:05.528	ID:2	[SENSING] Temperature: 20
+17:05.553	ID:1	}`)?t3L)TE(/Caa2{
+17:05.554	ID:1	"temperature":20
+17:05.640	ID:4	[SENSING] Temperature: 29
+17:05.665	ID:1	}`)?t3L)TEGaa2{
+17:05.667	ID:1	"temperature":29
+17:06.007	ID:5	[SENSING] Temperature: 29
+17:06.032	ID:1	}`)?t3L)TTEIaa2{
+17:06.033	ID:1	"temperature":29
+17:06.210	ID:3	[SENSING] Temperature: 24
+17:06.217	ID:1	}`)?t3L);TEplEaa2{
+17:06.218	ID:1	"temperature":24
+17:10.528	ID:2	[SENSING] Temperature: 20
+17:10.553	ID:1	}`)?t3L)TE(0Caa2{
+17:10.554	ID:1	"temperature":20
+17:10.640	ID:4	[SENSING] Temperature: 29
+17:10.665	ID:1	}`)?t3L)TEGaa2{
+17:10.667	ID:1	"temperature":29
+17:11.007	ID:5	[SENSING] Temperature: 29
+17:11.032	ID:1	}`)?t3L)RTEIaa2{
+17:11.033	ID:1	"temperature":29
+17:11.210	ID:3	[SENSING] Temperature: 24
+17:11.216	ID:1	}`)?t3L);TEpmEaa2{
+17:11.217	ID:1	"temperature":24
+17:14.588	ID:2	[COOLING] started
+17:14.606	ID:1	}`"?t3L":dExK2{
+17:15.528	ID:2	[SENSING] Temperature: 20
+17:15.553	ID:1	"value":true}`)?t3L)TE(1Caa2{
+17:15.554	ID:1	"temperature":20
+17:15.640	ID:4	[SENSING] Temperature: 29
+17:15.665	ID:1	}`)?t3L)TEGaa2{
+17:15.667	ID:1	"temperature":29
+17:16.007	ID:5	[SENSING] Temperature: 29
+17:16.032	ID:1	}`)?t3L)PTEIaa2{
+17:16.033	ID:1	"temperature":29
+17:16.210	ID:3	[SENSING] Temperature: 24
+17:16.216	ID:1	}`)?t3L);TEpnEaa2{
+17:16.217	ID:1	"temperature":24
+17:20.528	ID:2	[SENSING] Temperature: 20
+17:20.530	ID:2	[SIM] Temperature set to 19
+17:20.553	ID:1	}`)?t3L)TE(2Caa2{
+17:20.554	ID:1	"temperature":19
+17:20.640	ID:4	[SENSING] Temperature: 29
+17:20.642	ID:4	[SIM] Temperature set to 29
+17:20.665	ID:1	}`)?t3L)TEGaa2{
+17:20.667	ID:1	"temperature":29
+17:21.007	ID:5	[SENSING] Temperature: 29
+17:21.009	ID:5	[SIM] Temperature set to 29
+17:21.032	ID:1	}`)?t3L)NTEIaa2{
+17:21.033	ID:1	"temperature":29
+17:21.191	ID:3	[SIM] Temperature set to 24
+17:21.210	ID:3	[SENSING] Temperature: 24
+17:21.217	ID:1	}`)?t3L);TEpoEaa2{
+17:21.218	ID:1	"temperature":24
+17:25.343	ID:1	}`#?t3L#dxL2{
+17:25.528	ID:2	[SENSING] Temperature: 19
+17:25.553	ID:1	"value":false}`)?t3L)TE(3Caa2{
+17:25.554	ID:1	"temperature":19
+17:25.640	ID:4	[SENSING] Temperature: 29
+17:25.665	ID:1	}`)?t3L)TEGaa2{
+17:25.667	ID:1	"temperature":29
+17:26.007	ID:5	[SENSING] Temperature: 29
+17:26.032	ID:1	}`)?t3L)LTEIaa2{
+17:26.033	ID:1	"temperature":29
+17:26.210	ID:3	[SENSING] Temperature: 24
+17:26.216	ID:1	}`)?t3L);TEppEaa2{
+17:26.217	ID:1	"temperature":24
+17:30.528	ID:2	[SENSING] Temperature: 19
+17:30.553	ID:1	}`)?t3L)TE(4Caa2{
+17:30.554	ID:1	"temperature":19
+17:30.640	ID:4	[SENSING] Temperature: 29
+17:30.665	ID:1	}`)?t3L)TEGaa2{
+17:30.667	ID:1	"temperature":29
+17:31.007	ID:5	[SENSING] Temperature: 29
+17:31.032	ID:1	}`)?t3L)JTEIaa2{
+17:31.033	ID:1	"temperature":29
+17:31.210	ID:3	[SENSING] Temperature: 24
+17:31.216	ID:1	}`)?t3L);TEpqEaa2{
+17:31.217	ID:1	"temperature":24
+17:35.065	ID:2	[VENTILATION] started
+17:35.082	ID:1	}`"?t3L":dExM2{
+17:35.528	ID:2	[SENSING] Temperature: 19
+17:35.553	ID:1	"value":true}`)?t3L)TE(5Caa2{
+17:35.554	ID:1	"temperature":19
+17:35.640	ID:4	[SENSING] Temperature: 29
+17:35.665	ID:1	}`)?t3L)TEGaa2{
+17:35.667	ID:1	"temperature":29
+17:36.007	ID:5	[SENSING] Temperature: 29
+17:36.032	ID:1	}`)?t3L)HTEIaa2{
+17:36.033	ID:1	"temperature":29
+17:36.210	ID:3	[SENSING] Temperature: 24
+17:36.217	ID:1	}`)?t3L);TEprEaa2{
+17:36.218	ID:1	"temperature":24
+17:40.528	ID:2	[SENSING] Temperature: 19
+17:40.530	ID:2	[SIM] Temperature set to 17
+17:40.553	ID:1	}`)?t3L)TE(6Caa2{
+17:40.554	ID:1	"temperature":17
+17:40.640	ID:4	[SENSING] Temperature: 29
+17:40.642	ID:4	[SIM] Temperature set to 29
+17:40.665	ID:1	}`)?t3L)TEGaa2{
+17:40.667	ID:1	"temperature":29
+17:41.007	ID:5	[SENSING] Temperature: 29
+17:41.009	ID:5	[SIM] Temperature set to 29
+17:41.032	ID:1	}`)?t3L)FDEIaa2{
+17:41.033	ID:1	"temperature":29
+17:41.191	ID:3	[SIM] Temperature set to 24
+17:41.210	ID:3	[SENSING] Temperature: 24
+17:41.216	ID:1	}`)?t3L);TEpsEaa2{
+17:41.217	ID:1	"temperature":24
+17:42.444	ID:1	}`#?t3L#dxN2{
+17:45.040	ID:2	[COOLING] stopped
+17:45.058	ID:1	"value":false}`#?t3L#dExO2{
+17:45.528	ID:2	[SENSING] Temperature: 17
+17:45.553	ID:1	"value":false}`)?t3L)DE(7Caa2{
+17:45.554	ID:1	"temperature":17
+17:45.640	ID:4	[SENSING] Temperature: 29
+17:45.667	ID:1	}`)?t3L)DEGaa2{
+17:45.668	ID:1	"temperature":29
+17:46.007	ID:5	[SENSING] Temperature: 29
+17:46.032	ID:1	}`)?t3L)DTEIaa2{
+17:46.033	ID:1	"temperature":29
+17:46.211	ID:3	[SENSING] Temperature: 24
+17:46.217	ID:1	}`)?t3L)KDEptEaa2{
+17:46.218	ID:1	"temperature":24
+17:50.528	ID:2	[SENSING] Temperature: 17
+17:50.552	ID:1	}`)?t3L)
+17:50.553	ID:1	TE(8Caa2{
+17:50.554	ID:1	"temperature":17
+17:50.640	ID:4	[SENSING] Temperature: 29
+17:50.665	ID:1	}`)?t3L)TEGaa2{
+17:50.667	ID:1	"temperature":29
+17:51.007	ID:5	[SENSING] Temperature: 29
+17:51.032	ID:1	}`)?t3L)BTEIaa2{
+17:51.033	ID:1	"temperature":29
+17:51.210	ID:3	[SENSING] Temperature: 24
+17:51.217	ID:1	}`)?t3L);TEpuEaa2{
+17:51.218	ID:1	"temperature":24
+17:52.517	ID:2	[HEATING] started
+17:52.534	ID:1	}`"?t3L":dExP2{
+17:55.528	ID:2	[SENSING] Temperature: 17
+17:55.553	ID:1	"value":true}`)?t3L)TE(9Caa2{
+17:55.554	ID:1	"temperature":17
+17:55.640	ID:4	[SENSING] Temperature: 29
+17:55.665	ID:1	}`)?t3L)TEGaa2{
+17:55.667	ID:1	"temperature":29
+17:56.007	ID:5	[SENSING] Temperature: 29
+17:56.032	ID:1	}`)?t3L)@TEIaa2{
+17:56.033	ID:1	"temperature":29
+17:56.210	ID:3	[SENSING] Temperature: 24
+17:56.216	ID:1	}`)?t3L);TEpvEaa2{
+17:56.217	ID:1	"temperature":24
+18:00.528	ID:2	[SENSING] Temperature: 17
+18:00.530	ID:2	[SIM] Temperature set to 19
+18:00.553	ID:1	}`)?t3L)TE(:Caa2{
+18:00.554	ID:1	"temperature":19
+18:00.640	ID:4	[SENSING] Temperature: 29
+18:00.642	ID:4	[SIM] Temperature set to 29
+18:00.665	ID:1	}`)?t3L)TEGaa2{
+18:00.667	ID:1	"temperature":29
+18:01.007	ID:5	[SENSING] Temperature: 29
+18:01.009	ID:5	[SIM] Temperature set to 29
+18:01.032	ID:1	}`)?t3L)>TEIaa2{
+18:01.033	ID:1	"temperature":29
+18:01.191	ID:3	[SIM] Temperature set to 24
+18:01.210	ID:3	[SENSING] Temperature: 24
+18:01.216	ID:1	}`)?t3L);TEpwEaa2{
+18:01.217	ID:1	"temperature":24
+18:05.528	ID:2	[SENSING] Temperature: 19
+18:05.553	ID:1	}`)?t3L)TE(;Caa2{
+18:05.554	ID:1	"temperature":19
+18:05.640	ID:4	[SENSING] Temperature: 29
+18:05.665	ID:1	}`)?t3L)~TEGaa2{
+18:05.667	ID:1	"temperature":29
+18:06.007	ID:5	[SENSING] Temperature: 29
+18:06.032	ID:1	}`)?t3L)<TEIaa2{
+18:06.033	ID:1	"temperature":29
+18:06.210	ID:3	[SENSING] Temperature: 24
+18:06.217	ID:1	}`)?t3L);TEpxEaa2{
+18:06.218	ID:1	"temperature":24
+18:10.528	ID:2	[SENSING] Temperature: 19
+18:10.553	ID:1	}`)?t3L)TE(<Caa2{
+18:10.554	ID:1	"temperature":19
+18:10.640	ID:4	[SENSING] Temperature: 29
+18:10.665	ID:1	}`)?t3L)|TEGaa2{
+18:10.667	ID:1	"temperature":29
+18:11.007	ID:5	[SENSING] Temperature: 29
+18:11.032	ID:1	}`)?t3L):TEIaa2{
+18:11.033	ID:1	"temperature":29
+18:11.210	ID:3	[SENSING] Temperature: 24
+18:11.216	ID:1	}`)?t3L);TEpyEaa2{
+18:11.217	ID:1	"temperature":24
+18:15.528	ID:2	[SENSING] Temperature: 19
+18:15.553	ID:1	}`)?t3L)TE(=Caa2{
+18:15.554	ID:1	"temperature":19
+18:15.640	ID:4	[SENSING] Temperature: 29
+18:15.665	ID:1	}`)?t3L)zTEGaa2{
+18:15.667	ID:1	"temperature":29
+18:16.007	ID:5	[SENSING] Temperature: 29
+18:16.032	ID:1	}`)?t3L)8TEIaa2{
+18:16.033	ID:1	"temperature":29
+18:16.210	ID:3	[SENSING] Temperature: 24
+18:16.216	ID:1	}`)?t3L);TEpzEaa2{
+18:16.217	ID:1	"temperature":24
+18:20.528	ID:2	[SENSING] Temperature: 19
+18:20.530	ID:2	[SIM] Temperature set to 21
+18:20.553	ID:1	}`)?t3L)TE(>Caa2{
+18:20.554	ID:1	"temperature":21
+18:20.640	ID:4	[SENSING] Temperature: 29
+18:20.642	ID:4	[SIM] Temperature set to 29
+18:20.665	ID:1	}`)?t3L)xTEGaa2{
+18:20.667	ID:1	"temperature":29
+18:21.007	ID:5	[SENSING] Temperature: 29
+18:21.009	ID:5	[SIM] Temperature set to 29
+18:21.032	ID:1	}`)?t3L)6TEIaa2{
+18:21.033	ID:1	"temperature":29
+18:21.191	ID:3	[SIM] Temperature set to 24
+18:21.210	ID:3	[SENSING] Temperature: 24
+18:21.217	ID:1	}`)?t3L);TEp{Eaa2{
+18:21.218	ID:1	"temperature":24
+18:25.528	ID:2	[SENSING] Temperature: 21
+18:25.553	ID:1	}`)?t3L)TE(?Caa2{
+18:25.554	ID:1	"temperature":21
+18:25.640	ID:4	[SENSING] Temperature: 29
+18:25.665	ID:1	}`)?t3L)vTEGaa2{
+18:25.667	ID:1	"temperature":29
+18:26.007	ID:5	[SENSING] Temperature: 29
+18:26.032	ID:1	}`)?t3L)4TEIaa2{
+18:26.033	ID:1	"temperature":29
+18:26.210	ID:3	[SENSING] Temperature: 24
+18:26.216	ID:1	}`)?t3L);TEp|Eaa2{
+18:26.217	ID:1	"temperature":24
+18:30.528	ID:2	[SENSING] Temperature: 21
+18:30.553	ID:1	}`)?t3L)TE(@Caa2{
+18:30.554	ID:1	"temperature":21
+18:30.640	ID:4	[SENSING] Temperature: 29
+18:30.665	ID:1	}`)?t3L)tTEGaa2{
+18:30.667	ID:1	"temperature":29
+18:31.007	ID:5	[SENSING] Temperature: 29
+18:31.032	ID:1	}`)?t3L)2TEIaa2{
+18:31.033	ID:1	"temperature":29
+18:31.210	ID:3	[SENSING] Temperature: 24
+18:31.216	ID:1	}`)?t3L);TEp}Eaa2{
+18:31.217	ID:1	"temperature":24
+18:35.528	ID:2	[SENSING] Temperature: 21
+18:35.553	ID:1	}`)?t3L)TE(ACaa2{
+18:35.554	ID:1	"temperature":21
+18:35.640	ID:4	[SENSING] Temperature: 29
+18:35.665	ID:1	}`)?t3L)rTEGaa2{
+18:35.667	ID:1	"temperature":29
+18:36.007	ID:5	[SENSING] Temperature: 29
+18:36.032	ID:1	}`)?t3L)0TEIaa2{
+18:36.033	ID:1	"temperature":29
+18:36.210	ID:3	[SENSING] Temperature: 24
+18:36.217	ID:1	}`)?t3L);TEp~Eaa2{
+18:36.218	ID:1	"temperature":24
+18:40.528	ID:2	[SENSING] Temperature: 21
+18:40.530	ID:2	[SIM] Temperature set to 23
+18:40.553	ID:1	}`)?t3L)TE(BCaa2{
+18:40.554	ID:1	"temperature":23
+18:40.640	ID:4	[SENSING] Temperature: 29
+18:40.642	ID:4	[SIM] Temperature set to 29
+18:40.665	ID:1	}`)?t3L)pTEGaa2{
+18:40.667	ID:1	"temperature":29
+18:41.007	ID:5	[SENSING] Temperature: 29
+18:41.009	ID:5	[SIM] Temperature set to 29
+18:41.032	ID:1	}`)?t3L).DEIaa2{
+18:41.033	ID:1	"temperature":29
+18:41.191	ID:3	[SIM] Temperature set to 24
+18:41.210	ID:3	[SENSING] Temperature: 24
+18:41.216	ID:1	}`)?t3L);TEpEaa2{
+18:41.217	ID:1	"temperature":24
+18:45.528	ID:2	[SENSING] Temperature: 23
+18:45.553	ID:1	}`)?t3L)DE(CCaa2{
+18:45.554	ID:1	"temperature":23
+18:45.640	ID:4	[SENSING] Temperature: 29
+18:45.666	ID:1	}`)?t3L)nDEGaa2{
+18:45.667	ID:1	"temperature":29
+18:46.007	ID:5	[SENSING] Temperature: 29
+18:46.032	ID:1	}`)?t3L),TEIaa2{
+18:46.033	ID:1	"temperature":29
+18:46.211	ID:3	[SENSING] Temperature: 24
+18:46.217	ID:1	}`)?t3L)KDEpEaa2{
+18:46.218	ID:1	"temperature":24
+18:50.368	ID:2	[HEATING] stopped
+18:50.386	ID:1	}`#?t3L#dExQ2{
+18:50.528	ID:2	[SENSING] Temperature: 23
+18:50.553	ID:1	"value":false}`)?t3L)TE(DCaa2{
+18:50.554	ID:1	"temperature":23
+18:50.640	ID:4	[SENSING] Temperature: 29
+18:50.665	ID:1	}`)?t3L)lTEGaa2{
+18:50.667	ID:1	"temperature":29
+18:51.007	ID:5	[SENSING] Temperature: 29
+18:51.032	ID:1	}`)?t3L)*TEIaa2{
+18:51.033	ID:1	"temperature":29
+18:51.210	ID:3	[SENSING] Temperature: 24
+18:51.217	ID:1	}`)?t3L);TEpEaa2{
+18:51.218	ID:1	"temperature":24
+18:55.528	ID:2	[SENSING] Temperature: 23
+18:55.553	ID:1	}`)?t3L)TE(ECaa2{
+18:55.554	ID:1	"temperature":23
+18:55.640	ID:4	[SENSING] Temperature: 29
+18:55.665	ID:1	}`)?t3L)jTEGaa2{
+18:55.667	ID:1	"temperature":29
+18:56.007	ID:5	[SENSING] Temperature: 29
+18:56.032	ID:1	}`)?t3L)(TEIaa2{
+18:56.033	ID:1	"temperature":29
+18:56.210	ID:3	[SENSING] Temperature: 24
+18:56.216	ID:1	}`)?t3L);TEpEaa2{
+18:56.217	ID:1	"temperature":24
+18:56.606	ID:2	[VENTILATION] stopped
+18:56.624	ID:1	}`#?t3L#dExR2{
+19:00.528	ID:2	[SENSING] Temperature: 23
+19:00.530	ID:2	[SIM] Temperature set to 23
+19:00.553	ID:1	"value":false}`)?t3L)TE(FCaa2{
+19:00.554	ID:1	"temperature":23
+19:00.640	ID:4	[SENSING] Temperature: 29
+19:00.642	ID:4	[SIM] Temperature set to 29
+19:00.665	ID:1	}`)?t3L)hTEGaa2{
+19:00.667	ID:1	"temperature":29
+19:01.007	ID:5	[SENSING] Temperature: 29
+19:01.009	ID:5	[SIM] Temperature set to 29
+19:01.032	ID:1	}`)?t3L)&TEIaa2{
+19:01.033	ID:1	"temperature":29
+19:01.191	ID:3	[SIM] Temperature set to 24
+19:01.210	ID:3	[SENSING] Temperature: 24
+19:01.216	ID:1	}`)?t3L);TEpEaa2{
+19:01.217	ID:1	"temperature":24
+19:05.528	ID:2	[SENSING] Temperature: 23
+19:05.553	ID:1	}`)?t3L)TE(GCaa2{
+19:05.554	ID:1	"temperature":23
+19:05.640	ID:4	[SENSING] Temperature: 29
+19:05.665	ID:1	}`)?t3L)fTEGaa2{
+19:05.667	ID:1	"temperature":29
+19:06.007	ID:5	[SENSING] Temperature: 29
+19:06.032	ID:1	}`)?t3L)$TEIaa2{
+19:06.033	ID:1	"temperature":29
+19:06.210	ID:3	[SENSING] Temperature: 24
+19:06.217	ID:1	}`)?t3L);TEpEaa2{
+19:06.218	ID:1	"temperature":24
+19:10.528	ID:2	[SENSING] Temperature: 23
+19:10.553	ID:1	}`)?t3L)TE(HCaa2{
+19:10.554	ID:1	"temperature":23
+19:10.640	ID:4	[SENSING] Temperature: 29
+19:10.665	ID:1	}`)?t3L)dTEGaa2{
+19:10.667	ID:1	"temperature":29
+19:11.007	ID:5	[SENSING] Temperature: 29
+19:11.032	ID:1	}`)?t3L)"TEIaa2{
+19:11.033	ID:1	"temperature":29
+19:11.210	ID:3	[SENSING] Temperature: 24
+19:11.216	ID:1	}`)?t3L);TEpEaa2{
+19:11.217	ID:1	"temperature":24
+19:15.528	ID:2	[SENSING] Temperature: 23
+19:15.553	ID:1	}`)?t3L)TE(ICaa2{
+19:15.554	ID:1	"temperature":23
+19:15.640	ID:4	[SENSING] Temperature: 29
+19:15.665	ID:1	}`)?t3L)bTEGaa2{
+19:15.667	ID:1	"temperature":29
+19:16.007	ID:5	[SENSING] Temperature: 29
+19:16.032	ID:1	}`)?t3L) TEIaa2{
+19:16.033	ID:1	"temperature":29
+19:16.210	ID:3	[SENSING] Temperature: 24
+19:16.216	ID:1	}`)?t3L);TEpEaa2{
+19:16.217	ID:1	"temperature":24
+19:18.344	ID:2	[COOLING] started
+19:18.361	ID:1	}`"?t3L":dExS2{
+19:20.528	ID:2	[SENSING] Temperature: 23
+19:20.530	ID:2	[SIM] Temperature set to 22
+19:20.553	ID:1	"value":true}`)?t3L)TE(JCaa2{
+19:20.554	ID:1	"temperature":22
+19:20.640	ID:4	[SENSING] Temperature: 29
+19:20.642	ID:4	[SIM] Temperature set to 29
+19:20.665	ID:1	}`)?t3L)`TEGaa2{
+19:20.667	ID:1	"temperature":29
+19:21.007	ID:5	[SENSING] Temperature: 29
+19:21.009	ID:5	[SIM] Temperature set to 29
+19:21.032	ID:1	}`)?t3L)TEIaa2{
+19:21.033	ID:1	"temperature":29
+19:21.191	ID:3	[SIM] Temperature set to 24
+19:21.210	ID:3	[SENSING] Temperature: 24
+19:21.217	ID:1	}`)?t3L);TEpEaa2{
+19:21.218	ID:1	"temperature":24
+19:25.528	ID:2	[SENSING] Temperature: 22
+19:25.553	ID:1	}`)?t3L)TE(KCaa2{
+19:25.554	ID:1	"temperature":22
+19:25.640	ID:4	[SENSING] Temperature: 29
+19:25.665	ID:1	}`)?t3L)^TEGaa2{
+19:25.667	ID:1	"temperature":29
+19:26.007	ID:5	[SENSING] Temperature: 29
+19:26.032	ID:1	}`)?t3L)TEIaa2{
+19:26.033	ID:1	"temperature":29
+19:26.210	ID:3	[SENSING] Temperature: 24
+19:26.216	ID:1	}`)?t3L);TEpEaa2{
+19:26.217	ID:1	"temperature":24
+19:30.528	ID:2	[SENSING] Temperature: 22
+19:30.553	ID:1	}`)?t3L)TE(LCaa2{
+19:30.554	ID:1	"temperature":22
+19:30.640	ID:4	[SENSING] Temperature: 29
+19:30.665	ID:1	}`)?t3L)\TEGaa2{
+19:30.667	ID:1	"temperature":29
+19:31.007	ID:5	[SENSING] Temperature: 29
+19:31.032	ID:1	}`)?t3L)TEIaa2{
+19:31.033	ID:1	"temperature":29
+19:31.210	ID:3	[SENSING] Temperature: 24
+19:31.216	ID:1	}`)?t3L);TEpEaa2{
+19:31.217	ID:1	"temperature":24
+19:35.528	ID:2	[SENSING] Temperature: 22
+19:35.553	ID:1	}`)?t3L)TE(MCaa2{
+19:35.554	ID:1	"temperature":22
+19:35.640	ID:4	[SENSING] Temperature: 29
+19:35.665	ID:1	}`)?t3L)ZTEGaa2{
+19:35.667	ID:1	"temperature":29
+19:36.007	ID:5	[SENSING] Temperature: 29
+19:36.032	ID:1	}`)?t3L)TEIaa2{
+19:36.033	ID:1	"temperature":29
+19:36.210	ID:3	[SENSING] Temperature: 24
+19:36.217	ID:1	}`)?t3L);TEpEaa2{
+19:36.218	ID:1	"temperature":24
+19:40.528	ID:2	[SENSING] Temperature: 22
+19:40.530	ID:2	[SIM] Temperature set to 21
+19:40.553	ID:1	}`)?t3L)TE(NCaa2{
+19:40.554	ID:1	"temperature":21
+19:40.640	ID:4	[SENSING] Temperature: 29
+19:40.642	ID:4	[SIM] Temperature set to 29
+19:40.665	ID:1	}`)?t3L)XTEGaa2{
+19:40.667	ID:1	"temperature":29
+19:41.007	ID:5	[SENSING] Temperature: 29
+19:41.009	ID:5	[SIM] Temperature set to 29
+19:41.032	ID:1	}`)?t3L)DEIaa2{
+19:41.033	ID:1	"temperature":29
+19:41.191	ID:3	[SIM] Temperature set to 24
+19:41.210	ID:3	[SENSING] Temperature: 24
+19:41.216	ID:1	}`)?t3L);TEpEaa2{
+19:41.217	ID:1	"temperature":24
+19:45.528	ID:2	[SENSING] Temperature: 21
+19:45.553	ID:1	}`)?t3L)DE(OCaa2{
+19:45.554	ID:1	"temperature":21
+19:45.640	ID:4	[SENSING] Temperature: 29
+19:45.666	ID:1	}`)?t3L)VDEGaa2{
+19:45.667	ID:1	"temperature":29
+19:46.007	ID:5	[SENSING] Temperature: 29
+19:46.032	ID:1	}`)?t3L)TEIaa2{
+19:46.033	ID:1	"temperature":29
+19:46.211	ID:3	[SENSING] Temperature: 24
+19:46.217	ID:1	}`)?t3L)KDEpEaa2{
+19:46.218	ID:1	"temperature":24
+19:50.528	ID:2	[SENSING] Temperature: 21
+19:50.553	ID:1	}`)?t3L)TE(PCaa2{
+19:50.554	ID:1	"temperature":21
+19:50.640	ID:4	[SENSING] Temperature: 29
+19:50.665	ID:1	}`)?t3L)TTEGaa2{
+19:50.667	ID:1	"temperature":29
+19:51.007	ID:5	[SENSING] Temperature: 29
+19:51.032	ID:1	}`)?t3L)TEIaa2{
+19:51.033	ID:1	"temperature":29
+19:51.210	ID:3	[SENSING] Temperature: 24
+19:51.217	ID:1	}`)?t3L);TEpEaa2{
+19:51.218	ID:1	"temperature":24
+19:55.528	ID:2	[SENSING] Temperature: 21
+19:55.553	ID:1	}`)?t3L)TE(QCaa2{
+19:55.554	ID:1	"temperature":21
+19:55.640	ID:4	[SENSING] Temperature: 29
+19:55.665	ID:1	}`)?t3L)RTEGaa2{
+19:55.667	ID:1	"temperature":29
+19:56.007	ID:5	[SENSING] Temperature: 29
+19:56.032	ID:1	}`)?t3L)TEIaa2{
+19:56.033	ID:1	"temperature":29
+19:56.210	ID:3	[SENSING] Temperature: 24
+19:56.216	ID:1	}`)?t3L);TEpEaa2{
+19:56.217	ID:1	"temperature":24
+20:00.528	ID:2	[SENSING] Temperature: 21
+20:00.530	ID:2	[SIM] Temperature set to 20
+20:00.553	ID:1	}`)?t3L)TE(RCaa2{
+20:00.554	ID:1	"temperature":20
+20:00.640	ID:4	[SENSING] Temperature: 29
+20:00.642	ID:4	[SIM] Temperature set to 29
+20:00.665	ID:1	}`)?t3L)PTEGaa2{
+20:00.667	ID:1	"temperature":29
+20:01.007	ID:5	[SENSING] Temperature: 29
+20:01.009	ID:5	[SIM] Temperature set to 29
+20:01.031	ID:1	}`)?t3L)TE
+20:01.032	ID:1	Iaa2{
+20:01.033	ID:1	"temperature":29
+20:01.191	ID:3	[SIM] Temperature set to 24
+20:01.210	ID:3	[SENSING] Temperature: 24
+20:01.216	ID:1	}`)?t3L);TEpEaa2{
+20:01.217	ID:1	"temperature":24
+20:05.528	ID:2	[SENSING] Temperature: 20
+20:05.553	ID:1	}`)?t3L)TE(SCaa2{
+20:05.554	ID:1	"temperature":20
+20:05.640	ID:4	[SENSING] Temperature: 29
+20:05.665	ID:1	}`)?t3L)NTEGaa2{
+20:05.667	ID:1	"temperature":29
+20:06.007	ID:5	[SENSING] Temperature: 29
+20:06.032	ID:1	}`)?t3L)TEIaa2{
+20:06.033	ID:1	"temperature":29
+20:06.210	ID:3	[SENSING] Temperature: 24
+20:06.217	ID:1	}`)?t3L);TEpEaa2{
+20:06.218	ID:1	"temperature":24
+20:10.528	ID:2	[SENSING] Temperature: 20
+20:10.553	ID:1	}`)?t3L)TE(TCaa2{
+20:10.554	ID:1	"temperature":20
+20:10.640	ID:4	[SENSING] Temperature: 29
+20:10.665	ID:1	}`)?t3L)LTEGaa2{
+20:10.667	ID:1	"temperature":29
+20:11.007	ID:5	[SENSING] Temperature: 29
+20:11.031	ID:1	}`)?t3L)
+20:11.032	ID:1	TEIaa2{
+20:11.033	ID:1	"temperature":29
+20:11.210	ID:3	[SENSING] Temperature: 24
+20:11.216	ID:1	}`)?t3L);TEpEaa2{
+20:11.217	ID:1	"temperature":24
+20:15.528	ID:2	[SENSING] Temperature: 20
+20:15.553	ID:1	}`)?t3L)TE(UCaa2{
+20:15.554	ID:1	"temperature":20
+20:15.640	ID:4	[SENSING] Temperature: 29
+20:15.665	ID:1	}`)?t3L)JTEGaa2{
+20:15.667	ID:1	"temperature":29
+20:16.007	ID:5	[SENSING] Temperature: 29
+20:16.032	ID:1	}`)?t3L)TEIaa2{
+20:16.033	ID:1	"temperature":29
+20:16.210	ID:3	[SENSING] Temperature: 24
+20:16.216	ID:1	}`)?t3L);TEpEaa2{
+20:16.217	ID:1	"temperature":24
+20:20.528	ID:2	[SENSING] Temperature: 20
+20:20.530	ID:2	[SIM] Temperature set to 19
+20:20.553	ID:1	}`)?t3L)TE(VCaa2{
+20:20.554	ID:1	"temperature":19
+20:20.640	ID:4	[SENSING] Temperature: 29
+20:20.642	ID:4	[SIM] Temperature set to 29
+20:20.665	ID:1	}`)?t3L)HTEGaa2{
+20:20.667	ID:1	"temperature":29
+20:21.007	ID:5	[SENSING] Temperature: 29
+20:21.009	ID:5	[SIM] Temperature set to 29
+20:21.032	ID:1	}`)?t3L)TEIaa2{
+20:21.033	ID:1	"temperature":29
+20:21.191	ID:3	[SIM] Temperature set to 24
+20:21.210	ID:3	[SENSING] Temperature: 24
+20:21.217	ID:1	}`)?t3L);TEpEaa2{
+20:21.218	ID:1	"temperature":24
+20:25.528	ID:2	[SENSING] Temperature: 19
+20:25.553	ID:1	}`)?t3L)TE(WCaa2{
+20:25.554	ID:1	"temperature":19
+20:25.640	ID:4	[SENSING] Temperature: 29
+20:25.665	ID:1	}`)?t3L)FTEGaa2{
+20:25.667	ID:1	"temperature":29
+20:26.007	ID:5	[SENSING] Temperature: 29
+20:26.032	ID:1	}`)?t3L)TEIaa2{
+20:26.033	ID:1	"temperature":29
+20:26.210	ID:3	[SENSING] Temperature: 24
+20:26.216	ID:1	}`)?t3L);TEpEaa2{
+20:26.217	ID:1	"temperature":24
+20:30.528	ID:2	[SENSING] Temperature: 19
+20:30.553	ID:1	}`)?t3L)TE(XCaa2{
+20:30.554	ID:1	"temperature":19
+20:30.640	ID:4	[SENSING] Temperature: 29
+20:30.665	ID:1	}`)?t3L)DTEGaa2{
+20:30.667	ID:1	"temperature":29
+20:31.007	ID:5	[SENSING] Temperature: 29
+20:31.032	ID:1	}`)?t3L)TEIaa2{
+20:31.033	ID:1	"temperature":29
+20:31.210	ID:3	[SENSING] Temperature: 24
+20:31.216	ID:1	}`)?t3L);TEpEaa2{
+20:31.217	ID:1	"temperature":24
+20:35.528	ID:2	[SENSING] Temperature: 19
+20:35.553	ID:1	}`)?t3L)TE(YCaa2{
+20:35.554	ID:1	"temperature":19
+20:35.640	ID:4	[SENSING] Temperature: 29
+20:35.665	ID:1	}`)?t3L)BTEGaa2{
+20:35.667	ID:1	"temperature":29
+20:36.007	ID:5	[SENSING] Temperature: 29
+20:36.032	ID:1	}`)?t3L)TEIaa2{
+20:36.033	ID:1	"temperature":29
+20:36.210	ID:3	[SENSING] Temperature: 24
+20:36.217	ID:1	}`)?t3L);TEpEaa2{
+20:36.218	ID:1	"temperature":24
+20:40.528	ID:2	[SENSING] Temperature: 19
+20:40.530	ID:2	[SIM] Temperature set to 18
+20:40.553	ID:1	}`)?t3L)TE(ZCaa2{
+20:40.554	ID:1	"temperature":18
+20:40.640	ID:4	[SENSING] Temperature: 29
+20:40.642	ID:4	[SIM] Temperature set to 29
+20:40.665	ID:1	}`)?t3L)@TEGaa2{
+20:40.667	ID:1	"temperature":29
+20:41.007	ID:5	[SENSING] Temperature: 29
+20:41.009	ID:5	[SIM] Temperature set to 29
+20:41.032	ID:1	}`)?t3L)DEIaa2{
+20:41.033	ID:1	"temperature":29
+20:41.191	ID:3	[SIM] Temperature set to 24
+20:41.210	ID:3	[SENSING] Temperature: 24
+20:41.216	ID:1	}`)?t3L);TEpEaa2{
+20:41.217	ID:1	"temperature":24
+20:45.528	ID:2	[SENSING] Temperature: 18
+20:45.553	ID:1	}`)?t3L)DE([Caa2{
+20:45.554	ID:1	"temperature":18
+20:45.640	ID:4	[SENSING] Temperature: 29
+20:45.666	ID:1	}`)?t3L)>DEGaa2{
+20:45.667	ID:1	"temperature":29
+20:46.007	ID:5	[SENSING] Temperature: 29
+20:46.032	ID:1	}`)?t3L)TEIaa2{
+20:46.033	ID:1	"temperature":29
+20:46.211	ID:3	[SENSING] Temperature: 24
+20:46.217	ID:1	}`)?t3L)KDEpEaa2{
+20:46.218	ID:1	"temperature":24
+20:50.528	ID:2	[SENSING] Temperature: 18
+20:50.553	ID:1	}`)?t3L)TE(\Caa2{
+20:50.554	ID:1	"temperature":18
+20:50.640	ID:4	[SENSING] Temperature: 29
+20:50.665	ID:1	}`)?t3L)<TEGaa2{
+20:50.667	ID:1	"temperature":29
+20:51.007	ID:5	[SENSING] Temperature: 29
+20:51.032	ID:1	}`)?t3L)TEIaa2{
+20:51.033	ID:1	"temperature":29
+20:51.210	ID:3	[SENSING] Temperature: 24
+20:51.217	ID:1	}`)?t3L);TEpEaa2{
+20:51.218	ID:1	"temperature":24
+20:55.528	ID:2	[SENSING] Temperature: 18
+20:55.553	ID:1	}`)?t3L)TE(]Caa2{
+20:55.554	ID:1	"temperature":18
+20:55.640	ID:4	[SENSING] Temperature: 29
+20:55.665	ID:1	}`)?t3L):TEGaa2{
+20:55.667	ID:1	"temperature":29
+20:56.007	ID:5	[SENSING] Temperature: 29
+20:56.032	ID:1	}`)?t3L)TEIaa2{
+20:56.033	ID:1	"temperature":29
+20:56.210	ID:3	[SENSING] Temperature: 24
+20:56.216	ID:1	}`)?t3L);}TEpEaa2{
+20:56.217	ID:1	"temperature":24
+20:59.016	ID:1	}`L?t3LLCdExX2{
+20:59.017	ID:1	"cooling":false,
+20:59.018	ID:1	"heating":false,
+20:59.020	ID:1	"ventilation":false
+21:00.528	ID:2	[SENSING] Temperature: 18
+21:00.530	ID:2	[SIM] Temperature set to 17
+21:00.553	ID:1	}`)?t3L)TE(^Caa2{
+21:00.554	ID:1	"temperature":17
+21:00.640	ID:4	[SENSING] Temperature: 29
+21:00.642	ID:4	[SIM] Temperature set to 29
+21:00.665	ID:1	}`)?t3L)8TEGaa2{
+21:00.666	ID:1	"temperature":29
+21:01.007	ID:5	[SENSING] Temperature: 29
+21:01.009	ID:5	[SIM] Temperature set to 29
+21:01.032	ID:1	}`)?t3L)TEIaa2{
+21:01.033	ID:1	"temperature":29
+21:01.191	ID:3	[SIM] Temperature set to 24
+21:01.210	ID:3	[SENSING] Temperature: 24
+21:01.216	ID:1	}`)?t3L);{TEpEaa2{
+21:01.217	ID:1	"temperature":24
+21:01.582	ID:1	}`?t3L]IdExW`a2Added 1/3`?t3L[;dEx[`a2Added 1/3`K?t3LKdExT2{
+21:01.583	ID:1	"cooling":true,
+21:01.584	ID:1	"heating":false,
+21:01.585	ID:1	"ventilation":false
+21:05.528	ID:2	[SENSING] Temperature: 17
+21:05.541	ID:1	}`L?t3LLDdExV2{
+21:05.542	ID:1	"cooling":false,
+21:05.543	ID:1	"heating":false,
+21:05.545	ID:1	"ventilation":false
+21:05.554	ID:1	}`)?t3L)TE(_Caa2{
+21:05.556	ID:1	"temperature":17
+21:05.640	ID:4	[SENSING] Temperature: 29
+21:05.646	ID:1	}`L?t3LLBdExZ2{
+21:05.647	ID:1	"cooling":false,
+21:05.648	ID:1	"heating":false,
+21:05.649	ID:1	"ventilation":false
+21:05.665	ID:1	}`)?t3L)6TEGaa2{
+21:05.667	ID:1	"temperature":29
+21:06.007	ID:5	[SENSING] Temperature: 29
+21:06.032	ID:1	}`?t3L\BdExY`a2Added 1/3`?t3L^PdExU`a2Added 1/3`)?t3L)TE[aa2{
+21:06.033	ID:1	"temperature":29
+21:06.210	ID:3	[SENSING] Temperature: 24
+21:06.217	ID:1	}`)?t3L);gTEpWaa2{
+21:06.218	ID:1	"temperature":24
+21:10.528	ID:2	[SENSING] Temperature: 17
+21:10.553	ID:1	}`)?t3L)TE(`Uaa2{
+21:10.554	ID:1	"temperature":17
+21:10.640	ID:4	[SENSING] Temperature: 29
+21:10.665	ID:1	}`)?t3L)"TEYaa2{
+21:10.667	ID:1	"temperature":29
+21:11.007	ID:5	[SENSING] Temperature: 29
+21:11.032	ID:1	}`)?t3L)TE[aa2{
+21:11.033	ID:1	"temperature":29
+21:11.210	ID:3	[SENSING] Temperature: 24
+21:11.216	ID:1	}`)?t3L);eTEpWaa2{
+21:11.217	ID:1	"temperature":24
+21:15.528	ID:2	[SENSING] Temperature: 17
+21:15.553	ID:1	}`)?t3L)TE(aUaa2{
+21:15.554	ID:1	"temperature":17
+21:15.640	ID:4	[SENSING] Temperature: 29
+21:15.665	ID:1	}`)?t3L) TEYaa2{
+21:15.667	ID:1	"temperature":29
+21:16.007	ID:5	[SENSING] Temperature: 29
+21:16.032	ID:1	}`)?t3L)TE[aa2{
+21:16.033	ID:1	"temperature":29
+21:16.210	ID:3	[SENSING] Temperature: 24
+21:16.216	ID:1	}`)?t3L);cTEpWaa2{
+21:16.217	ID:1	"temperature":24
+21:17.380	ID:3	[VENTILATION] started
+21:17.398	ID:1	}`"?t3L"9~dEx\2{
+21:19.618	ID:3	[HEATING] started
+21:19.636	ID:1	"value":true}`"?t3L"9|dEx]2{
+21:20.528	ID:2	[SENSING] Temperature: 17
+21:20.530	ID:2	[SIM] Temperature set to 16
+21:20.553	ID:1	"value":true}`*?t3L*$TE(bUba2{
+21:20.554	ID:1	"temperature":16
+21:20.640	ID:4	[SENSING] Temperature: 29
+21:20.642	ID:4	[SIM] Temperature set to 29
+21:20.831	ID:1	}`*?t3L*lTEYba2{
+21:20.833	ID:1	"temperature":29
+21:21.007	ID:5	[SENSING] Temperature: 29
+21:21.009	ID:5	[SIM] Temperature set to 29
+21:21.032	ID:1	}`*?t3L*#ZTE[ba2{
+21:21.033	ID:1	"temperature":29
+21:21.191	ID:3	[SIM] Temperature set to 26
+21:21.210	ID:3	[SENSING] Temperature: 26
+21:21.222	ID:1	}`*?t3L*TEpWba2{
+21:21.224	ID:1	"temperature":26
+21:21.360	ID:5	[VENTILATION] started
+21:21.378	ID:1	}`"?t3L"7tdEx^2{
+21:22.718	ID:4	[COOLING] started
+21:22.736	ID:1	"value":true}`"?t3L"8udEx_2{
+21:25.528	ID:2	[SENSING] Temperature: 16
+21:25.553	ID:1	"value":true}`*?t3L*"TE(cUba2{
+21:25.554	ID:1	"temperature":16
+21:25.640	ID:4	[SENSING] Temperature: 29
+21:25.665	ID:1	}`*?t3L*kTEYba2{
+21:25.667	ID:1	"temperature":29
+21:26.007	ID:5	[SENSING] Temperature: 29
+21:26.032	ID:1	}`*?t3L*"YTE[ba2{
+21:26.033	ID:1	"temperature":29
+21:26.210	ID:3	[SENSING] Temperature: 26
+21:26.216	ID:1	}`*?t3L*TEpWba2{
+21:26.217	ID:1	"temperature":26
+21:30.528	ID:2	[SENSING] Temperature: 16
+21:30.553	ID:1	}`*?t3L*!TE(dUba2{
+21:30.554	ID:1	"temperature":16
+21:30.640	ID:4	[SENSING] Temperature: 29
+21:30.665	ID:1	}`*?t3L*jTEYba2{
+21:30.667	ID:1	"temperature":29
+21:31.007	ID:5	[SENSING] Temperature: 29
+21:31.032	ID:1	}`*?t3L*!XTE[ba2{
+21:31.033	ID:1	"temperature":29
+21:31.210	ID:3	[SENSING] Temperature: 26
+21:31.220	ID:1	}`*?t3L*TEpWba2{
+21:31.222	ID:1	"temperature":26
+21:35.528	ID:2	[SENSING] Temperature: 16
+21:35.553	ID:1	}`*?t3L* TE(eUba2{
+21:35.554	ID:1	"temperature":16
+21:35.640	ID:4	[SENSING] Temperature: 29
+21:35.665	ID:1	}`*?t3L*iTEYba2{
+21:35.667	ID:1	"temperature":29
+21:36.007	ID:5	[SENSING] Temperature: 29
+21:36.032	ID:1	}`*?t3L* WTE[ba2{
+21:36.033	ID:1	"temperature":29
+21:36.210	ID:3	[SENSING] Temperature: 26
+21:36.217	ID:1	}`*?t3L*TEpWba2{
+21:36.218	ID:1	"temperature":26
+21:39.836	ID:1	}`#?t3L#ddx`2{
+21:40.528	ID:2	[SENSING] Temperature: 16
+21:40.530	ID:2	[SIM] Temperature set to 15
+21:40.553	ID:1	"value":false}`*?t3L* TE(fUba2{
+21:40.554	ID:1	"temperature":15
+21:40.640	ID:4	[SENSING] Temperature: 29
+21:40.642	ID:4	[SIM] Temperature set to 28
+21:40.665	ID:1	}`*?t3L*hTEYba2{
+21:40.667	ID:1	"temperature":28
+21:41.007	ID:5	[SENSING] Temperature: 29
+21:41.009	ID:5	[SIM] Temperature set to 29
+21:41.032	ID:1	}`*?t3L*VTE[ba2{
+21:41.033	ID:1	"temperature":29
+21:41.191	ID:3	[SIM] Temperature set to 28
+21:41.210	ID:3	[SENSING] Temperature: 28
+21:41.216	ID:1	}`*?t3L*TEpWba2{
+21:41.218	ID:1	"temperature":28
+21:42.949	ID:1	}`#?t3L#bdxa2{
+21:45.528	ID:2	[SENSING] Temperature: 15
+21:45.553	ID:1	"value":false}`*?t3L*TE(gUba2{
+21:45.554	ID:1	"temperature":15
+21:45.640	ID:4	[SENSING] Temperature: 28
+21:45.665	ID:1	}`*?t3L*gTEYba2{
+21:45.667	ID:1	"temperature":28
+21:46.007	ID:5	[SENSING] Temperature: 29
+21:46.032	ID:1	}`*?t3L*UTE[ba2{
+21:46.033	ID:1	"temperature":29
+21:46.210	ID:3	[SENSING] Temperature: 28
+21:46.216	ID:1	}`*?t3L*TEpWba2{
+21:46.217	ID:1	"temperature":28
+21:50.528	ID:2	[SENSING] Temperature: 15
+21:50.553	ID:1	}`*?t3L*TE(hUba2{
+21:50.554	ID:1	"temperature":15
+21:50.640	ID:4	[SENSING] Temperature: 28
+21:50.665	ID:1	}`*?t3L*fTEYba2{
+21:50.667	ID:1	"temperature":28
+21:51.007	ID:5	[SENSING] Temperature: 29
+21:51.032	ID:1	}`*?t3L*TTE [ba2{
+21:51.033	ID:1	"temperature":29
+21:51.210	ID:3	[SENSING] Temperature: 28
+21:51.217	ID:1	}`*?t3L*TEpWba2{
+21:51.218	ID:1	"temperature":28
+21:55.528	ID:2	[SENSING] Temperature: 15
+21:55.553	ID:1	}`*?t3L*TE(iUba2{
+21:55.554	ID:1	"temperature":15
+21:55.640	ID:4	[SENSING] Temperature: 28
+21:55.665	ID:1	}`*?t3L*eTEYba2{
+21:55.667	ID:1	"temperature":28
+21:56.007	ID:5	[SENSING] Temperature: 29
+21:56.032	ID:1	}`*?t3L*STE![ba2{
+21:56.033	ID:1	"temperature":29
+21:56.210	ID:3	[SENSING] Temperature: 28
+21:56.216	ID:1	}`*?t3L*TEpWba2{
+21:56.217	ID:1	"temperature":28
+21:58.647	ID:2	[COOLING] stopped
+21:58.665	ID:1	}`#?t3L#dExb2{
+21:59.969	ID:3	[VENTILATION] stopped
+21:59.988	ID:1	"value":false}`#?t3L#dExc2{
+22:00.528	ID:2	[SENSING] Temperature: 15
+22:00.530	ID:2	[SIM] Temperature set to 15
+22:00.553	ID:1	"value":false}`*?t3L*TE(jUba2{
+22:00.554	ID:1	"temperature":15
+22:00.640	ID:4	[SENSING] Temperature: 28
+22:00.642	ID:4	[SIM] Temperature set to 27
+22:00.665	ID:1	}`*?t3L*dTEYba2{
+22:00.667	ID:1	"temperature":27
+22:01.007	ID:5	[SENSING] Temperature: 29
+22:01.009	ID:5	[SIM] Temperature set to 29
+22:01.032	ID:1	}`*?t3L*+RDE"[ba2{
+22:01.034	ID:1	"temperature":29
+22:01.191	ID:3	[SIM] Temperature set to 29
+22:01.211	ID:3	[SENSING] Temperature: 29
+22:01.217	ID:1	}`*?t3L*DEpWba2{
+22:01.218	ID:1	"temperature":29
+22:01.349	ID:1	}`#?t3L#_dxd2{
+22:03.195	ID:3	[HEATING] stopped
+22:03.213	ID:1	"value":false}`#?t3L#dExe2{
+22:04.795	ID:4	[COOLING] stopped
+22:04.813	ID:1	"value":false}`#?t3L#dExf2{
+22:05.528	ID:2	[SENSING] Temperature: 15
+22:05.553	ID:1	"value":false}`*?t3L*DE(kUba2{
+22:05.554	ID:1	"temperature":15
+22:05.640	ID:4	[SENSING] Temperature: 27
+22:05.666	ID:1	}`*?t3L*sDEYba2{
+22:05.667	ID:1	"temperature":27
+22:06.007	ID:5	[SENSING] Temperature: 29
+22:06.035	ID:1	}`*?t3L*QTE#[ba2{
+22:06.037	ID:1	"temperature":29
+22:06.074	ID:5	[VENTILATION] stopped
+22:06.092	ID:1	}`#?t3L#dExg2{
+22:06.210	ID:3	[SENSING] Temperature: 29
+22:06.217	ID:1	"value":false}`*?t3L*TEpWba2{
+22:06.218	ID:1	"temperature":29
+22:10.528	ID:2	[SENSING] Temperature: 15
+22:10.552	ID:1	}`*?t3L*TE(lUb
+22:10.553	ID:1	a2{
+22:10.554	ID:1	"temperature":15
+22:10.640	ID:4	[SENSING] Temperature: 27
+22:10.665	ID:1	}`*?t3L*bTEYb
+22:10.665	ID:1	a2{
+22:10.667	ID:1	"temperature":27
+22:11.007	ID:5	[SENSING] Temperature: 29
+22:11.032	ID:1	}`*?t3L*PTE$[b
+22:11.032	ID:1	a2{
+22:11.033	ID:1	"temperature":29
+22:11.210	ID:3	[SENSING] Temperature: 29
+22:11.216	ID:1	}`*?t3L*TEpWb
+22:11.216	ID:1	a2{
+22:11.217	ID:1	"temperature":29
+22:15.528	ID:2	[SENSING] Temperature: 15
+22:15.553	ID:1	}`*?t3L*TE(mUba2{
+22:15.554	ID:1	"temperature":15
+22:15.640	ID:4	[SENSING] Temperature: 27
+22:15.665	ID:1	}`*?t3L*aTEYba2{
+22:15.667	ID:1	"temperature":27
+22:16.007	ID:5	[SENSING] Temperature: 29
+22:16.032	ID:1	}`*?t3L*OTE%[ba2{
+22:16.033	ID:1	"temperature":29
+22:16.210	ID:3	[SENSING] Temperature: 29
+22:16.216	ID:1	}`*?t3L*TEpWba2{
+22:16.217	ID:1	"temperature":29
+22:20.528	ID:2	[SENSING] Temperature: 15
+22:20.530	ID:2	[SIM] Temperature set to 15
+22:20.553	ID:1	}`*?t3L*TE(nUba2{
+22:20.554	ID:1	"temperature":15
+22:20.640	ID:4	[SENSING] Temperature: 27
+22:20.642	ID:4	[SIM] Temperature set to 27
+22:20.665	ID:1	}`*?t3L*`TEYba2{
+22:20.667	ID:1	"temperature":27
+22:21.007	ID:5	[SENSING] Temperature: 29
+22:21.009	ID:5	[SIM] Temperature set to 29
+22:21.032	ID:1	}`*?t3L*NTE&[ba2{
+22:21.033	ID:1	"temperature":29
+22:21.191	ID:3	[SIM] Temperature set to 29
+22:21.210	ID:3	[SENSING] Temperature: 29
+22:21.217	ID:1	}`*?t3L*TEpWba2{
+22:21.218	ID:1	"temperature":29
+22:25.528	ID:2	[SENSING] Temperature: 15
+22:25.553	ID:1	}`*?t3L*TE(oUba2{
+22:25.554	ID:1	"temperature":15
+22:25.640	ID:4	[SENSING] Temperature: 27
+22:25.665	ID:1	}`*?t3L*_TEYba2{
+22:25.667	ID:1	"temperature":27
+22:26.007	ID:5	[SENSING] Temperature: 29
+22:26.032	ID:1	}`*?t3L*MTE'[ba2{
+22:26.033	ID:1	"temperature":29
+22:26.210	ID:3	[SENSING] Temperature: 29
+22:26.216	ID:1	}`*?t3L*TEpWba2{
+22:26.217	ID:1	"temperature":29
+22:30.528	ID:2	[SENSING] Temperature: 15
+22:30.553	ID:1	}`*?t3L*TE(pUba2{
+22:30.554	ID:1	"temperature":15
+22:30.640	ID:4	[SENSING] Temperature: 27
+22:30.665	ID:1	}`*?t3L*^TEYba2{
+22:30.667	ID:1	"temperature":27
+22:31.007	ID:5	[SENSING] Temperature: 29
+22:31.032	ID:1	}`*?t3L*LTE([ba2{
+22:31.033	ID:1	"temperature":29
+22:31.210	ID:3	[SENSING] Temperature: 29
+22:31.216	ID:1	}`*?t3L*TEpWba2{
+22:31.217	ID:1	"temperature":29
+22:35.528	ID:2	[SENSING] Temperature: 15
+22:35.553	ID:1	}`*?t3L*TE(qUba2{
+22:35.554	ID:1	"temperature":15
+22:35.640	ID:4	[SENSING] Temperature: 27
+22:35.665	ID:1	}`*?t3L*]TEYba2{
+22:35.667	ID:1	"temperature":27
+22:36.007	ID:5	[SENSING] Temperature: 29
+22:36.032	ID:1	}`*?t3L*KTE)[ba2{
+22:36.033	ID:1	"temperature":29
+22:36.210	ID:3	[SENSING] Temperature: 29
+22:36.217	ID:1	}`*?t3L*TEpWba2{
+22:36.218	ID:1	"temperature":29
+22:40.528	ID:2	[SENSING] Temperature: 15
+22:40.530	ID:2	[SIM] Temperature set to 15
+22:40.553	ID:1	}`*?t3L*TE(rUba2{
+22:40.554	ID:1	"temperature":15
+22:40.640	ID:4	[SENSING] Temperature: 27
+22:40.642	ID:4	[SIM] Temperature set to 27
+22:40.665	ID:1	}`*?t3L*\TEYba2{
+22:40.667	ID:1	"temperature":27
+22:41.007	ID:5	[SENSING] Temperature: 29
+22:41.009	ID:5	[SIM] Temperature set to 29
+22:41.032	ID:1	}`*?t3L*JTE*[ba2{
+22:41.033	ID:1	"temperature":29
+22:41.191	ID:3	[SIM] Temperature set to 29
+22:41.210	ID:3	[SENSING] Temperature: 29
+22:41.216	ID:1	}`*?t3L*TEpWba2{
+22:41.217	ID:1	"temperature":29
+22:45.528	ID:2	[SENSING] Temperature: 15
+22:45.553	ID:1	}`*?t3L*TE(sUba2{
+22:45.554	ID:1	"temperature":15
+22:45.640	ID:4	[SENSING] Temperature: 27
+22:45.665	ID:1	}`*?t3L*[TEYba2{
+22:45.667	ID:1	"temperature":27
+22:46.007	ID:5	[SENSING] Temperature: 29
+22:46.032	ID:1	}`*?t3L*ITE+[ba2{
+22:46.033	ID:1	"temperature":29
+22:46.210	ID:3	[SENSING] Temperature: 29
+22:46.216	ID:1	}`*?t3L*TEpWba2{
+22:46.217	ID:1	"temperature":29
+22:50.528	ID:2	[SENSING] Temperature: 15
+22:50.553	ID:1	}`*?t3L*TE(tUba2{
+22:50.554	ID:1	"temperature":15
+22:50.640	ID:4	[SENSING] Temperature: 27
+22:50.665	ID:1	}`*?t3L*ZTEYba2{
+22:50.667	ID:1	"temperature":27
+22:51.007	ID:5	[SENSING] Temperature: 29
+22:51.032	ID:1	}`*?t3L*HTE,[ba2{
+22:51.033	ID:1	"temperature":29
+22:51.210	ID:3	[SENSING] Temperature: 29
+22:51.217	ID:1	}`*?t3L*TEpWba2{
+22:51.218	ID:1	"temperature":29
+22:55.528	ID:2	[SENSING] Temperature: 15
+22:55.553	ID:1	}`*?t3L*TE(uUba2{
+22:55.554	ID:1	"temperature":15
+22:55.640	ID:4	[SENSING] Temperature: 27
+22:55.665	ID:1	}`*?t3L*YTEYba2{
+22:55.667	ID:1	"temperature":27
+22:56.007	ID:5	[SENSING] Temperature: 29
+22:56.032	ID:1	}`*?t3L*GTE-[ba2{
+22:56.033	ID:1	"temperature":29
+22:56.210	ID:3	[SENSING] Temperature: 29
+22:56.216	ID:1	}`*?t3L*TEpWba2{
+22:56.217	ID:1	"temperature":29
+23:00.528	ID:2	[SENSING] Temperature: 15
+23:00.530	ID:2	[SIM] Temperature set to 15
+23:00.553	ID:1	}`*?t3L*TE(vUba2{
+23:00.554	ID:1	"temperature":15
+23:00.640	ID:4	[SENSING] Temperature: 27
+23:00.642	ID:4	[SIM] Temperature set to 27
+23:00.665	ID:1	}`*?t3L*XTEYba2{
+23:00.667	ID:1	"temperature":27
+23:01.007	ID:5	[SENSING] Temperature: 29
+23:01.009	ID:5	[SIM] Temperature set to 29
+23:01.032	ID:1	}`*?t3L*FDE.[ba2{
+23:01.034	ID:1	"temperature":29
+23:01.191	ID:3	[SIM] Temperature set to 29
+23:01.211	ID:3	[SENSING] Temperature: 29
+23:01.217	ID:1	}`*?t3L*DEpWba2{
+23:01.218	ID:1	"temperature":29
+23:05.528	ID:2	[SENSING] Temperature: 15
+23:05.553	ID:1	}`*?t3L*DE(wUba2{
+23:05.554	ID:1	"temperature":15
+23:05.640	ID:4	[SENSING] Temperature: 27
+23:05.666	ID:1	}`*?t3L*gDEYba2{
+23:05.667	ID:1	"temperature":27
+23:06.007	ID:5	[SENSING] Temperature: 29
+23:06.032	ID:1	}`*?t3L*ETE/[ba2{
+23:06.033	ID:1	"temperature":29
+23:06.210	ID:3	[SENSING] Temperature: 29
+23:06.217	ID:1	}`*?t3L*TEpWba2{
+23:06.218	ID:1	"temperature":29
+23:10.528	ID:2	[SENSING] Temperature: 15
+23:10.553	ID:1	}`*?t3L*TE(xUba2{
+23:10.554	ID:1	"temperature":15
+23:10.640	ID:4	[SENSING] Temperature: 27
+23:10.665	ID:1	}`*?t3L*VTEYba2{
+23:10.667	ID:1	"temperature":27
+23:11.007	ID:5	[SENSING] Temperature: 29
+23:11.032	ID:1	}`*?t3L*DTE0[ba2{
+23:11.033	ID:1	"temperature":29
+23:11.210	ID:3	[SENSING] Temperature: 29
+23:11.216	ID:1	}`*?t3L*TEpWba2{
+23:11.217	ID:1	"temperature":29
+23:15.528	ID:2	[SENSING] Temperature: 15
+23:15.553	ID:1	}`*?t3L*TE(yUba2{
+23:15.554	ID:1	"temperature":15
+23:15.640	ID:4	[SENSING] Temperature: 27
+23:15.665	ID:1	}`*?t3L*UTEYba2{
+23:15.667	ID:1	"temperature":27
+23:16.007	ID:5	[SENSING] Temperature: 29
+23:16.032	ID:1	}`*?t3L*CTE1[ba2{
+23:16.033	ID:1	"temperature":29
+23:16.210	ID:3	[SENSING] Temperature: 29
+23:16.216	ID:1	}`*?t3L*TEpWba2{
+23:16.217	ID:1	"temperature":29
+23:20.528	ID:2	[SENSING] Temperature: 15
+23:20.530	ID:2	[SIM] Temperature set to 15
+23:20.553	ID:1	}`*?t3L*TE(zUba2{
+23:20.554	ID:1	"temperature":15
+23:20.640	ID:4	[SENSING] Temperature: 27
+23:20.642	ID:4	[SIM] Temperature set to 27
+23:20.665	ID:1	}`*?t3L*TTEYba2{
+23:20.667	ID:1	"temperature":27
+23:21.007	ID:5	[SENSING] Temperature: 29
+23:21.009	ID:5	[SIM] Temperature set to 29
+23:21.032	ID:1	}`*?t3L*BTE2[ba2{
+23:21.033	ID:1	"temperature":29
+23:21.191	ID:3	[SIM] Temperature set to 29
+23:21.210	ID:3	[SENSING] Temperature: 29
+23:21.217	ID:1	}`*?t3L*TEpWba2{
+23:21.218	ID:1	"temperature":29
+23:25.528	ID:2	[SENSING] Temperature: 15
+23:25.553	ID:1	}`*?t3L*TE({Uba2{
+23:25.554	ID:1	"temperature":15
+23:25.640	ID:4	[SENSING] Temperature: 27
+23:25.665	ID:1	}`*?t3L*STEYba2{
+23:25.667	ID:1	"temperature":27
+23:26.007	ID:5	[SENSING] Temperature: 29
+23:26.031	ID:1	}`*?t3L*
+23:26.032	ID:1	ATE3[ba2{
+23:26.033	ID:1	"temperature":29
+23:26.210	ID:3	[SENSING] Temperature: 29
+23:26.216	ID:1	}`*?t3L*TEpWba2{
+23:26.217	ID:1	"temperature":29
+23:30.528	ID:2	[SENSING] Temperature: 15
+23:30.552	ID:1	}`*?t3L*
+23:30.553	ID:1	TE(|Uba2{
+23:30.554	ID:1	"temperature":15
+23:30.640	ID:4	[SENSING] Temperature: 27
+23:30.665	ID:1	}`*?t3L*RTEYba2{
+23:30.667	ID:1	"temperature":27
+23:31.007	ID:5	[SENSING] Temperature: 29
+23:31.032	ID:1	}`*?t3L*@TE4[ba2{
+23:31.033	ID:1	"temperature":29
+23:31.210	ID:3	[SENSING] Temperature: 29
+23:31.216	ID:1	}`*?t3L*TEpWba2{
+23:31.217	ID:1	"temperature":29
+23:35.528	ID:2	[SENSING] Temperature: 15
+23:35.553	ID:1	}`*?t3L*TE(}Uba2{
+23:35.554	ID:1	"temperature":15
+23:35.640	ID:4	[SENSING] Temperature: 27
+23:35.665	ID:1	}`*?t3L*QTEYba2{
+23:35.667	ID:1	"temperature":27
+23:36.007	ID:5	[SENSING] Temperature: 29
+23:36.032	ID:1	}`*?t3L*?TE5[ba2{
+23:36.033	ID:1	"temperature":29
+23:36.210	ID:3	[SENSING] Temperature: 29
+23:36.217	ID:1	}`*?t3L*TEpWba2{
+23:36.218	ID:1	"temperature":29
+23:40.528	ID:2	[SENSING] Temperature: 15
+23:40.530	ID:2	[SIM] Temperature set to 15
+23:40.553	ID:1	}`*?t3L*TE(~Uba2{
+23:40.554	ID:1	"temperature":15
+23:40.640	ID:4	[SENSING] Temperature: 27
+23:40.642	ID:4	[SIM] Temperature set to 27
+23:40.665	ID:1	}`*?t3L*PTEYba2{
+23:40.667	ID:1	"temperature":27
+23:41.007	ID:5	[SENSING] Temperature: 29
+23:41.009	ID:5	[SIM] Temperature set to 29
+23:41.032	ID:1	}`*?t3L*>TE6[ba2{
+23:41.033	ID:1	"temperature":29
+23:41.191	ID:3	[SIM] Temperature set to 29
+23:41.210	ID:3	[SENSING] Temperature: 29
+23:41.216	ID:1	}`*?t3L*TEpWba2{
+23:41.217	ID:1	"temperature":29
+23:45.528	ID:2	[SENSING] Temperature: 15
+23:45.553	ID:1	}`*?t3L*TE(Uba2{
+23:45.554	ID:1	"temperature":15
+23:45.640	ID:4	[SENSING] Temperature: 27
+23:45.665	ID:1	}`*?t3L*OTEYba2{
+23:45.667	ID:1	"temperature":27
+23:46.007	ID:5	[SENSING] Temperature: 29
+23:46.032	ID:1	}`*?t3L*=TE7[ba2{
+23:46.033	ID:1	"temperature":29
+23:46.210	ID:3	[SENSING] Temperature: 29
+23:46.216	ID:1	}`*?t3L*TEpWba2{
+23:46.217	ID:1	"temperature":29
+23:50.528	ID:2	[SENSING] Temperature: 15
+23:50.553	ID:1	}`*?t3L*TE(Uba2{
+23:50.554	ID:1	"temperature":15
+23:50.640	ID:4	[SENSING] Temperature: 27
+23:50.665	ID:1	}`*?t3L*NTEYba2{
+23:50.667	ID:1	"temperature":27
+23:51.007	ID:5	[SENSING] Temperature: 29
+23:51.032	ID:1	}`*?t3L*<TE8[ba2{
+23:51.033	ID:1	"temperature":29
+23:51.210	ID:3	[SENSING] Temperature: 29
+23:51.217	ID:1	}`*?t3L*TEpWba2{
+23:51.219	ID:1	"temperature":29
+23:55.528	ID:2	[SENSING] Temperature: 15
+23:55.553	ID:1	}`*?t3L*TE(Uba2{
+23:55.554	ID:1	"temperature":15
+23:55.640	ID:4	[SENSING] Temperature: 27
+23:55.665	ID:1	}`*?t3L*MTEYba2{
+23:55.667	ID:1	"temperature":27
+23:56.007	ID:5	[SENSING] Temperature: 29
+23:56.032	ID:1	}`*?t3L*;TE9[ba2{
+23:56.033	ID:1	"temperature":29
+23:56.210	ID:3	[SENSING] Temperature: 29
+23:56.216	ID:1	}`*?t3L*TEpWba2{
+23:56.217	ID:1	"temperature":29
+24:00.528	ID:2	[SENSING] Temperature: 15
+24:00.530	ID:2	[SIM] Temperature set to 15
+24:00.553	ID:1	}`*?t3L*TE(Ub a2{
+24:00.554	ID:1	"temperature":15
+24:00.640	ID:4	[SENSING] Temperature: 27
+24:00.642	ID:4	[SIM] Temperature set to 27
+24:00.665	ID:1	}`*?t3L*L~TEYb a2{
+24:00.667	ID:1	"temperature":27
+24:01.007	ID:5	[SENSING] Temperature: 29
+24:01.009	ID:5	[SIM] Temperature set to 29
+24:01.032	ID:1	}`*?t3L*:DE:[b a2{
+24:01.034	ID:1	"temperature":29
+24:01.191	ID:3	[SIM] Temperature set to 29
+24:01.211	ID:3	[SENSING] Temperature: 29
+24:01.217	ID:1	}`*?t3L*DEpWb a2{
+24:01.218	ID:1	"temperature":29
+24:05.528	ID:2	[SENSING] Temperature: 15
+24:05.553	ID:1	}`*?t3L*DE(Ub!a2{
+24:05.554	ID:1	"temperature":15
+24:05.640	ID:4	[SENSING] Temperature: 27
+24:05.666	ID:1	}`*?t3L*[}DEYb!a2{
+24:05.667	ID:1	"temperature":27
+24:06.007	ID:5	[SENSING] Temperature: 29
+24:06.032	ID:1	}`*?t3L*9TE;[b!a2{
+24:06.033	ID:1	"temperature":29
+24:06.210	ID:3	[SENSING] Temperature: 29
+24:06.217	ID:1	}`*?t3L*TEpWb!a2{
+24:06.219	ID:1	"temperature":29
+24:10.528	ID:2	[SENSING] Temperature: 15
+24:10.553	ID:1	}`*?t3L*TE(Ub"a2{
+24:10.554	ID:1	"temperature":15
+24:10.640	ID:4	[SENSING] Temperature: 27
+24:10.665	ID:1	}`*?t3L*J|TEYb"a2{
+24:10.667	ID:1	"temperature":27
+24:11.007	ID:5	[SENSING] Temperature: 29
+24:11.032	ID:1	}`*?t3L*8TE<[b"a2{
+24:11.033	ID:1	"temperature":29
+24:11.210	ID:3	[SENSING] Temperature: 29
+24:11.216	ID:1	}`*?t3L*TEpWb"a2{
+24:11.217	ID:1	"temperature":29
+24:15.528	ID:2	[SENSING] Temperature: 15
+24:15.553	ID:1	}`*?t3L*TE(Ub#a2{
+24:15.554	ID:1	"temperature":15
+24:15.640	ID:4	[SENSING] Temperature: 27
+24:15.665	ID:1	}`*?t3L*I{TEYb#a2{
+24:15.667	ID:1	"temperature":27
+24:16.007	ID:5	[SENSING] Temperature: 29
+24:16.032	ID:1	}`*?t3L*7TE=[b#a2{
+24:16.033	ID:1	"temperature":29
+24:16.210	ID:3	[SENSING] Temperature: 29
+24:16.216	ID:1	}`*?t3L*TEpWb#a2{
+24:16.217	ID:1	"temperature":29
+24:20.528	ID:2	[SENSING] Temperature: 15
+24:20.530	ID:2	[SIM] Temperature set to 15
+24:20.553	ID:1	}`*?t3L*TE(Ub$a2{
+24:20.554	ID:1	"temperature":15
+24:20.640	ID:4	[SENSING] Temperature: 27
+24:20.642	ID:4	[SIM] Temperature set to 27
+24:20.665	ID:1	}`*?t3L*HzTEYb$a2{
+24:20.667	ID:1	"temperature":27
+24:21.007	ID:5	[SENSING] Temperature: 29
+24:21.009	ID:5	[SIM] Temperature set to 29
+24:21.032	ID:1	}`*?t3L*5TE>[b$a2{
+24:21.033	ID:1	"temperature":29
+24:21.191	ID:3	[SIM] Temperature set to 29
+24:21.210	ID:3	[SENSING] Temperature: 29
+24:21.217	ID:1	}`*?t3L*TEpWb$a2{
+24:21.218	ID:1	"temperature":29
+24:25.528	ID:2	[SENSING] Temperature: 15
+24:25.553	ID:1	}`*?t3L*TE(Ub%a2{
+24:25.554	ID:1	"temperature":15
+24:25.640	ID:4	[SENSING] Temperature: 27
+24:25.665	ID:1	}`*?t3L*GyTEYb%a2{
+24:25.667	ID:1	"temperature":27
+24:26.007	ID:5	[SENSING] Temperature: 29
+24:26.032	ID:1	}`*?t3L*4TE?[b%a2{
+24:26.033	ID:1	"temperature":29
+24:26.210	ID:3	[SENSING] Temperature: 29
+24:26.216	ID:1	}`*?t3L*TEpWb%a2{
+24:26.217	ID:1	"temperature":29
+24:30.528	ID:2	[SENSING] Temperature: 15
+24:30.553	ID:1	}`*?t3L*TE(Ub&a2{
+24:30.554	ID:1	"temperature":15
+24:30.640	ID:4	[SENSING] Temperature: 27
+24:30.665	ID:1	}`*?t3L*FxTEYb&a2{
+24:30.667	ID:1	"temperature":27
+24:31.007	ID:5	[SENSING] Temperature: 29
+24:31.032	ID:1	}`*?t3L*3TE@[b&a2{
+24:31.033	ID:1	"temperature":29
+24:31.210	ID:3	[SENSING] Temperature: 29
+24:31.216	ID:1	}`*?t3L*TEpWb&a2{
+24:31.217	ID:1	"temperature":29
+24:35.528	ID:2	[SENSING] Temperature: 15
+24:35.553	ID:1	}`*?t3L*TE(Ub'a2{
+24:35.554	ID:1	"temperature":15
+24:35.640	ID:4	[SENSING] Temperature: 27
+24:35.665	ID:1	}`*?t3L*EwTEYb'a2{
+24:35.667	ID:1	"temperature":27
+24:36.007	ID:5	[SENSING] Temperature: 29
+24:36.032	ID:1	}`*?t3L*2TEA[b'a2{
+24:36.033	ID:1	"temperature":29
+24:36.210	ID:3	[SENSING] Temperature: 29
+24:36.217	ID:1	}`*?t3L*TEpWb'a2{
+24:36.218	ID:1	"temperature":29
+24:40.528	ID:2	[SENSING] Temperature: 15
+24:40.530	ID:2	[SIM] Temperature set to 15
+24:40.553	ID:1	}`*?t3L*TE(Ub(a2{
+24:40.554	ID:1	"temperature":15
+24:40.640	ID:4	[SENSING] Temperature: 27
+24:40.642	ID:4	[SIM] Temperature set to 27
+24:40.665	ID:1	}`*?t3L*DvTEYb(a2{
+24:40.667	ID:1	"temperature":27
+24:41.007	ID:5	[SENSING] Temperature: 29
+24:41.009	ID:5	[SIM] Temperature set to 29
+24:41.032	ID:1	}`*?t3L*1TEB[b(a2{
+24:41.033	ID:1	"temperature":29
+24:41.191	ID:3	[SIM] Temperature set to 29
+24:41.210	ID:3	[SENSING] Temperature: 29
+24:41.216	ID:1	}`*?t3L*TEpWb(a2{
+24:41.217	ID:1	"temperature":29
+24:45.528	ID:2	[SENSING] Temperature: 15
+24:45.553	ID:1	}`*?t3L*TE(Ub)a2{
+24:45.554	ID:1	"temperature":15
+24:45.640	ID:4	[SENSING] Temperature: 27
+24:45.665	ID:1	}`*?t3L*CuTEYb)a2{
+24:45.667	ID:1	"temperature":27
+24:46.007	ID:5	[SENSING] Temperature: 29
+24:46.032	ID:1	}`*?t3L*0TEC[b)a2{
+24:46.033	ID:1	"temperature":29
+24:46.210	ID:3	[SENSING] Temperature: 29
+24:46.216	ID:1	}`*?t3L*TEpWb)a2{
+24:46.217	ID:1	"temperature":29
+24:50.528	ID:2	[SENSING] Temperature: 15
+24:50.553	ID:1	}`*?t3L*TE(Ub*a2{
+24:50.554	ID:1	"temperature":15
+24:50.640	ID:4	[SENSING] Temperature: 27
+24:50.665	ID:1	}`*?t3L*BtTEYb*a2{
+24:50.667	ID:1	"temperature":27
+24:51.007	ID:5	[SENSING] Temperature: 29
+24:51.032	ID:1	}`*?t3L*/TED[b*a2{
+24:51.033	ID:1	"temperature":29
+24:51.210	ID:3	[SENSING] Temperature: 29
+24:51.217	ID:1	}`*?t3L*TEpWb*a2{
+24:51.218	ID:1	"temperature":29
+24:55.528	ID:2	[SENSING] Temperature: 15
+24:55.553	ID:1	}`*?t3L*TE(Ub+a2{
+24:55.554	ID:1	"temperature":15
+24:55.640	ID:4	[SENSING] Temperature: 27
+24:55.665	ID:1	}`*?t3L*AsTEYb+a2{
+24:55.667	ID:1	"temperature":27
+24:56.007	ID:5	[SENSING] Temperature: 29
+24:56.032	ID:1	}`*?t3L*.TEE[b+a2{
+24:56.033	ID:1	"temperature":29
+24:56.210	ID:3	[SENSING] Temperature: 29
+24:56.216	ID:1	}`*?t3L*TEpWb+a2{
+24:56.217	ID:1	"temperature":29
+25:00.528	ID:2	[SENSING] Temperature: 15
+25:00.530	ID:2	[SIM] Temperature set to 15
+25:00.553	ID:1	}`*?t3L*TE(Ub,a2{
+25:00.554	ID:1	"temperature":15
+25:00.640	ID:4	[SENSING] Temperature: 27
+25:00.642	ID:4	[SIM] Temperature set to 27
+25:00.665	ID:1	}`*?t3L*@rTEYb,a2{
+25:00.667	ID:1	"temperature":27
+25:01.007	ID:5	[SENSING] Temperature: 29
+25:01.009	ID:5	[SIM] Temperature set to 29
+25:01.032	ID:1	}`*?t3L*.DEF[b,a2{
+25:01.034	ID:1	"temperature":29
+25:01.191	ID:3	[SIM] Temperature set to 29
+25:01.211	ID:3	[SENSING] Temperature: 29
+25:01.217	ID:1	}`*?t3L*DEpWb,a2{
+25:01.218	ID:1	"temperature":29
+25:05.528	ID:2	[SENSING] Temperature: 15
+25:05.553	ID:1	}`*?t3L*DE(Ub-a2{
+25:05.554	ID:1	"temperature":15
+25:05.640	ID:4	[SENSING] Temperature: 27
+25:05.666	ID:1	}`*?t3L*OqDEYb-a2{
+25:05.667	ID:1	"temperature":27
+25:06.007	ID:5	[SENSING] Temperature: 29
+25:06.032	ID:1	}`*?t3L*,TEG[b-a2{
+25:06.033	ID:1	"temperature":29
+25:06.210	ID:3	[SENSING] Temperature: 29
+25:06.217	ID:1	}`*?t3L*TEpWb-a2{
+25:06.218	ID:1	"temperature":29
+25:10.528	ID:2	[SENSING] Temperature: 15
+25:10.553	ID:1	}`*?t3L*TE(Ub.a2{
+25:10.554	ID:1	"temperature":15
+25:10.640	ID:4	[SENSING] Temperature: 27
+25:10.665	ID:1	}`*?t3L*>pTE
+25:10.665	ID:1	Yb.a2{
+25:10.667	ID:1	"temperature":27
+25:11.007	ID:5	[SENSING] Temperature: 29
+25:11.032	ID:1	}`*?t3L*+TEH[b.a2{
+25:11.033	ID:1	"temperature":29
+25:11.210	ID:3	[SENSING] Temperature: 29
+25:11.216	ID:1	}`*?t3L*TEpWb.a2{
+25:11.217	ID:1	"temperature":29
+25:15.528	ID:2	[SENSING] Temperature: 15
+25:15.553	ID:1	}`*?t3L*TE(Ub/a2{
+25:15.554	ID:1	"temperature":15
+25:15.640	ID:4	[SENSING] Temperature: 27
+25:15.665	ID:1	}`*?t3L*=oTEYb/a2{
+25:15.667	ID:1	"temperature":27
+25:16.007	ID:5	[SENSING] Temperature: 29
+25:16.032	ID:1	}`*?t3L**TEI[b/a2{
+25:16.033	ID:1	"temperature":29
+25:16.210	ID:3	[SENSING] Temperature: 29
+25:16.216	ID:1	}`*?t3L*TEpWb/a2{
+25:16.217	ID:1	"temperature":29
+25:20.528	ID:2	[SENSING] Temperature: 15
+25:20.530	ID:2	[SIM] Temperature set to 15
+25:20.553	ID:1	}`*?t3L*TE(Ub0a2{
+25:20.554	ID:1	"temperature":15
+25:20.640	ID:4	[SENSING] Temperature: 27
+25:20.642	ID:4	[SIM] Temperature set to 27
+25:20.665	ID:1	}`*?t3L*<nTEYb0a2{
+25:20.667	ID:1	"temperature":27
+25:21.007	ID:5	[SENSING] Temperature: 29
+25:21.009	ID:5	[SIM] Temperature set to 29
+25:21.032	ID:1	}`*?t3L*)TEJ[b0a2{
+25:21.033	ID:1	"temperature":29
+25:21.191	ID:3	[SIM] Temperature set to 29
+25:21.210	ID:3	[SENSING] Temperature: 29
+25:21.217	ID:1	}`*?t3L*TEpWb0a2{
+25:21.218	ID:1	"temperature":29
+25:25.528	ID:2	[SENSING] Temperature: 15
+25:25.553	ID:1	}`*?t3L*TE(Ub1a2{
+25:25.554	ID:1	"temperature":15
+25:25.640	ID:4	[SENSING] Temperature: 27
+25:25.665	ID:1	}`*?t3L*;mTEYb1a2{
+25:25.667	ID:1	"temperature":27
+25:26.007	ID:5	[SENSING] Temperature: 29
+25:26.032	ID:1	}`*?t3L*(TEK[b1a2{
+25:26.033	ID:1	"temperature":29
+25:26.210	ID:3	[SENSING] Temperature: 29
+25:26.216	ID:1	}`*?t3L*TEpWb1a2{
+25:26.217	ID:1	"temperature":29
+25:30.528	ID:2	[SENSING] Temperature: 15
+25:30.553	ID:1	}`*?t3L*TE(Ub2a2{
+25:30.554	ID:1	"temperature":15
+25:30.640	ID:4	[SENSING] Temperature: 27
+25:30.665	ID:1	}`*?t3L*:lTEYb2a2{
+25:30.667	ID:1	"temperature":27
+25:31.007	ID:5	[SENSING] Temperature: 29
+25:31.032	ID:1	}`*?t3L*'TEL[b2a2{
+25:31.033	ID:1	"temperature":29
+25:31.210	ID:3	[SENSING] Temperature: 29
+25:31.216	ID:1	}`*?t3L*TEpWb2a2{
+25:31.217	ID:1	"temperature":29
+25:35.528	ID:2	[SENSING] Temperature: 15
+25:35.553	ID:1	}`*?t3L*TE(Ub3a2{
+25:35.554	ID:1	"temperature":15
+25:35.640	ID:4	[SENSING] Temperature: 27
+25:35.665	ID:1	}`*?t3L*9kTEYb3a2{
+25:35.667	ID:1	"temperature":27
+25:36.007	ID:5	[SENSING] Temperature: 29
+25:36.032	ID:1	}`*?t3L*&TEM[b3a2{
+25:36.033	ID:1	"temperature":29
+25:36.210	ID:3	[SENSING] Temperature: 29
+25:36.217	ID:1	}`*?t3L*TEpWb3a2{
+25:36.218	ID:1	"temperature":29
+25:40.528	ID:2	[SENSING] Temperature: 15
+25:40.530	ID:2	[SIM] Temperature set to 15
+25:40.553	ID:1	}`*?t3L*TE(Ub4a2{
+25:40.554	ID:1	"temperature":15
+25:40.640	ID:4	[SENSING] Temperature: 27
+25:40.642	ID:4	[SIM] Temperature set to 27
+25:40.665	ID:1	}`*?t3L*8jTEYb4a2{
+25:40.667	ID:1	"temperature":27
+25:41.007	ID:5	[SENSING] Temperature: 29
+25:41.009	ID:5	[SIM] Temperature set to 29
+25:41.032	ID:1	}`*?t3L*%TEN[b4a2{
+25:41.033	ID:1	"temperature":29
+25:41.191	ID:3	[SIM] Temperature set to 29
+25:41.210	ID:3	[SENSING] Temperature: 29
+25:41.216	ID:1	}`*?t3L*TEpWb4a2{
+25:41.217	ID:1	"temperature":29
+25:45.528	ID:2	[SENSING] Temperature: 15
+25:45.553	ID:1	}`*?t3L*TE(Ub5a2{
+25:45.554	ID:1	"temperature":15
+25:45.640	ID:4	[SENSING] Temperature: 27
+25:45.665	ID:1	}`*?t3L*7iTEYb5a2{
+25:45.667	ID:1	"temperature":27
+25:46.007	ID:5	[SENSING] Temperature: 29
+25:46.032	ID:1	}`*?t3L*$TEO[b5a2{
+25:46.033	ID:1	"temperature":29
+25:46.210	ID:3	[SENSING] Temperature: 29
+25:46.216	ID:1	}`*?t3L*TEpWb5a2{
+25:46.217	ID:1	"temperature":29
+25:50.528	ID:2	[SENSING] Temperature: 15
+25:50.553	ID:1	}`*?t3L*TE(Ub6a2{
+25:50.554	ID:1	"temperature":15
+25:50.640	ID:4	[SENSING] Temperature: 27
+25:50.665	ID:1	}`*?t3L*6hTEYb6a2{
+25:50.667	ID:1	"temperature":27
+25:51.007	ID:5	[SENSING] Temperature: 29
+25:51.032	ID:1	}`*?t3L*#TEP[b6a2{
+25:51.033	ID:1	"temperature":29
+25:51.210	ID:3	[SENSING] Temperature: 29
+25:51.217	ID:1	}`*?t3L*TEpWb6a2{
+25:51.218	ID:1	"temperature":29
+25:55.528	ID:2	[SENSING] Temperature: 15
+25:55.553	ID:1	}`*?t3L*TE(Ub7a2{
+25:55.554	ID:1	"temperature":15
